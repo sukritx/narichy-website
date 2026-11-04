@@ -1,0 +1,17 @@
+﻿import { launch, connect, evaluate, close } from "./cdp.mjs";
+import { writeFileSync } from "node:fs";
+const proc=await launch(); const {send}=await connect();
+await send("Page.enable"); await send("Runtime.enable");
+await send("Emulation.setDeviceMetricsOverride",{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+await send("Page.navigate",{url:"http://localhost:3000/"});
+await new Promise(r=>setTimeout(r,4000));
+await evaluate(send,`window.scrollTo(0,1700); new Promise(r=>setTimeout(r,1200))`);
+let r=await send("Page.captureScreenshot",{format:"png"}); writeFileSync("docs/design-references/check-ugc-desktop.png", Buffer.from(r.data,"base64"));
+console.log("desktop", await evaluate(send,`({active:document.querySelector('.boj-ugc-card.is-active')?.innerText.replace(/\\s+/g,' ').trim().slice(0,60), transform:getComputedStyle(document.querySelector('.boj-ugc-track')).transform, h:document.querySelector('.boj-ugc').getBoundingClientRect().height, card:document.querySelector('.boj-ugc-card.is-active').getBoundingClientRect().toJSON()})`));
+await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
+await send("Page.navigate",{url:"http://localhost:3000/"});
+await new Promise(r=>setTimeout(r,3500));
+await evaluate(send,`window.scrollTo(0,1800); new Promise(r=>setTimeout(r,800))`);
+r=await send("Page.captureScreenshot",{format:"png"}); writeFileSync("docs/design-references/check-ugc-mobile.png", Buffer.from(r.data,"base64"));
+console.log("mobile", await evaluate(send,`({h:document.querySelector('.boj-ugc').getBoundingClientRect().height, card:document.querySelector('.boj-ugc-card').getBoundingClientRect().toJSON()})`));
+close(proc);

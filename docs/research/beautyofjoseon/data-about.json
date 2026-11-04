@@ -1,0 +1,466 @@
+{
+  "hero": {
+    "imgs": [
+      {
+        "src": "https://beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&width=1512",
+        "alt": "Inspired By Hanbang Created for your healthiest skin",
+        "w": 1440,
+        "h": 600,
+        "rect": {
+          "x": 0,
+          "y": 124,
+          "width": 1440,
+          "height": 600,
+          "top": 124,
+          "right": 1440,
+          "bottom": 724,
+          "left": 0
+        }
+      }
+    ],
+    "style": {
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "lh": "normal",
+      "color": "rgb(33, 33, 33)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "tt": "none",
+      "ls": "normal",
+      "align": "start",
+      "rect": {
+        "x": 0,
+        "y": 124,
+        "width": 1440,
+        "height": 600,
+        "top": 124,
+        "right": 1440,
+        "bottom": 724,
+        "left": 0
+      }
+    },
+    "html": "<div id=\"shopify-section-template--29749638594932__0c6d7da3-aa29-4956-a951-7fefec321319\" class=\"shopify-section section-overlay-header\"><!-- /sections/section-hero.liquid --><style data-shopify=\"\">#Hero--template--29749638594932__0c6d7da3-aa29-4956-a951-7fefec321319 {\n    --PT: 0px;\n    --PB: 0px;--text: #ffffff;}</style><div class=\"index-hero wide-image section-padding\" id=\"Hero--template--29749638594932__0c6d7da3-aa29-4956-a951-7fefec321319\" data-section-id=\"template--29749638594932__0c6d7da3-aa29-4956-a951-7fefec321319\" data-section-type=\"hero\" data-overlay-header=\"\"><div class=\"hero__wrapper frame wrapper--full\"><div class=\"hero__images frame__item\"><div class=\"hero__split-image\"><div class=\"image__hero__frame image-height screen-height-three-quarters--mobile\" style=\"--aspect-ratio: 2.4;--aspect-ratio-mobile: 2.4;\">\n  <div class=\"image__hero__pane\">\n    <div class=\"image__hero__scale image__fill lazy-image lazy-image--backfill\"><img src=\"//beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=3000\" alt=\"Inspired By Hanbang Created for your healthiest skin\" width=\"3000\" height=\"1250\" loading=\"eager\" srcset=\"//beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=180 180w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=360 360w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=540 540w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=720 720w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=900 900w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=1080 1080w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=1296 1296w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=1512 1512w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=1728 1728w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?v=1755584011&amp;width=1950 1950w, //beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.p"
+  },
+  "who": {
+    "text": "Who Are We? Beauty of Joseon started with a single question: What if we took the history of Hanbang and transformed it into skincare you’d want to carry everywhere and show all your beauty-obsessed friends? With the launch of our now-iconic Relief Sun, we changed the way you thought about sunscreen. Everything we’ve created continues this key philosophy: beauty essentials that are not only easy to use and intriguing, but also deliver the results to back up the hype. We’re grateful that you’ve shared our love for elegant, joyful skincare inspired by Hanbang—and we hope you’ll continue joining us on this journey, every step of the way. The Beauty of Joseon Team",
+    "img": {
+      "src": "https://beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&width=720",
+      "alt": "Tinted Mineral Dayscreen SPF 30 page image",
+      "w": 720,
+      "h": 960,
+      "rect": {
+        "x": 194,
+        "y": 804,
+        "width": 526,
+        "height": 701.328125,
+        "top": 804,
+        "right": 720,
+        "bottom": 1505.328125,
+        "left": 194
+      }
+    },
+    "html": "<div id=\"shopify-section-template--29749638594932__section_double_TLVMpt\" class=\"shopify-section section-overlay-header\"><!-- /sections/section-double.liquid --><section id=\"BrickSection--template--29749638594932__section_double_TLVMpt\" data-section-id=\"template--29749638594932__section_double_TLVMpt\" data-section-type=\"double\" class=\"index-image-text section-padding text-left\" style=\"--PT: 80px;--PB: 80px;\"><div class=\"brick__section wrapper image-height screen-height-one-half--mobile\">\n        <div class=\"brick__block  brick__block--images\"><div class=\"brick__block__image wide-image\" data-slide=\"1\" data-slide-index=\"1\"><div class=\"image__hero__frame image-height screen-height-one-half--mobile\" style=\"--aspect-ratio: 0.75;--aspect-ratio-mobile: 0.75;\">\n  <div class=\"image__hero__pane\">\n    <div class=\"image__hero__scale image__fill lazy-image lazy-image--backfill\"><img src=\"//beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=4050\" alt=\"Tinted Mineral Dayscreen SPF 30 page image\" width=\"4050\" height=\"5400\" loading=\"lazy\" srcset=\"//beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=180 180w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=360 360w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=540 540w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=720 720w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=900 900w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=1080 1080w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=1296 1296w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=1512 1512w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=1728 1728w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=1950 1950w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=2100 2100w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=2260 2260w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=2450 2450w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=2700 2700w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=3000 3000w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=3350 3350w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=3750 3750w, //beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?v=1783072768&amp;width=4050 4050w\" sizes=\"(min-width: 750px) 50vw, 100vw\" class=\"\" style=\"object-position:50.0% 41.406%;\">\n</div>\n  </div>\n</div></div>\n</div>\n\n        <div class=\"brick__block brick__block--text\" style=\"--PT: 80px;--PB: 80px;\">\n          <div class=\"brick__block__text\">\n            <div class=\"hero__content hero__content--compact hero__content--no-padding\"><h2 class=\"hero__title heading-size-4 block-padding aos-animate\" data-aos=\"hero\" data-aos-anchor=\"#BrickSection--template--29749638594932__section_double_TLVMpt\" data-aos-order=\"1\" style=\"--block-padding-bottom:20px;\">\n                        Who Are We?\n                      </h2><div class=\"hero__rte body-size-2 font-body block-padding aos-animate\" data-aos=\"hero\" data-aos-anchor=\"#BrickSection--template--29749638594932__section_double_TLVMpt\" data-aos-order=\"2\" style=\"--block-padding-bottom:20px;\">\n                        <p>Beauty of Joseon started with a single question: <em>What if we took the history of Hanbang and transformed it into skincare you’d want to carry everywhere and show all your beauty-obsessed friends</em>?&nbsp;</p><p>&nbsp;</p><p>With the launch of our now-iconic <a href=\"https://beautyofjoseon.com/products/relief-sun-rice-probiotics\" target=\"_blank\">Relief Sun</a>, we changed the way you thought about sunscreen. Everything we’ve created continues this key philosophy: beauty essentials that are not only easy to use and intriguing, but also deliver the results to back up the hype.&nbsp;</p><p>&nbsp;</p><p>We’re grateful that you’ve shared our love for elegant, joyful skincare inspired by Hanbang—and we hope you’ll continue joining us on this journey, every step of the way.&nbsp;</p>\n                      </div><p class=\"hero__subheading subheading-size-2 block-padding aos-animate\" data-aos=\"hero\" data-aos-anchor=\"#BrickSection--template--29749638594932__section_double_TLVMpt\" data-aos-order=\"3\" style=\"--block-padding-bottom:0px;\">\n                        The Beauty of Joseon Team\n                      </p></div>\n          </div>\n        </div>\n      </div></section>\n\n<style>\n  .blog-snippet__grid {\n  display: flex;\n  gap: 24px;\n  flex-wrap: wrap;\n}\n\n.blog-snippet__item {\n  flex: 1 1 48%;\n  display: flex;\n  flex-direction: column;\n}\n\n.blog-snippet__image {\n  width: 100%;\n  aspect-ratio: 4 / 3;\n  overflow: hidden;\n  border-radius: 0px;\n  margin-bottom: 12px;\n}\n\n.blog-snippet__image img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  display: block;\n}\n\n.blog-snippet__title {\n  font-size: 1.1rem;\n  font-weight: 600;\n  margin: 0 0 0.5em;\n}\n\n.blog-snippet__excerpt {\n  color: var(--text-light, #666);\n  font-size: 0.95rem;\n  line-height: 1.6;\n  margin-bottom: 0.75em;\n}\n\n.blog-snippet__readmore {\n  font-size: 0.95rem;\n  color: inherit;\n  text-decoration: underline;\n  align-self: flex-start;\n}\n\n/* Responsive for small screens */\n@media screen and (max-width: 767px) {\n  .blog-snippet__item {\n    flex: 1 1 100%;\n  }\n}\n</style><style> #shopify-section-template--29749638594932__section_double_TLVMpt h2 {padding-bottom: 15px; font-family: \"Proxima Sera Medium\";} @medi"
+  },
+  "mission": {
+    "text": "Our Mission We create Hanbang-inspired skincare that’s unique to your routine, gentle on skin, and always effective. As a cruelty-free brand, we develop all of our products without animal testing. We believe healthy skincare habits blended with traditional self-care rituals can enrich your daily life.",
+    "img": {
+      "src": "https://beautyofjoseon.com/cdn/shop/files/02_0723___logo_600x375_dea7bce7-f051-4dbf-9abf-f0e116ff329f.jpg?v=1785357674&width=360",
+      "alt": "BOJ Beauty of Joseon logo featuring black Korean calligraphy, the letters BOJ, and the text 'Beauty of Joseon' on a white background.",
+      "w": 230,
+      "h": 144,
+      "rect": {
+        "x": 614.796875,
+        "y": 1728.671875,
+        "width": 210.390625,
+        "height": 131.484375,
+        "top": 1728.671875,
+        "right": 825.1875,
+        "bottom": 1860.15625,
+        "left": 614.796875
+      }
+    },
+    "style": {
+      "font": "\"Proxima Sera Medium\"",
+      "size": "22.8px",
+      "weight": "400",
+      "lh": "27.36px",
+      "color": "rgb(33, 33, 33)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "tt": "none",
+      "ls": "normal",
+      "align": "center",
+      "rect": {
+        "x": 194,
+        "y": 1685.328125,
+        "width": 1052,
+        "height": 27.34375,
+        "top": 1685.328125,
+        "right": 1246,
+        "bottom": 1712.671875,
+        "left": 194
+      }
+    }
+  },
+  "img2": {
+    "imgs": [
+      {
+        "src": "https://beautyofjoseon.com/cdn/shop/files/4ca9da5421c7a0527fe1939d0bb1c156.png?v=1755584014&width=1512",
+        "alt": "Beauty of Joseon mission to create gentle, Hanbang-inspired skincare",
+        "w": 1440,
+        "h": 496,
+        "rect": {
+          "x": 0,
+          "y": 2057.9375,
+          "width": 1440,
+          "height": 495.828125,
+          "top": 2057.9375,
+          "right": 1440,
+          "bottom": 2553.765625,
+          "left": 0
+        }
+      }
+    ]
+  },
+  "hanbang": {
+    "text": "What is Hanbang? Hanbang is traditional Korean medicine based on natural ingredients with therapeutic properties, a historical practice that remains widely known and used in Korea today. Our Hanbang-infused skincare combines these time-honored herbs with lab-backed, clinically effective ingredients. Developed from the historical teachings recorded in the Gyuhap Chongseo, a Joseon-era encyclopedia written by female scholar Yi Bingheogak. Consciously created to care for all skin types."
+  },
+  "ingredients": {
+    "heading": "Ginseng",
+    "columns": [
+      {
+        "text": "Ginseng A centuries-old herbal remedy, this beloved ingredient is rich in saponins that provide long-lasting hydration. LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/3_27d52df9-bfc7-4d17-819f-f2cfc703fb6a.png?crop=center&height=3000&v=1755584018&width=3000",
+          "alt": "Ginseng image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 50,
+            "y": 3051.671875,
+            "width": 375.1875,
+            "height": 375.1875,
+            "top": 3051.671875,
+            "right": 425.1875,
+            "bottom": 3426.859375,
+            "left": 50
+          }
+        },
+        "sub": null,
+        "heading": "Ginseng",
+        "title": "Ginseng A centuries-old herbal remedy, this beloved ingredient is rich in saponins that provide long-lasting hydration. LEARN MORE",
+        "link": "https://beautyofjoseon.com/collections/ginseng",
+        "btn": "LEARN MORE",
+        "html": 3138
+      },
+      {
+        "text": "Rice This precious ingredient is packed with essential nutrients to nourish skin, improve texture, and boost glow. LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/6_bb281d61-9703-4d8f-a371-cb995fc671ea.png?crop=center&height=3000&v=1755584017&width=3000",
+          "alt": "Rice image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 457.1875,
+            "y": 3051.671875,
+            "width": 375.1875,
+            "height": 375.1875,
+            "top": 3051.671875,
+            "right": 832.375,
+            "bottom": 3426.859375,
+            "left": 457.1875
+          }
+        },
+        "sub": null,
+        "heading": "Rice",
+        "title": "Rice This precious ingredient is packed with essential nutrients to nourish skin, improve texture, and boost glow. LEARN MORE",
+        "link": "https://beautyofjoseon.com/collections/rice-bran",
+        "btn": "LEARN MORE",
+        "html": 3132
+      },
+      {
+        "text": "Green Plum Used in traditional Korean medicine, this fruit is said to detoxify, lower body temperature, and treat stomach aches. In skincare, it effectively softens and sweeps away dead skin cells. LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/7_9451909f-2719-4e92-ba80-5bfa6c8e95be.png?crop=center&height=3000&v=1755584018&width=3000",
+          "alt": "Green Plum image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 864.375,
+            "y": 3051.671875,
+            "width": 375.1875,
+            "height": 375.1875,
+            "top": 3051.671875,
+            "right": 1239.5625,
+            "bottom": 3426.859375,
+            "left": 864.375
+          }
+        },
+        "sub": null,
+        "heading": "Green Plum",
+        "title": "Green Plum Used in traditional Korean medicine, this fruit is said to detoxify, lower body temperature, and treat stomach aches. In skincare, it effectively softens and sweeps away dead skin cells. LEARN MORE",
+        "link": "https://beautyofjoseon.com/collections/green-plum-plum-flower",
+        "btn": "LEARN MORE",
+        "html": 3234
+      },
+      {
+        "text": "Propolis Women in the Joseon Dynasty mixed honey with grain powder to care for their complexions. This ingredient and its extract (propolis) are known for their anti-inflammatory properties. LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/10_3ac3be24-f2fb-450e-9bcf-03d5c11e99bb.png?crop=center&height=3000&v=1755584019&width=3000",
+          "alt": "Propolis image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 1271.5625,
+            "y": 3051.671875,
+            "width": 375.1875,
+            "height": 375.1875,
+            "top": 3051.671875,
+            "right": 1646.75,
+            "bottom": 3426.859375,
+            "left": 1271.5625
+          }
+        },
+        "sub": null,
+        "heading": "Propolis",
+        "title": "Propolis Women in the Joseon Dynasty mixed honey with grain powder to care for their complexions. This ingredient and its extract (propolis) are known for their anti-inflammatory properties. LEARN MORE",
+        "link": "https://beautyofjoseon.com/collections/propolis",
+        "btn": "LEARN MORE",
+        "html": 3217
+      },
+      {
+        "text": "Green Tea Noted in the Donguibogam, a Joseon-era medical record, green tea was said to refresh the head, eyes, and energy. Its high antioxidant content is key to protecting against environmental aggressors. LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/9_fd0c8d2b-bdc1-4260-8d5e-2640ace97160.png?crop=center&height=3000&v=1755584019&width=3000",
+          "alt": "Green Tea image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 1678.75,
+            "y": 3051.671875,
+            "width": 375.1875,
+            "height": 375.1875,
+            "top": 3051.671875,
+            "right": 2053.9375,
+            "bottom": 3426.859375,
+            "left": 1678.75
+          }
+        },
+        "sub": null,
+        "heading": "Green Tea",
+        "title": "Green Tea Noted in the Donguibogam, a Joseon-era medical record, green tea was said to refresh the head, eyes, and energy. Its high antioxidant content is key to protecting against environmental aggressors. LEARN MORE",
+        "link": "https://beautyofjoseon.com/collections/green-tea",
+        "btn": "LEARN MORE",
+        "html": 3227
+      },
+      {
+        "text": "Centella Asiatica You may know this medicinal plant as “tiger grass” because wounded tigers heal their injuries by rolling in it. Applied to your complexion, it intensely soothes, calms, and improves tone. LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/8_d1379f20-c6dc-4587-b751-d15e12123712.png?crop=center&height=3000&v=1755584021&width=3000",
+          "alt": "Centella Asiatica image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 2085.9375,
+            "y": 3051.671875,
+            "width": 375.1875,
+            "height": 375.1875,
+            "top": 3051.671875,
+            "right": 2461.125,
+            "bottom": 3426.859375,
+            "left": 2085.9375
+          }
+        },
+        "sub": null,
+        "heading": "Centella Asiatica",
+        "title": "Centella Asiatica You may know this medicinal plant as “tiger grass” because wounded tigers heal their injuries by rolling in it. Applied to your complexion, it intensely soothes, calms, and improves tone. LEARN MORE",
+        "link": "https://beautyofjoseon.com/collections/centella-asiatica",
+        "btn": "LEARN MORE",
+        "html": 3233
+      },
+      {
+        "text": "Red Bean Joseon-era women combined red bean and mung bean to cleanse their skin. Used throughout Korean history in traditional foods and medicine, it helps absorb excess sebum and boost elasticity. LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/4_bba982ac-4608-43d9-b175-242456c58749.png?crop=center&height=3000&v=1755584019&width=3000",
+          "alt": "Red Bean image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 2493.125,
+            "y": 3051.671875,
+            "width": 375.1875,
+            "height": 375.1875,
+            "top": 3051.671875,
+            "right": 2868.3125,
+            "bottom": 3426.859375,
+            "left": 2493.125
+          }
+        },
+        "sub": null,
+        "heading": "Red Bean",
+        "title": "Red Bean Joseon-era women combined red bean and mung bean to cleanse their skin. Used throughout Korean history in traditional foods and medicine, it helps absorb excess sebum and boost elasticity. LEARN MORE",
+        "link": "https://beautyofjoseon.com/collections/red-bean",
+        "btn": "LEARN MORE",
+        "html": 3213
+      },
+      {
+        "text": "Mugwort Used in traditional Korean medicine to lower body temperature, this powerful plant soothes while providing antioxidant benefits from vitamins A and C. LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/5_d2f1f89e-137d-447c-8802-aaa7b26cc414.png?crop=center&height=3000&v=1755584019&width=3000",
+          "alt": "Mugwort image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 2900.3125,
+            "y": 3051.671875,
+            "width": 375.1875,
+            "height": 375.1875,
+            "top": 3051.671875,
+            "right": 3275.5,
+            "bottom": 3426.859375,
+            "left": 2900.3125
+          }
+        },
+        "sub": null,
+        "heading": "Mugwort",
+        "title": "Mugwort Used in traditional Korean medicine to lower body temperature, this powerful plant soothes while providing antioxidant benefits from vitamins A and C. LEARN MORE",
+        "link": "https://beautyofjoseon.com/collections/mugwort",
+        "btn": "LEARN MORE",
+        "html": 3166
+      }
+    ]
+  },
+  "press": {
+    "heading": "Featured in the Press",
+    "columns": [
+      {
+        "text": "BOF TikTok’s Hit Korean Sunscreen Brand Makes Big US Push​ LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/1_1f637371-c358-4857-895b-4a2edf2a2817.png?crop=center&height=2125&v=1744964256&width=2125",
+          "alt": "TikTok’s Hit Korean Sunscreen Brand Makes Big US Push​ image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 50,
+            "y": 3831.296875,
+            "width": 212,
+            "height": 212,
+            "top": 3831.296875,
+            "right": 262,
+            "bottom": 4043.296875,
+            "left": 50
+          }
+        },
+        "sub": "BOF",
+        "heading": "TikTok’s Hit Korean Sunscreen Brand Makes Big US Push​",
+        "title": "TikTok’s Hit Korean Sunscreen Brand Makes Big US Push​ LEARN MORE",
+        "link": "https://www.businessoffashion.com/articles/beauty/tiktoks-favourite-sunscreen-brand-pushes-further-into-the-us/",
+        "btn": "LEARN MORE",
+        "html": 2970
+      },
+      {
+        "text": "ALLURE 18 Best Korean Beauty Gifts of 2024, According to Allure's Resident Expert​ LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/boj-about-press-allure.webp?crop=center&height=901&v=1777587160&width=901",
+          "alt": "ALLURE image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 332,
+            "y": 3831.296875,
+            "width": 212,
+            "height": 212,
+            "top": 3831.296875,
+            "right": 544,
+            "bottom": 4043.296875,
+            "left": 332
+          }
+        },
+        "sub": "ALLURE",
+        "heading": "18 Best Korean Beauty Gifts of 2024, According to Allure's Resident Expert​",
+        "title": "18 Best Korean Beauty Gifts of 2024, According to Allure's Resident Expert​ LEARN MORE",
+        "link": "https://www.allure.com/story/best-korean-beauty-gifts",
+        "btn": "LEARN MORE",
+        "html": 2139
+      },
+      {
+        "text": "VOGUE The Best Hydrating Eye Creams to Keep Fine Lines, Dark Circles, and Puffiness at Bay​ LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/boj-about-press-vogue.webp?crop=center&height=901&v=1777587192&width=901",
+          "alt": "VOGUE image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 614,
+            "y": 3831.296875,
+            "width": 212,
+            "height": 212,
+            "top": 3831.296875,
+            "right": 826,
+            "bottom": 4043.296875,
+            "left": 614
+          }
+        },
+        "sub": "VOGUE",
+        "heading": "The Best Hydrating Eye Creams to Keep Fine Lines, Dark Circles, and Puffiness at Bay​",
+        "title": "The Best Hydrating Eye Creams to Keep Fine Lines, Dark Circles, and Puffiness at Bay​ LEARN MORE",
+        "link": "https://www.vogue.com/article/best-hydrating-eye-cream",
+        "btn": "LEARN MORE",
+        "html": 2136
+      },
+      {
+        "text": "BYRDIE The 15 Most Viral TikTok Beauty Products of 2024​ LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/boj-about-press-byrdie.webp?crop=center&height=901&v=1777587221&width=901",
+          "alt": "BYRDIE image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 896,
+            "y": 3831.296875,
+            "width": 212,
+            "height": 212,
+            "top": 3831.296875,
+            "right": 1108,
+            "bottom": 4043.296875,
+            "left": 896
+          }
+        },
+        "sub": "BYRDIE",
+        "heading": "The 15 Most Viral TikTok Beauty Products of 2024​",
+        "title": "The 15 Most Viral TikTok Beauty Products of 2024​ LEARN MORE",
+        "link": "https://www.byrdie.com/most-viral-beauty-products-2024-8720533",
+        "btn": "LEARN MORE",
+        "html": 2115
+      },
+      {
+        "text": "GLAMOUR 18 Best Korean Moisturizers, According to Dermatologists & Estheticians​ LEARN MORE",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/boj-about-press-glamour.webp?crop=center&height=901&v=1777587131&width=901",
+          "alt": "GLAMOUR image",
+          "w": 0,
+          "h": 0,
+          "rect": {
+            "x": 1178,
+            "y": 3831.296875,
+            "width": 212,
+            "height": 212,
+            "top": 3831.296875,
+            "right": 1390,
+            "bottom": 4043.296875,
+            "left": 1178
+          }
+        },
+        "sub": "GLAMOUR",
+        "heading": "18 Best Korean Moisturizers, According to Dermatologists & Estheticians​",
+        "title": "18 Best Korean Moisturizers, According to Dermatologists & Estheticians​ LEARN MORE",
+        "link": "https://www.glamour.com/gallery/best-korean-moisturizers",
+        "btn": "LEARN MORE",
+        "html": 2144
+      }
+    ]
+  },
+  "bodyBg": "rgb(252, 251, 249)",
+  "headerBg": "rgba(0, 0, 0, 0)"
+}

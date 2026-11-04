@@ -1,0 +1,1588 @@
+{
+  "body": {
+    "font": "Inter, sans-serif",
+    "bg": "rgb(252, 251, 249)",
+    "color": "rgb(33, 33, 33)"
+  },
+  "announcement": {
+    "style": {
+      "text": "This site has limited support for your browser. We recommend switching to Edge, Chrome, Safari, or Firefox.",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "lh": "22px",
+      "ls": "normal",
+      "color": "rgb(252, 251, 249)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "align": "center",
+      "pad": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(252, 251, 249)",
+      "radius": "0px"
+    },
+    "texts": [
+      "New to BOJ? Sign up & Save 20%!",
+      "Free shipping on orders over $70",
+      "New to BOJ? Sign up & Save 20%!",
+      "Free shipping on orders over $70",
+      "New to BOJ? Sign up & Save 20%!",
+      "Free shipping on orders over $70",
+      "New to BOJ? Sign up & Save 20%!",
+      "Free shipping on orders over $70",
+      "",
+      ""
+    ],
+    "wrapperBg": "rgb(0, 0, 0)"
+  },
+  "header": {
+    "style": {
+      "text": "SHOP SAVE WITH SETS BEST SELLERS BOJ REWARDS ABOUT NEED HELP? Account Search Cart 0",
+      "rect": {
+        "x": 0,
+        "y": 37,
+        "w": 1440,
+        "h": 86.8
+      },
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "lh": "normal",
+      "ls": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "align": "start",
+      "pad": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px"
+    },
+    "navs": [
+      {
+        "text": "SHOP",
+        "href": "/collections/shop-all",
+        "style": {
+          "text": "SHOP",
+          "rect": {
+            "x": 166.3,
+            "y": 57,
+            "w": 69.2,
+            "h": 46.8
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "500",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "start",
+          "pad": "15px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "radius": "0px"
+        }
+      },
+      {
+        "text": "SAVE WITH SETS",
+        "href": "/collections/bundles-sets",
+        "style": {
+          "text": "SAVE WITH SETS",
+          "rect": {
+            "x": 255.5,
+            "y": 57,
+            "w": 146.8,
+            "h": 46.8
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "500",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "start",
+          "pad": "15px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "radius": "0px"
+        }
+      },
+      {
+        "text": "BEST SELLERS",
+        "href": "/collections/best-sellers",
+        "style": {
+          "text": "BEST SELLERS",
+          "rect": {
+            "x": 422.3,
+            "y": 57,
+            "w": 129.4,
+            "h": 46.8
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "500",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "start",
+          "pad": "15px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "radius": "0px"
+        }
+      },
+      {
+        "text": "BOJ REWARDS",
+        "href": "/pages/rewards",
+        "style": {
+          "text": "BOJ REWARDS",
+          "rect": {
+            "x": 871.6,
+            "y": 57,
+            "w": 130.6,
+            "h": 46.8
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "500",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "start",
+          "pad": "15px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "radius": "0px"
+        }
+      },
+      {
+        "text": "ABOUT",
+        "href": "/pages/about-page",
+        "style": {
+          "text": "ABOUT",
+          "rect": {
+            "x": 1022.2,
+            "y": 57,
+            "w": 79.4,
+            "h": 46.8
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "500",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "start",
+          "pad": "15px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "radius": "0px"
+        }
+      },
+      {
+        "text": "NEED HELP?",
+        "href": "/pages/need-help-withdrawal",
+        "style": {
+          "text": "NEED HELP?",
+          "rect": {
+            "x": 1121.5,
+            "y": 57,
+            "w": 114.5,
+            "h": 46.8
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "500",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "start",
+          "pad": "15px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "radius": "0px"
+        }
+      }
+    ],
+    "logo": {
+      "src": "https://beautyofjoseon.com/cdn/shop/files/boj-logo-text-default.png?v=1765267757&width=240",
+      "w": 240,
+      "h": 23,
+      "rect": {
+        "x": 591.609375,
+        "y": 69.0625,
+        "width": 240,
+        "height": 22.640625,
+        "top": 69.0625,
+        "right": 831.609375,
+        "bottom": 91.703125,
+        "left": 591.609375
+      }
+    },
+    "logoLinkStyle": {
+      "text": "",
+      "rect": {
+        "x": 591.6,
+        "y": 69.1,
+        "w": 240,
+        "h": 22.6
+      },
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "lh": "normal",
+      "ls": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "align": "start",
+      "pad": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px"
+    }
+  },
+  "hero": {
+    "style": {
+      "text": "Pore Firming Serum Experience Red Bean PDRN™-powered pore care SHOP NOW Dayscreen Moisturizer Korean SPF Moisturizer Hydrate & Protect in one step SHOP NOW Relief Sun Duo : Original + Aqua-Fresh Our beloved Sunscreen Duo, offering you versatile options for every day SHOP NOW Dynasty Cream Nourishing",
+      "rect": {
+        "x": 0,
+        "y": 37,
+        "w": 1440,
+        "h": 675
+      },
+      "font": "proxima-sera, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "lh": "normal",
+      "ls": "normal",
+      "color": "rgb(33, 33, 33)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "align": "start",
+      "pad": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(33, 33, 33)",
+      "radius": "0px"
+    },
+    "slides": [
+      {
+        "index": "0",
+        "hidden": null,
+        "transform": "translateX(0%)",
+        "textColor": "#ffffff",
+        "href": "https://beautyofjoseon.com/",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/tds_main_home_banner_global_pc.png?v=1788920430&width=1512",
+          "alt": "a row of foundation tubes",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/tds_main_home_banner_global_pc.png?v=1788920430&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/tds_main_home_banner_global_mo.png?v=1788920430&width=180 180w"
+          }
+        ],
+        "titleStyle": null,
+        "descStyle": null,
+        "btnStyle": null,
+        "contentStyle": null
+      },
+      {
+        "index": "1",
+        "hidden": "true",
+        "transform": "translateX(100%)",
+        "textColor": "#ffffff",
+        "href": "https://beautyofjoseon.com/",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/tinted_tds_global_main_pc_0702.webp?v=1782957649&width=1512",
+          "alt": "Tinted Mineral Dayscreen SPF 30 main mobile banner image",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/tinted_tds_global_main_pc_0702.webp?v=1782957649&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/tinted_tds_global_main_mo_0702.webp?v=1782957621&width=180 180w"
+          }
+        ],
+        "titleStyle": null,
+        "descStyle": null,
+        "btnStyle": null,
+        "contentStyle": null
+      },
+      {
+        "index": "2",
+        "hidden": "true",
+        "transform": "translateX(200%)",
+        "textColor": "#212121",
+        "title": "Pore Firming Serum",
+        "desc": "Experience Red Bean PDRN™-powered pore care",
+        "btn": "SHOP NOW",
+        "href": "https://beautyofjoseon.com/products/pore-firming-red-bean-pdrn-serum-global",
+        "align": "hero__content__wrapper frame__item align--middle-right-desktop align--bottom-center-mobile aos-animate",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/red_bean_pc_us.png?v=1780177696&width=1512",
+          "alt": "a pink bottle with a dropper on it",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/red_bean_pc_us.png?v=1780177696&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/red_bean_mo_us.png?v=1780177727&width=180 180w"
+          }
+        ],
+        "titleStyle": {
+          "text": "Pore Firming Serum",
+          "rect": {
+            "x": 3849.9,
+            "y": 349,
+            "w": 370.1,
+            "h": 38.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "32.4px",
+          "weight": "400",
+          "lh": "38.88px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "right",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "descStyle": {
+          "text": "Experience Red Bean PDRN™-powered pore care",
+          "rect": {
+            "x": 3849.9,
+            "y": 403.9,
+            "w": 370.1,
+            "h": 19.2
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "right",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "btnStyle": {
+          "text": "SHOP NOW",
+          "rect": {
+            "x": 4100.5,
+            "y": 447.1,
+            "w": 119.5,
+            "h": 39.9
+          },
+          "font": "Figtree, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "lh": "17.875px",
+          "ls": "1.3px",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "uppercase",
+          "align": "center",
+          "pad": "10px 18px",
+          "margin": "0px",
+          "border": "1px solid rgb(0, 0, 0)",
+          "radius": "0px"
+        },
+        "contentStyle": {
+          "text": "Pore Firming Serum Experience Red Bean PDRN™-powered pore care SHOP NOW",
+          "rect": {
+            "x": 3799.9,
+            "y": 299,
+            "w": 470.1,
+            "h": 237.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(255, 255, 255, 0)",
+          "tt": "none",
+          "align": "right",
+          "pad": "50px 50px 34px",
+          "margin": "50px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        }
+      },
+      {
+        "index": "3",
+        "hidden": "true",
+        "transform": "translateX(300%)",
+        "textColor": "#212121",
+        "title": "Dayscreen Moisturizer",
+        "desc": "Korean SPF Moisturizer Hydrate & Protect in one step",
+        "btn": "SHOP NOW",
+        "href": "https://beautyofjoseon.com/products/dayscreen-moisturizer-sunscreen-global",
+        "align": "hero__content__wrapper frame__item align--middle-left-desktop align--bottom-center-mobile aos-animate",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/DS_pc.webp?v=1783396754&width=1512",
+          "alt": "A smiling woman with a dollop of Dayscreen Moisturizer on her cheek holds up a light green tube of Dayscreen Moisturizer against a clean white background.",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/DS_pc.webp?v=1783396754&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/DS_mo.webp?v=1783396783&width=180 180w"
+          }
+        ],
+        "titleStyle": {
+          "text": "Dayscreen Moisturizer",
+          "rect": {
+            "x": 4420,
+            "y": 349,
+            "w": 403.3,
+            "h": 38.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "32.4px",
+          "weight": "400",
+          "lh": "38.88px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "descStyle": {
+          "text": "Korean SPF Moisturizer Hydrate & Protect in one step",
+          "rect": {
+            "x": 4420,
+            "y": 403.9,
+            "w": 403.3,
+            "h": 19.2
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "btnStyle": {
+          "text": "SHOP NOW",
+          "rect": {
+            "x": 4420,
+            "y": 447.1,
+            "w": 119.5,
+            "h": 39.9
+          },
+          "font": "Figtree, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "lh": "17.875px",
+          "ls": "1.3px",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "uppercase",
+          "align": "center",
+          "pad": "10px 18px",
+          "margin": "0px",
+          "border": "1px solid rgb(0, 0, 0)",
+          "radius": "0px"
+        },
+        "contentStyle": {
+          "text": "Dayscreen Moisturizer Korean SPF Moisturizer Hydrate & Protect in one step SHOP NOW",
+          "rect": {
+            "x": 4370,
+            "y": 299,
+            "w": 503.3,
+            "h": 237.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(255, 255, 255, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "50px 50px 34px",
+          "margin": "50px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        }
+      },
+      {
+        "index": "4",
+        "hidden": "true",
+        "transform": "translateX(400%)",
+        "textColor": "#212121",
+        "title": "Relief Sun Duo : Original + Aqua-Fresh",
+        "desc": "Our beloved Sunscreen Duo, offering you versatile options for every day",
+        "btn": "SHOP NOW",
+        "href": "https://beautyofjoseon.com/products/relief-sun-duo-original-aqua-fresh",
+        "align": "hero__content__wrapper frame__item align--middle-left-desktop align--bottom-center-mobile aos-animate",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/19_0818_ReliefSunduo_ROW.jpg?v=1787216073&width=1512",
+          "alt": "two women holding up creams",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/19_0818_ReliefSunduo_ROW.jpg?v=1787216073&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/02_0820_ReliefSunduo_ROW.jpg?v=1787216073&width=180 180w"
+          }
+        ],
+        "titleStyle": {
+          "text": "Relief Sun Duo : Original + Aqua-Fresh",
+          "rect": {
+            "x": 5860,
+            "y": 349,
+            "w": 560.6,
+            "h": 38.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "32.4px",
+          "weight": "400",
+          "lh": "38.88px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "descStyle": {
+          "text": "Our beloved Sunscreen Duo, offering you versatile options for every day",
+          "rect": {
+            "x": 5860,
+            "y": 403.9,
+            "w": 560.6,
+            "h": 19.2
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "btnStyle": {
+          "text": "SHOP NOW",
+          "rect": {
+            "x": 5860,
+            "y": 447.1,
+            "w": 119.5,
+            "h": 39.9
+          },
+          "font": "Figtree, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "lh": "17.875px",
+          "ls": "1.3px",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "uppercase",
+          "align": "center",
+          "pad": "10px 18px",
+          "margin": "0px",
+          "border": "1px solid rgb(0, 0, 0)",
+          "radius": "0px"
+        },
+        "contentStyle": {
+          "text": "Relief Sun Duo : Original + Aqua-Fresh Our beloved Sunscreen Duo, offering you versatile options for every day SHOP NOW",
+          "rect": {
+            "x": 5810,
+            "y": 299,
+            "w": 660.6,
+            "h": 237.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(255, 255, 255, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "50px 50px 34px",
+          "margin": "50px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        }
+      },
+      {
+        "index": "5",
+        "hidden": "true",
+        "transform": "translateX(500%)",
+        "textColor": "#212121",
+        "title": "Dynasty Cream",
+        "desc": "Nourishing Cream Moisturizer",
+        "btn": "SHOP NOW",
+        "href": "https://beautyofjoseon.com/products/dynasty-cream",
+        "align": "hero__content__wrapper frame__item align--middle-left-desktop align--bottom-center-mobile aos-animate",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/pc_aa6c6096-4ce7-4960-994c-073bddf0e1b7.webp?v=1766679041&width=1512",
+          "alt": "a stack of containers with lids",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/pc_aa6c6096-4ce7-4960-994c-073bddf0e1b7.webp?v=1766679041&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/mo_7d47ae20-baed-479c-b159-7c9539c6d93e.webp?v=1768543720&width=180 180w"
+          }
+        ],
+        "titleStyle": {
+          "text": "Dynasty Cream",
+          "rect": {
+            "x": 7300,
+            "y": 349,
+            "w": 226.2,
+            "h": 38.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "32.4px",
+          "weight": "400",
+          "lh": "38.88px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "descStyle": {
+          "text": "Nourishing Cream Moisturizer",
+          "rect": {
+            "x": 7300,
+            "y": 403.9,
+            "w": 226.2,
+            "h": 19.2
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "btnStyle": {
+          "text": "SHOP NOW",
+          "rect": {
+            "x": 7300,
+            "y": 447.1,
+            "w": 119.5,
+            "h": 39.9
+          },
+          "font": "Figtree, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "lh": "17.875px",
+          "ls": "1.3px",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "uppercase",
+          "align": "center",
+          "pad": "10px 18px",
+          "margin": "0px",
+          "border": "1px solid rgb(0, 0, 0)",
+          "radius": "0px"
+        },
+        "contentStyle": {
+          "text": "Dynasty Cream Nourishing Cream Moisturizer SHOP NOW",
+          "rect": {
+            "x": 7250,
+            "y": 299,
+            "w": 326.2,
+            "h": 237.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(255, 255, 255, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "50px 50px 34px",
+          "margin": "50px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        }
+      },
+      {
+        "index": "6",
+        "hidden": "true",
+        "transform": "translateX(600%)",
+        "textColor": "#212121",
+        "title": "Relief Sun Aqua-Fresh : Rice + B5",
+        "desc": "Ultra-lightweight fluid sunscreen",
+        "btn": "SHOP NOW",
+        "href": "https://beautyofjoseon.com/products/relief-sun-aqua-fresh",
+        "align": "hero__content__wrapper frame__item align--middle-left-desktop align--bottom-center-mobile aos-animate",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/pc_c8c7892b-6aa2-449b-8230-d58f07a5d661.webp?v=1766678980&width=1512",
+          "alt": "a close-up of a tube",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/pc_c8c7892b-6aa2-449b-8230-d58f07a5d661.webp?v=1766678980&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/mo_ad641840-f615-4cd9-9ee8-a02116e44f58.webp?v=1768543753&width=180 180w"
+          }
+        ],
+        "titleStyle": {
+          "text": "Relief Sun Aqua-Fresh : Rice + B5",
+          "rect": {
+            "x": 8740,
+            "y": 349,
+            "w": 486,
+            "h": 38.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "32.4px",
+          "weight": "400",
+          "lh": "38.88px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "descStyle": {
+          "text": "Ultra-lightweight fluid sunscreen",
+          "rect": {
+            "x": 8740,
+            "y": 403.9,
+            "w": 486,
+            "h": 19.2
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "btnStyle": {
+          "text": "SHOP NOW",
+          "rect": {
+            "x": 8740,
+            "y": 447.1,
+            "w": 119.5,
+            "h": 39.9
+          },
+          "font": "Figtree, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "lh": "17.875px",
+          "ls": "1.3px",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "uppercase",
+          "align": "center",
+          "pad": "10px 18px",
+          "margin": "0px",
+          "border": "1px solid rgb(0, 0, 0)",
+          "radius": "0px"
+        },
+        "contentStyle": {
+          "text": "Relief Sun Aqua-Fresh : Rice + B5 Ultra-lightweight fluid sunscreen SHOP NOW",
+          "rect": {
+            "x": 8690,
+            "y": 299,
+            "w": 586,
+            "h": 237.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(255, 255, 255, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "50px 50px 34px",
+          "margin": "50px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        }
+      },
+      {
+        "index": "7",
+        "hidden": "true",
+        "transform": "translateX(700%)",
+        "textColor": "#212121",
+        "title": "Relief Sun : Rice + Niacinamide",
+        "desc": "Dry, sensitive skin in need of moisture & nourishment",
+        "btn": "SHOP NOW",
+        "href": "https://beautyofjoseon.com/products/relief-sun-rice-probiotics",
+        "align": "hero__content__wrapper frame__item align--middle-left-desktop align--bottom-center-mobile aos-animate",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/pc_e356a8a0-9b3e-4bea-a0c2-178707908db4.webp?v=1766678921&width=1512",
+          "alt": "a white tube with a cap and a plant",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/pc_e356a8a0-9b3e-4bea-a0c2-178707908db4.webp?v=1766678921&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/01_0820_ReliefSun_ROW.jpg?v=1787216073&width=180 180w"
+          }
+        ],
+        "titleStyle": {
+          "text": "Relief Sun : Rice + Niacinamide",
+          "rect": {
+            "x": 10180,
+            "y": 349,
+            "w": 453.2,
+            "h": 38.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "32.4px",
+          "weight": "400",
+          "lh": "38.88px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "descStyle": {
+          "text": "Dry, sensitive skin in need of moisture & nourishment",
+          "rect": {
+            "x": 10180,
+            "y": 403.9,
+            "w": 453.2,
+            "h": 19.2
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "btnStyle": {
+          "text": "SHOP NOW",
+          "rect": {
+            "x": 10180,
+            "y": 447.1,
+            "w": 119.5,
+            "h": 39.9
+          },
+          "font": "Figtree, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "lh": "17.875px",
+          "ls": "1.3px",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "uppercase",
+          "align": "center",
+          "pad": "10px 18px",
+          "margin": "0px",
+          "border": "1px solid rgb(0, 0, 0)",
+          "radius": "0px"
+        },
+        "contentStyle": {
+          "text": "Relief Sun : Rice + Niacinamide Dry, sensitive skin in need of moisture & nourishment SHOP NOW",
+          "rect": {
+            "x": 10130,
+            "y": 299,
+            "w": 553.2,
+            "h": 237.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(255, 255, 255, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "50px 50px 34px",
+          "margin": "50px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        }
+      },
+      {
+        "index": "8",
+        "hidden": "true",
+        "transform": "translateX(800%)",
+        "textColor": "#212121",
+        "title": "Glow Serum : Propolis + Niacinamide",
+        "desc": "Hydrating + Balancing Serum",
+        "btn": "SHOP NOW",
+        "href": "https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide",
+        "align": "hero__content__wrapper frame__item align--middle-left-desktop align--bottom-center-mobile aos-animate",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/pc_c3701e9a-2461-4d0f-b10c-411e88aa94a5.webp?v=1766678953&width=1512",
+          "alt": "a group of bottles with yellow liquid",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/pc_c3701e9a-2461-4d0f-b10c-411e88aa94a5.webp?v=1766678953&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/mo_89750dbc-bef4-433b-b301-194406d5812e.webp?v=1768543872&width=180 180w"
+          }
+        ],
+        "titleStyle": {
+          "text": "Glow Serum : Propolis + Niacinamide",
+          "rect": {
+            "x": 11620,
+            "y": 349,
+            "w": 546.5,
+            "h": 38.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "32.4px",
+          "weight": "400",
+          "lh": "38.88px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "descStyle": {
+          "text": "Hydrating + Balancing Serum",
+          "rect": {
+            "x": 11620,
+            "y": 403.9,
+            "w": 546.5,
+            "h": 19.2
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "btnStyle": {
+          "text": "SHOP NOW",
+          "rect": {
+            "x": 11620,
+            "y": 447.1,
+            "w": 119.5,
+            "h": 39.9
+          },
+          "font": "Figtree, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "lh": "17.875px",
+          "ls": "1.3px",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "uppercase",
+          "align": "center",
+          "pad": "10px 18px",
+          "margin": "0px",
+          "border": "1px solid rgb(0, 0, 0)",
+          "radius": "0px"
+        },
+        "contentStyle": {
+          "text": "Glow Serum : Propolis + Niacinamide Hydrating + Balancing Serum SHOP NOW",
+          "rect": {
+            "x": 11570,
+            "y": 299,
+            "w": 646.5,
+            "h": 237.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(255, 255, 255, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "50px 50px 34px",
+          "margin": "50px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        }
+      },
+      {
+        "index": "9",
+        "hidden": "true",
+        "transform": "translateX(900%)",
+        "textColor": "#212121",
+        "title": "Green Plum Refreshing Cleanser",
+        "desc": "Gentle Daily Cleanser",
+        "btn": "SHOP NOW",
+        "href": "https://beautyofjoseon.com/products/green-plum-refreshing-cleanser",
+        "align": "hero__content__wrapper frame__item align--middle-left-desktop align--bottom-center-mobile aos-animate",
+        "img": {
+          "src": "https://beautyofjoseon.com/cdn/shop/files/pc.webp?v=1766678892&width=1512",
+          "alt": "a white tube of cream next to bubbles",
+          "w": 1440,
+          "h": 675
+        },
+        "sources": [
+          {
+            "media": "(min-width: 750px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/pc.webp?v=1766678892&width=180 180w"
+          },
+          {
+            "media": "(max-width: 749px)",
+            "srcset": "//beautyofjoseon.com/cdn/shop/files/mo_e319f4f4-ea6e-4e26-8f7e-3b5dc9c98546.webp?v=1766679192&width=180 180w"
+          }
+        ],
+        "titleStyle": {
+          "text": "Green Plum Refreshing Cleanser",
+          "rect": {
+            "x": 13060,
+            "y": 349,
+            "w": 483.5,
+            "h": 38.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "32.4px",
+          "weight": "400",
+          "lh": "38.88px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "descStyle": {
+          "text": "Gentle Daily Cleanser",
+          "rect": {
+            "x": 13060,
+            "y": 403.9,
+            "w": 483.5,
+            "h": 19.2
+          },
+          "font": "Inter, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "19.2px",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "0px",
+          "margin": "0px 0px 16px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        },
+        "btnStyle": {
+          "text": "SHOP NOW",
+          "rect": {
+            "x": 13060,
+            "y": 447.1,
+            "w": 119.5,
+            "h": 39.9
+          },
+          "font": "Figtree, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "lh": "17.875px",
+          "ls": "1.3px",
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "tt": "uppercase",
+          "align": "center",
+          "pad": "10px 18px",
+          "margin": "0px",
+          "border": "1px solid rgb(0, 0, 0)",
+          "radius": "0px"
+        },
+        "contentStyle": {
+          "text": "Green Plum Refreshing Cleanser Gentle Daily Cleanser SHOP NOW",
+          "rect": {
+            "x": 13010,
+            "y": 299,
+            "w": 583.5,
+            "h": 237.9
+          },
+          "font": "proxima-sera, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "rgb(33, 33, 33)",
+          "bg": "rgba(255, 255, 255, 0)",
+          "tt": "none",
+          "align": "left",
+          "pad": "50px 50px 34px",
+          "margin": "50px",
+          "border": "0px none rgb(33, 33, 33)",
+          "radius": "0px"
+        }
+      }
+    ],
+    "dots": 10
+  },
+  "sections": [
+    {
+      "id": "shopify-section-sections--29749721629044__announcement",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 37,
+        "top": 0,
+        "right": 1440,
+        "bottom": 37,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-sections--29749721629044__header",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 37,
+        "width": 1440,
+        "height": 0,
+        "top": 37,
+        "right": 1440,
+        "bottom": 37,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-sections--29749721661812__cart-drawer",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 37,
+        "width": 1440,
+        "height": 0,
+        "top": 37,
+        "right": 1440,
+        "bottom": 37,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_eam_slideshow_D9GyhB",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 37,
+        "width": 1440,
+        "height": 675,
+        "top": 37,
+        "right": 1440,
+        "bottom": 712,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_collection_N8HAfU",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 712,
+        "width": 1440,
+        "height": 578.078125,
+        "top": 712,
+        "right": 1440,
+        "bottom": 1290.078125,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_double_fVUGtQ",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 1290.078125,
+        "width": 1440,
+        "height": 270.21875,
+        "top": 1290.078125,
+        "right": 1440,
+        "bottom": 1560.296875,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_rich_text_wxFVNw",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 1560.296875,
+        "width": 1440,
+        "height": 143.34375,
+        "top": 1560.296875,
+        "right": 1440,
+        "bottom": 1703.640625,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__1752070979cca9e2d5",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 1703.640625,
+        "width": 1440,
+        "height": 650,
+        "top": 1703.640625,
+        "right": 1440,
+        "bottom": 2353.640625,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_hero_6rQd8r",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_rich_text_atqJDC",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_tds_shade_carousel_VjCrcy",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 2353.640625,
+        "width": 1440,
+        "height": 800,
+        "top": 2353.640625,
+        "right": 1440,
+        "bottom": 3153.640625,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_rich_text_KhmcW8",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__instant_i2pqhj0_ux_gj5t_kem_bUbPGJ",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 3153.640625,
+        "width": 1440,
+        "height": 594.546875,
+        "top": 3153.640625,
+        "right": 1440,
+        "bottom": 3748.1875,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__403564e5-5813-438b-99d8-8263518c706e",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 3748.1875,
+        "width": 1440,
+        "height": 93.34375,
+        "top": 3748.1875,
+        "right": 1440,
+        "bottom": 3841.53125,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__instant_rrl_ms_a0o_cma3_y_vn6_igiGhi",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 3841.53125,
+        "width": 1440,
+        "height": 400,
+        "top": 3841.53125,
+        "right": 1440,
+        "bottom": 4241.53125,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__1705558444b86c56e6",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 4241.53125,
+        "width": 1440,
+        "height": 0,
+        "top": 4241.53125,
+        "right": 1440,
+        "bottom": 4241.53125,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__1709087910bfcdfa4e",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 4241.53125,
+        "width": 1440,
+        "height": 0,
+        "top": 4241.53125,
+        "right": 1440,
+        "bottom": 4241.53125,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_rich_text_LKjCaf",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 4241.53125,
+        "width": 1440,
+        "height": 113.34375,
+        "top": 4241.53125,
+        "right": 1440,
+        "bottom": 4354.875,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__ss_gallery_3_fdTCtN",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 4354.875,
+        "width": 1440,
+        "height": 267.65625,
+        "top": 4354.875,
+        "right": 1440,
+        "bottom": 4622.53125,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_double_nWW9HC",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 4622.53125,
+        "width": 1440,
+        "height": 634.265625,
+        "top": 4622.53125,
+        "right": 1440,
+        "bottom": 5256.796875,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-template--29749638332788__section_double_Y6mbHF",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-sections--29749721694580__section-newsletter",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 5256.796875,
+        "width": 1440,
+        "height": 0,
+        "top": 5256.796875,
+        "right": 1440,
+        "bottom": 5256.796875,
+        "left": 0
+      }
+    },
+    {
+      "id": "shopify-section-sections--29749721596276__footer",
+      "bg": "rgba(0, 0, 0, 0)",
+      "rect": {
+        "x": 0,
+        "y": 5256.796875,
+        "width": 1440,
+        "height": 474.796875,
+        "top": 5256.796875,
+        "right": 1440,
+        "bottom": 5731.59375,
+        "left": 0
+      }
+    }
+  ]
+}

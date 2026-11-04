@@ -1,0 +1,16 @@
+﻿import { launch, connect, evaluate, close } from "./cdp.mjs";
+import { writeFileSync } from "node:fs";
+const proc=await launch(); const {send}=await connect();
+await send("Page.enable"); await send("Runtime.enable");
+await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
+await send("Page.navigate",{url:"http://localhost:3000/"});
+await new Promise(r=>setTimeout(r,3000));
+await evaluate(send,`window.scrollTo(0,2532); new Promise(r=>setTimeout(r,800))`);
+let r=await send("Page.captureScreenshot",{format:"png"}); writeFileSync("docs/design-references/verify-home-m-03.png",Buffer.from(r.data,"base64"));
+await send("Emulation.setDeviceMetricsOverride",{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+await send("Page.navigate",{url:"http://localhost:3000/pages/about-page"});
+await new Promise(r=>setTimeout(r,3000));
+r=await send("Page.captureScreenshot",{format:"png"}); writeFileSync("docs/design-references/verify-about-00.png",Buffer.from(r.data,"base64"));
+await evaluate(send,`window.scrollTo(0,3000); new Promise(r=>setTimeout(r,1000))`);
+r=await send("Page.captureScreenshot",{format:"png"}); writeFileSync("docs/design-references/verify-about-03.png",Buffer.from(r.data,"base64"));
+close(proc);

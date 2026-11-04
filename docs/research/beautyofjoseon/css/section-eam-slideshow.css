@@ -1,0 +1,15 @@
+.hero__content__wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.slideshow .hero__content--transparent {
+  margin: var(--outer);
+}
+
+/* delete when ian charms collaboration ended */
+@media only screen and (min-width: 750px) {
+  .slideshow__slide--image_nipp49 .hero__content {
+    margin-right: calc(var(--outer) + 45%);
+  }
+}

@@ -1,0 +1,265 @@
+
+
+===== section_double_fVUGtQ =====
+div.shopify-section.section-overlay-header [0,1290 1440x270]
+  section.index-image-text.section-padding.text-left [0,1290 1440x270]
+    div.brick__section.brick__section--reversed.wrapper--full.image-height.image-height--mobile [0,1290 1440x270]
+      div.brick__block.brick__block--images [720,1290 720x270]
+        div.brick__block__image.wide-image [720,1290 720x270]
+          div.image__hero__frame.image-height.image-height--mobile [720,1290 720x270]
+            div.image__hero__pane [720,1290 720x270]
+              div.image__hero__scale.image__fill.lazy-image.lazy-image--backfill [720,1290 720x270]
+      div.brick__block.brick__block--text [0,1290 720x270]
+        div.brick__block__text [86,1290 547x270]
+          div.hero__content.hero__content--compact.hero__content--no-padding [136,1344 447x179]
+            p.hero__subheading.subheading-size-3.block-padding [136,1344 447x22] :: New
+            h2.hero__title.heading-size-4.block-padding [136,1382 447x27] :: Experience the new standard of tinted SPF
+            div.hero__rte.body-size-6.font-body.block-padding [136,1414 447x38]
+              p [136,1414 447x38] :: Tinted Mineral Dayscreen
+            div.hero__button.block-padding [136,1469 447x37]
+              a.btn.btn--outline.btn--black [136,1469 131x37]
+
+
+===== section_rich_text_wxFVNw =====
+div.shopify-section [0,1560 1440x143]
+  section.index-rte.section-padding [0,1560 1440x143]
+    div.hero__content__wrapper.text-center.wrapper [0,1610 1440x43]
+      div.hero__content.hero__content--compact.hero__content--transparent [50,1610 1340x43]
+        h2.hero__title.heading-size-4 [50,1610 1340x27] :: Loved by the Community
+
+
+===== 1752070979cca9e2d5 =====
+section.shopify-section [0,1704 1440x650]
+  div [0,1704 1440x650]
+    div.shopify-block.shopify-app-block [0,1704 1440x650]
+      div.reeview-app-widget [0,1704 1440x650]
+
+
+===== section_tds_shade_carousel_VjCrcy =====
+div.shopify-section [0,2354 1440x800]
+  tds-shade-carousel [0,2354 1440x800]
+    div.tds-shade-carousel__inner [0,2354 1440x800]
+      h2.tds-shade-carousel__heading [0,2402 1440x33] :: Find Your Tinted Mineral Dayscreen Shade
+      p.tds-shade-carousel__subtitle [0,2447 1440x18] :: Explore the shades. Find yours.
+      div.tds-shade-carousel__slider [0,2489 1440x300]
+        div.tds-shade-carousel__viewport [0,2489 1440x300]
+          div.tds-shade-carousel__track [-4320,2489 13248x300]
+            a.tds-shade-carousel__card [-3744,2489 288x300]
+              span.tds-shade-carousel__placeholder [-3703,2522 206x234]
+            a.tds-shade-carousel__card.is-active [-3456,2489 288x300]
+              span.tds-shade-carousel__placeholder [-3433,2501 243x276]
+            a.tds-shade-carousel__card [-3168,2489 288x300]
+              span.tds-shade-carousel__placeholder [-3127,2522 206x234]
+            a.tds-shade-carousel__card [-2880,2489 288x300]
+              span.tds-shade-carousel__placeholder [-2839,2522 206x234]
+            a.tds-shade-carousel__card [-2592,2489 288x300]
+              span.tds-shade-carousel__placeholder [-2551,2522 206x234]
+            a.tds-shade-carousel__card [-2304,2489 288x300]
+              span.tds-shade-carousel__placeholder [-2263,2522 206x234]
+            a.tds-shade-carousel__card [-2016,2489 288x300]
+              span.tds-shade-carousel__placeholder [-1975,2522 206x234]
+            a.tds-shade-carousel__card [-1728,2489 288x300]
+              span.tds-shade-carousel__placeholder [-1687,2522 206x234]
+            a.tds-shade-carousel__card [-1440,2489 288x300]
+              span.tds-shade-carousel__placeholder [-1399,2522 206x234]
+            a.tds-shade-carousel__card [-1152,2489 288x300]
+              span.tds-shade-carousel__placeholder [-1111,2522 206x234]
+            a.tds-shade-carousel__card [-864,2489 288x300]
+              span.tds-shade-carousel__placeholder [-823,2522 206x234]
+            a.tds-shade-carousel__card [-576,2489 288x300]
+              span.tds-shade-carousel__placeholder [-535,2522 206x234]
+            a.tds-shade-carousel__card [-288,2489 288x300]
+              span.tds-shade-carousel__placeholder [-247,2522 206x234]
+            a.tds-shade-carousel__card [0,2489 288x300]
+              span.tds-shade-carousel__placeholder [41,2522 206x234]
+            a.tds-shade-carousel__card [288,2489 288x300]
+              span.tds-shade-carousel__placeholder [329,2522 206x234]
+            a.tds-shade-carousel__card.is-active [576,2489 288x300]
+              span.tds-shade-carousel__placeholder [599,2501 243x276]
+            a.tds-shade-carousel__card [864,2489 288x300]
+              span.tds-shade-carousel__placeholder [905,2522 206x234]
+            a.tds-shade-carousel__card [1152,2489 288x300]
+              span.tds-shade-carousel__placeholder [1193,2522 206x234]
+            a.tds-shade-carousel__card [1440,2489 288x300]
+              span.tds-shade-carousel__placeholder [1481,2522 206x234]
+            a.tds-shade-carousel__card [1728,2489 288x300]
+              span.tds-shade-carousel__placeholder [1769,2522 206x234]
+            a.tds-shade-carousel__card [2016,2489 288x300]
+              span.tds-shade-carousel__placeholder [2057,2522 206x234]
+            a.tds-shade-carousel__card [2304,2489 288x300]
+              span.tds-shade-carousel__placeholder [2345,2522 206x234]
+            a.tds-shade-carousel__card [2592,2489 288x300]
+              span.tds-shade-carousel__placeholder [2633,2522 206x234]
+            a.tds-shade-carousel__card [2880,2489 288x300]
+              span.tds-shade-carousel__placeholder [2921,2522 206x234]
+            a.tds-shade-carousel__card [3168,2489 288x300]
+              span.tds-shade-carousel__placeholder [3209,2522 206x234]
+            a.tds-shade-carousel__card [3456,2489 288x300]
+              span.tds-shade-carousel__placeholder [3497,2522 206x234]
+            a.tds-shade-carousel__card [3744,2489 288x300]
+              span.tds-shade-carousel__placeholder [3785,2522 206x234]
+            a.tds-shade-carousel__card [4032,2489 288x300]
+              span.tds-shade-carousel__placeholder [4073,2522 206x234]
+            a.tds-shade-carousel__card [4320,2489 288x300]
+              span.tds-shade-carousel__placeholder [4361,2522 206x234]
+            a.tds-shade-carousel__card.is-active [4608,2489 288x300]
+              span.tds-shade-carousel__placeholder [4631,2501 243x276]
+            a.tds-shade-carousel__card [4896,2489 288x300]
+              span.tds-shade-carousel__placeholder [4937,2522 206x234]
+            a.tds-shade-carousel__card [5184,2489 288x300]
+              span.tds-shade-carousel__placeholder [5225,2522 206x234]
+            a.tds-shade-carousel__card [5472,2489 288x300]
+              span.tds-shade-carousel__placeholder [5513,2522 206x234]
+            a.tds-shade-carousel__card [5760,2489 288x300]
+              span.tds-shade-carousel__placeholder [5801,2522 206x234]
+            a.tds-shade-carousel__card [6048,2489 288x300]
+              span.tds-shade-carousel__placeholder [6089,2522 206x234]
+            a.tds-shade-carousel__card [6336,2489 288x300]
+              span.tds-shade-carousel__placeholder [6377,2522 206x234]
+            a.tds-shade-carousel__card [6624,2489 288x300]
+              span.tds-shade-carousel__placeholder [6665,2522 206x234]
+            a.tds-shade-carousel__card [6912,2489 288x300]
+              span.tds-shade-carousel__placeholder [6953,2522 206x234]
+            a.tds-shade-carousel__card [7200,2489 288x300]
+              span.tds-shade-carousel__placeholder [7241,2522 206x234]
+            a.tds-shade-carousel__card [7488,2489 288x300]
+              span.tds-shade-carousel__placeholder [7529,2522 206x234]
+            a.tds-shade-carousel__card [7776,2489 288x300]
+              span.tds-shade-carousel__placeholder [7817,2522 206x234]
+            a.tds-shade-carousel__card [8064,2489 288x300]
+              span.tds-shade-carousel__placeholder [8105,2522 206x234]
+        button.tds-shade-carousel__arrow.tds-shade-carousel__arrow--previous [29,2617 44x44]
+          span [42,2630 18x18] :: ←
+        button.tds-shade-carousel__arrow.tds-shade-carousel__arrow--next [1367,2617 44x44]
+          span [1380,2630 18x18] :: →
+      div.tds-shade-carousel__details [360,2797 720x271]
+        div.swatches.tds-shade-carousel__swatches [360,2797 720x44]
+          button.tds-shade-carousel__swatch [399,2797 44x44]
+            span [410,2808 22x22]
+          button.tds-shade-carousel__swatch.is-active [445,2797 44x44]
+            span [456,2808 22x22]
+          button.tds-shade-carousel__swatch [491,2797 44x44]
+            span [502,2808 22x22]
+          button.tds-shade-carousel__swatch [537,2797 44x44]
+            span [548,2808 22x22]
+          button.tds-shade-carousel__swatch [583,2797 44x44]
+            span [594,2808 22x22]
+          button.tds-shade-carousel__swatch [629,2797 44x44]
+            span [640,2808 22x22]
+          button.tds-shade-carousel__swatch [675,2797 44x44]
+            span [686,2808 22x22]
+          button.tds-shade-carousel__swatch [721,2797 44x44]
+            span [732,2808 22x22]
+          button.tds-shade-carousel__swatch [767,2797 44x44]
+            span [778,2808 22x22]
+          button.tds-shade-carousel__swatch [813,2797 44x44]
+            span [824,2808 22x22]
+          button.tds-shade-carousel__swatch [859,2797 44x44]
+            span [870,2808 22x22]
+          button.tds-shade-carousel__swatch [905,2797 44x44]
+            span [916,2808 22x22]
+          button.tds-shade-carousel__swatch [951,2797 44x44]
+            span [962,2808 22x22]
+          button.tds-shade-carousel__swatch [997,2797 44x44]
+            span [1008,2808 22x22]
+        p.tds-shade-carousel__count [360,2849 720x14] :: 02 / 14
+        h3.tds-shade-carousel__product-title [440,2881 560x28]
+          span [502,2875 310x40] :: Tinted Mineral Dayscreen SPF 30
+          span [818,2875 15x40] :: -
+          span.shade_title [833,2875 105x40] :: Shade 17N
+        button.tds-shade-carousel__compare-trigger [656,2909 128x44] :: Compare shades
+        div.tds-shade-carousel__actions [510,2961 420x52]
+          button.btn.btn--solid.tds-shade-carousel__add [510,2961 420x52]
+            span.tds-shade-carousel__add-label [531,2978 74x18] :: Sold Out
+            span.tds-shade-carousel__add-price [842,2978 67x19] :: 686.00 ฿
+        div.tds-shade-carousel__product-link [510,3023 420x20]
+          a.tds-shade-carousel__learn-more [634,3028 172x14] :: View Product Details
+        p.tds-shade-carousel__status [360,3051 720x17]
+
+
+===== instant_i2pqhj0_ux_gj5t_kem_bUbPGJ =====
+section.shopify-section [0,3154 1440x595]
+  div.__instant.ii2pqhj0UXGj5tKEM [0,3154 1440x595]
+    div.i4t1Dh0pal0yOqLYh [0,3154 1440x595]
+      img.instant-fill.instant-image__fill [0,3154 1440x595] SRC=https://cdn.instant.so/sites/7f5G0FzudEYbOVGF/assets/NDBjBMVFNAaeW5Z0/2eabe7ee9-1e41-4a3d-99d9-acc319ba1503.jpg?width=1280
+      div.iTYTaeEHrzjp56JRP [0,3154 1440x595]
+        div.iJrSoGZRcDDKFSiaY [0,3184 535x535]
+          div.i6Dj7U4oq57ehCXCc [0,3184 535x535]
+            img.instant-image.instant-image__main [0,3184 535x535] SRC=https://cdn.shopify.com/s/files/1/0558/4135/7989/files/boj-main-rewards-banner.webp?v=1776257039?width=1280
+        a.iFBlgc7gLRhNreQ3u [535,3184 905x535]
+          div.instant-rich-text.ic1MVEiUk1eQD2eQY [937,3325 101x17]
+            div [937,3325 101x17]
+              h3 [937,3325 101x17] :: Members Only
+          div.instant-rich-text.iVm64FX55DdVeszg4 [772,3358 430x36]
+            div [772,3358 430x36]
+              h2 [772,3358 430x36] :: Join the BOJ Rewards Program
+          div.instant-rich-text.ibTSymurUNnBWQouO [728,3408 519x32]
+            div [728,3408 519x32]
+              p [728,3408 519x32] :: Redeem gems for loyalty exclusive products, free shipping, discounts, and special gifts.
+          div.iPvl29kLueac71lSQ [914,3456 146x36]
+            div.instant-rich-text.iuMRibpsW7JTb44rO [935,3467 104x14]
+              div [935,3467 104x14]
+
+
+===== instant_rrl_ms_a0o_cma3_y_vn6_igiGhi =====
+section.shopify-section [0,3842 1440x400]
+  div.__instant.irrlMsA0oCma3YVn6 [0,3842 1440x400]
+    div.i73VeeEtWTilvoQxx [0,3842 1440x400]
+      div.instant-slider-container.iVRkCY7kM6ZZLsWX5 [0,3842 1440x400]
+        div.instant-slider.iJiaiQJCE7SoKQ9uI.instant-slider-initialized.instant-slider-horizontal.instant-slider-backface-hidden [0,3892 1440x300]
+          div.instant-slider-wrapper [30,3892 1380x300]
+            div.instant-slider-slide.i3aXZBJsXjkENceNn.instant-slider-slide-active [30,3892 267x300]
+            div.instant-slider-slide.iT0plJ5kjE1LMJ9t9.instant-slider-slide-next [308,3892 267x300]
+            div.instant-slider-slide.i75SC5IVgQlvUGyyo [586,3892 267x300]
+            div.instant-slider-slide.iQTBRZvF3CFSDzYfk [865,3892 267x300]
+            div.instant-slider-slide.iyuGl7TlWxIEJYyDI [1143,3892 267x300]
+            div.instant-slider-slide.iZ49UMBm2MJaJoYkf [1421,3892 267x300]
+            div.instant-slider-slide.iMhAywS0hIMxnuvKv [1699,3892 267x300]
+        div.i3SkoDzx6ulzxFwX7 [0,4042 1440x40]
+          div.iOKTGeeSk1eZisKRo [0,4042 60x40]
+            button.instant-slider-button.instant-slider-button-prev.instant-slider-JiaiQJCE7SoKQ9uI-button-prev.iuNrzAFVqafovRWWP.instant-slider-button-disabled [20,4042 40x40]
+              div.iNppEROBhgqfGoQS9 [30,4052 20x20]
+        div.instant-slider-slide.i55LjBE4LWFL71HvM [720,4042 720x40]
+          div.iweq9nG5rtFmRTobc [1380,4042 40x40]
+            button.instant-slider-button.instant-slider-button-next.instant-slider-JiaiQJCE7SoKQ9uI-button-next.iBOnjx2lZB7HGoHSw [1380,4042 40x40]
+              div.iHmi7VtHMBKIpYwkM [1390,4052 20x20]
+
+
+===== ss_gallery_3_fdTCtN =====
+div.shopify-section [0,4355 1440x268]
+  div.section-template--29749638332788__ss_gallery_3_fdTCtN.gallery-template--29749638332788__ss_gallery_3_fdTCtN [0,4355 1440x268]
+    div.section-template--29749638332788__ss_gallery_3_fdTCtN-settings [0,4355 1440x268]
+      div.gallery-slider-template--29749638332788__ss_gallery_3_fdTCtN.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden [0,4355 1440x232]
+        div.swiper-wrapper [0,4355 1440x232]
+          a.gallery-slide-template--29749638332788__ss_gallery_3_fdTCtN.swiper-slide.swiper-slide-active [0,4355 232x232]
+            img [0,4355 232x232] SRC=https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-1.webp?v=1773914713
+          a.gallery-slide-template--29749638332788__ss_gallery_3_fdTCtN.swiper-slide.swiper-slide-next [242,4355 232x232]
+            img [242,4355 232x232] SRC=https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-2.webp?v=1773914741
+          a.gallery-slide-template--29749638332788__ss_gallery_3_fdTCtN.swiper-slide [483,4355 232x232]
+            img [483,4355 232x232] SRC=https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-3.webp?v=1773914800
+          a.gallery-slide-template--29749638332788__ss_gallery_3_fdTCtN.swiper-slide [725,4355 232x232]
+            img [725,4355 232x232] SRC=https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-4.webp?v=1773914772
+          a.gallery-slide-template--29749638332788__ss_gallery_3_fdTCtN.swiper-slide [967,4355 232x232]
+            img [967,4355 232x232] SRC=https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-5.webp?v=1773914832
+          a.gallery-slide-template--29749638332788__ss_gallery_3_fdTCtN.swiper-slide [1208,4355 232x232]
+            img [1208,4355 232x232] SRC=https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-6.webp?v=1773914859
+
+
+===== section_double_nWW9HC =====
+div.shopify-section.section-overlay-header [0,4623 1440x634]
+  section.index-image-text.section-padding.text-left [0,4623 1440x634]
+    div.brick__section.brick__section--reversed.brick__section--accordion.wrapper--full.screen-height-full [0,4623 1440x634]
+      div.brick__block.brick__block--images [720,4623 720x513]
+        div.brick__block__image.wide-image [720,4623 720x513]
+          div.image__hero__frame.screen-height-full.screen-height-one-half--mobile [720,4623 720x513]
+            div.image__hero__pane [720,4623 720x513]
+              div.image__hero__scale.image__fill.lazy-image.lazy-image--backfill.is-loading [720,4623 720x513]
+      div.brick__block.brick__block--text [0,4623 720x634]
+        div.brick__block__text [86,4623 547x634]
+          div.hero__content.hero__content--compact.hero__content--no-padding [86,4673 497x550]
+            collapsible-elements [86,4673 497x550]
+              div.hero__media.block-padding [86,4673 224x21]
+              h2.hero__title.heading-size-3.block-padding [86,4710 250x60] :: Inspired By Hanbang. Connected by Community.
+              details.accordion.block-padding [86,4786 497x77]
+              details.accordion.block-padding [86,4862 497x77]
+              div.section__blog-snippet.block-padding [86,4955 497x251]

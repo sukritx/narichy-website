@@ -1,0 +1,518 @@
+{
+ "html": "\n      <div class=\"header__dropdown__wrapper\">\n        <div class=\"header__dropdown__inner\"><div class=\"header__grandparent__links\">\n                \n                  \n<div class=\"dropdown__family\">\n                      <a href=\"/collections/shop-all\" data-stagger-first=\"\" class=\"navlink navlink--child\" style=\"transition-delay: 0ms;\">\n                        <span class=\"navtext\">\n                          Shop All\n</span>\n                      </a>\n                      \n<a href=\"/pages/ingredients\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 20ms;\">\n                          <span class=\"navtext\">\n                            Ingredients\n</span>\n                        </a>\n                      \n                    </div>\n                  \n<div class=\"dropdown__family\">\n                      <a href=\"/collections/shop-all\" data-stagger-first=\"\" class=\"navlink navlink--child\" style=\"transition-delay: 100ms;\">\n                        <span class=\"navtext\">\n                          By Product\n</span>\n                      </a>\n                      \n<a href=\"/collections/sunscreens\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 120ms;\">\n                          <span class=\"navtext\">\n                            Sunscreen\n</span>\n                        </a>\n                      \n<a href=\"/collections/cleanser\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 140ms;\">\n                          <span class=\"navtext\">\n                            Cleanser\n</span>\n                        </a>\n                      \n<a href=\"/collections/exfoliator\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 160ms;\">\n                          <span class=\"navtext\">\n                            Exfoliator\n</span>\n                        </a>\n                      \n<a href=\"/collections/toner-essence\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 180ms;\">\n                          <span class=\"navtext\">\n                            Toner &amp; Essence\n</span>\n                        </a>\n                      \n<a href=\"/collections/serum\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 200ms;\">\n                          <span class=\"navtext\">\n                            Serum\n</span>\n                        </a>\n                      \n<a href=\"/collections/moisturizer\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 220ms;\">\n                          <span class=\"navtext\">\n                            Moisturizer\n</span>\n                        </a>\n                      \n<a href=\"/collections/mask\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 240ms;\">\n                          <span class=\"navtext\">\n                            Mask\n</span>\n                        </a>\n                      \n<a href=\"/collections/all-goods\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 260ms;\">\n                          <span class=\"navtext\">\n                            Life Style\n</span>\n                        </a>\n                      \n                    </div>\n                  \n<div class=\"dropdown__family\">\n                      <a href=\"/collections/skin-concern\" data-stagger-first=\"\" class=\"navlink navlink--child\" style=\"transition-delay: 200ms;\">\n                        <span class=\"navtext\">\n                          By Skin Concern\n</span>\n                      </a>\n                      \n<a href=\"/collections/wrinkles\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 220ms;\">\n                          <span class=\"navtext\">\n                            Wrinkles\n</span>\n                        </a>\n                      \n<a href=\"/collections/pores-sebum\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 240ms;\">\n                          <span class=\"navtext\">\n                            Pores &amp; Sebum\n</span>\n                        </a>\n                      \n<a href=\"/collections/dullness-uneven-tone\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 260ms;\">\n                          <span class=\"navtext\">\n                            Dullness &amp; Uneven tone\n</span>\n                        </a>\n                      \n<a href=\"/collections/sensitivity-blemish\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 280ms;\">\n                          <span class=\"navtext\">\n                            Sensitivity\n</span>\n                        </a>\n                      \n<a href=\"/collections/dryness\" data-stagger-second=\"\" class=\"navlink navlink--grandchild\" style=\"transition-delay: 300ms;\">\n                          <span class=\"navtext\">\n                            Dryness\n</span>\n                        </a>\n                      \n                    </div>\n                  \n                \n              </div>\n<div class=\"dropdown__horizontal-image\"><a class=\"dropdown__horizontal-image__link\" href=\"/products/tinted-mineral-dayscreen-spf-30-global\">\n                    <img src=\"//beautyofjoseon.com/cdn/shop/files/TDS_homeBanner_row_pc.jpg?v=1787322543&amp;width=1400\" alt=\"a row of foundation tubes\" srcset=\"//beautyofjoseon.com/cdn/shop/files/TDS_homeBanner_row_pc.jpg?v=1787322543&amp;width=352 352w, //beautyofjoseon.com/cdn/shop/files/TDS_homeBanner_row_pc.jpg?v=1787322543&amp;width=832 832w, //beautyofjoseon.com/cdn/shop/files/TDS_homeBanner_row_pc.jpg?v=1787322543&amp;width=1200 1200w, //beautyofjoseon.com/cdn/shop/files/TDS_homeBanner_row_pc.jpg?v=1787322543&amp;width=1400 1400w\" width=\"1400\" height=\"656\" loading=\"lazy\" class=\"dropdown__horizontal-image__img\" style=\"object-position:13.477% 75.684%;\">\n                  </a></div>\n</div>\n      </div>\n    ",
+ "children": [
+  {
+   "tag": "DIV",
+   "cls": "header__dropdown",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 124,
+    "w": 1440,
+    "h": 365
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgb(252, 251, 249)",
+   "pad": "0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "DIV",
+   "cls": "header__dropdown__wrapper",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 125,
+    "w": 1440,
+    "h": 364
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "DIV",
+   "cls": "header__dropdown__inner",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 125,
+    "w": 1440,
+    "h": 364
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px",
+   "display": "flex",
+   "gap": "normal"
+  },
+  {
+   "tag": "DIV",
+   "cls": "header__grandparent__links",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 125,
+    "w": 864,
+    "h": 364
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px",
+   "display": "flex",
+   "gap": "10px normal"
+  },
+  {
+   "tag": "DIV",
+   "cls": "dropdown__family",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 125,
+    "w": 179,
+    "h": 364
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "30px 50px",
+   "display": "flex",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--child",
+   "text": "",
+   "rect": {
+    "x": 50,
+    "y": 155,
+    "w": 60,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "500",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 50,
+    "y": 184,
+    "w": 79,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "DIV",
+   "cls": "dropdown__family",
+   "text": "",
+   "rect": {
+    "x": 179,
+    "y": 125,
+    "w": 216,
+    "h": 364
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "30px 50px",
+   "display": "flex",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--child",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 155,
+    "w": 79,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "500",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 184,
+    "w": 76,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 217,
+    "w": 64,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 251,
+    "w": 67,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 285,
+    "w": 116,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 319,
+    "w": 48,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 353,
+    "w": 79,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 386,
+    "w": 41,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 229,
+    "y": 420,
+    "w": 67,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "DIV",
+   "cls": "dropdown__family",
+   "text": "",
+   "rect": {
+    "x": 395,
+    "y": 125,
+    "w": 262,
+    "h": 364
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "30px 50px",
+   "display": "flex",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--child",
+   "text": "",
+   "rect": {
+    "x": 445,
+    "y": 155,
+    "w": 116,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "500",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 445,
+    "y": 184,
+    "w": 62,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 445,
+    "y": 217,
+    "w": 106,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 445,
+    "y": 251,
+    "w": 162,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 445,
+    "y": 285,
+    "w": 73,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "navlink navlink--grandchild",
+   "text": "",
+   "rect": {
+    "x": 445,
+    "y": 319,
+    "w": 60,
+    "h": 34
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "5px 5px 5px 0px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "DIV",
+   "cls": "dropdown__horizontal-image",
+   "text": "",
+   "rect": {
+    "x": 864,
+    "y": 125,
+    "w": 576,
+    "h": 364
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "24px",
+   "display": "block",
+   "gap": "normal"
+  },
+  {
+   "tag": "A",
+   "cls": "dropdown__horizontal-image__link",
+   "text": "",
+   "rect": {
+    "x": 888,
+    "y": 149,
+    "w": 528,
+    "h": 247
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px",
+   "display": "flex",
+   "gap": "normal"
+  },
+  {
+   "tag": "IMG",
+   "cls": "dropdown__horizontal-image__img",
+   "text": "",
+   "rect": {
+    "x": 888,
+    "y": 149,
+    "w": 528,
+    "h": 247
+   },
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px",
+   "display": "block",
+   "gap": "normal"
+  }
+ ]
+}

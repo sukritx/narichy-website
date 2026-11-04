@@ -1,0 +1,757 @@
+[
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/tds_main_home_banner_global_pc.png?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-01-desktop.png",
+    "bytes": 1366134,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/tds_main_home_banner_global_mo.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-01-mobile.png",
+    "bytes": 807080,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/tinted_tds_global_main_pc_0702.webp?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-02-desktop.webp",
+    "bytes": 997587,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/red_bean_mo_us.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-03-mobile.png",
+    "bytes": 506966,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/red_bean_pc_us.png?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-03-desktop.png",
+    "bytes": 795109,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/tinted_tds_global_main_mo_0702.webp?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-02-mobile.webp",
+    "bytes": 1023048,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/DS_pc.webp?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-04-desktop.webp",
+    "bytes": 161354,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/DS_mo.webp?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-04-mobile.webp",
+    "bytes": 137314,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/19_0818_ReliefSunduo_ROW.jpg?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-05-desktop.jpg",
+    "bytes": 96041,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/02_0820_ReliefSunduo_ROW.jpg?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-05-mobile.jpg",
+    "bytes": 141649,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/mo_7d47ae20-baed-479c-b159-7c9539c6d93e.webp?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-06-mobile.webp",
+    "bytes": 61224,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/pc_aa6c6096-4ce7-4960-994c-073bddf0e1b7.webp?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-06-desktop.webp",
+    "bytes": 78768,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/pc_c8c7892b-6aa2-449b-8230-d58f07a5d661.webp?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-07-desktop.webp",
+    "bytes": 83017,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/mo_ad641840-f615-4cd9-9ee8-a02116e44f58.webp?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-07-mobile.webp",
+    "bytes": 70304,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/pc_c3701e9a-2461-4d0f-b10c-411e88aa94a5.webp?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-09-desktop.webp",
+    "bytes": 114795,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/pc_e356a8a0-9b3e-4bea-a0c2-178707908db4.webp?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-08-desktop.webp",
+    "bytes": 106326,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/01_0820_ReliefSun_ROW.jpg?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-08-mobile.jpg",
+    "bytes": 69819,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/mo_89750dbc-bef4-433b-b301-194406d5812e.webp?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-09-mobile.webp",
+    "bytes": 92419,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?crop=center&height=800&width=800",
+    "file": "public/sites/beautyofjoseon/images/product-01.jpg",
+    "bytes": 35768,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/mo_e319f4f4-ea6e-4e26-8f7e-3b5dc9c98546.webp?width=900",
+    "file": "public/sites/beautyofjoseon/images/hero-10-mobile.webp",
+    "bytes": 48159,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/pc.webp?width=2000",
+    "file": "public/sites/beautyofjoseon/images/hero-10-desktop.webp",
+    "bytes": 55720,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?crop=center&height=800&width=800",
+    "file": "public/sites/beautyofjoseon/images/product-02.jpg",
+    "bytes": 42370,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?crop=center&height=800&width=800",
+    "file": "public/sites/beautyofjoseon/images/product-04.jpg",
+    "bytes": 43674,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?crop=center&height=800&width=800",
+    "file": "public/sites/beautyofjoseon/images/product-03.jpg",
+    "bytes": 40275,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/tinted_tds_global_wide_pc_0702.webp?width=1921",
+    "file": "public/sites/beautyofjoseon/images/promo-tinted.webp",
+    "bytes": 614971,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-logo-text-default.png?width=480",
+    "file": "public/sites/beautyofjoseon/images/logo.png",
+    "bytes": 8905,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/a6be49d8180ffc3422598e291f74d788ffb4ea9f.png?crop=center&height=306&v=1754260296&width=3242",
+    "file": "public/sites/beautyofjoseon/images/community-logo.png",
+    "bytes": 9377,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/TDS_homeBanner_row_pc.jpg?width=1200",
+    "file": "public/sites/beautyofjoseon/images/menu-tinted.jpg",
+    "bytes": 63924,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_15C_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-15C.png",
+    "bytes": 88346,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_21W_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-21W.png",
+    "bytes": 89382,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_17N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-17N.png",
+    "bytes": 88289,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_23N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-23N.png",
+    "bytes": 87812,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_33N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-33N.png",
+    "bytes": 87206,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_25W_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-25W.png",
+    "bytes": 88814,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_29N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-29N.png",
+    "bytes": 88610,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_39W_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-39W.png",
+    "bytes": 196986,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_47N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-47N.png",
+    "bytes": 97544,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_43W_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-43W.png",
+    "bytes": 196819,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_51N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-51N.png",
+    "bytes": 202201,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_45N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-45N.png",
+    "bytes": 193206,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_54N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-54N.png",
+    "bytes": 93760,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/2eabe7ee9-1e41-4a3d-99d9-acc319ba1503.jpg?width=1600",
+    "file": "public/sites/beautyofjoseon/images/rewards-bg.jpg",
+    "error": "Error: HTTP 404"
+  },
+  {
+    "src": "https://cdn.instant.so/sites/7f5G0FzudEYbOVGF/assets/fYc3vsR3y2QpoSJJ/10002layer-comp-3.jpg?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-ginseng.jpg",
+    "bytes": 342445,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.instant.so/sites/7f5G0FzudEYbOVGF/assets/nJuYI5YjykCKE7yv/10001layer-comp-2.jpg?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-rice.jpg",
+    "bytes": 274549,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-main-rewards-banner.webp?width=1200",
+    "file": "public/sites/beautyofjoseon/images/rewards-box.webp",
+    "bytes": 188229,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/global_59N_TDS_shade.png?width=700",
+    "file": "public/sites/beautyofjoseon/images/shade-59N.png",
+    "bytes": 192469,
+    "type": "image/png"
+  },
+  {
+    "src": "https://cdn.instant.so/sites/7f5G0FzudEYbOVGF/assets/9rRHFDchNzwJpwEM/10000layer-comp-1.jpg?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-green-tea.jpg",
+    "bytes": 254447,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.instant.so/sites/7f5G0FzudEYbOVGF/assets/2jPNVg8v8Ke2dwjm/10003layer-comp-4.jpg?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-red-bean.jpg",
+    "bytes": 284584,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.instant.so/sites/7f5G0FzudEYbOVGF/assets/sqGHooyhk7OEOyDy/50000layer-comp-1.jpg?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-propolis.jpg",
+    "bytes": 201885,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.instant.so/sites/7f5G0FzudEYbOVGF/assets/63fS953Icl6OQASB/50004layer-comp-5.jpg?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-green-plum.jpg",
+    "bytes": 204189,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.instant.so/sites/7f5G0FzudEYbOVGF/assets/I2aDI2WavLrbyIwn/50002layer-comp-3.jpg?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-centella.jpg",
+    "bytes": 193653,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/boj-main-ingredients-hover-ginseng.webp?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-ginseng-hover.webp",
+    "bytes": 102574,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/boj-main-ingredients-hover-rice.webp?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-rice-hover.webp",
+    "bytes": 97706,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/boj-main-ingredients-hover-green_tea.webp?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-green-tea-hover.webp",
+    "bytes": 108320,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/boj-main-ingredients-hover-red_bean.webp?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-red-bean-hover.webp",
+    "bytes": 130289,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/boj-main-ingredients-hover-green_plum.webp?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-green-plum-hover.webp",
+    "bytes": 162763,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/boj-main-ingredients-hover-propolis.webp?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-propolis-hover.webp",
+    "bytes": 133562,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/boj-main-ingredients-hover-centella.webp?width=1080",
+    "file": "public/sites/beautyofjoseon/images/ing-centella-hover.webp",
+    "bytes": 76634,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-1.webp?width=800",
+    "file": "public/sites/beautyofjoseon/images/ig-1.webp",
+    "bytes": 24505,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-2.webp?width=800",
+    "file": "public/sites/beautyofjoseon/images/ig-2.webp",
+    "bytes": 73368,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-3.webp?width=800",
+    "file": "public/sites/beautyofjoseon/images/ig-3.webp",
+    "bytes": 52872,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-4.webp?width=800",
+    "file": "public/sites/beautyofjoseon/images/ig-4.webp",
+    "bytes": 39505,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-5.webp?width=800",
+    "file": "public/sites/beautyofjoseon/images/ig-5.webp",
+    "bytes": 158480,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-ig-mar-6.webp?width=800",
+    "file": "public/sites/beautyofjoseon/images/ig-6.webp",
+    "bytes": 78666,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/articles/20251016_BOJ_2057-F_316b92df-3d4c-4940-b856-7a90734c705a_360x.png?v=1773128363",
+    "file": "public/sites/beautyofjoseon/images/blog-revive.png",
+    "bytes": 145279,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/articles/cleanser_3_360x.jpg?v=1749114585",
+    "file": "public/sites/beautyofjoseon/images/blog-cleansing.jpg",
+    "bytes": 25311,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?width=1440",
+    "file": "public/sites/beautyofjoseon/images/community-hero.jpg",
+    "bytes": 229446,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/tinted_tds_global_page_0702.jpg?width=900",
+    "file": "public/sites/beautyofjoseon/images/who-are-we.jpg",
+    "bytes": 140109,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/02_0723___logo_600x375_dea7bce7-f051-4dbf-9abf-f0e116ff329f.jpg?width=600",
+    "file": "public/sites/beautyofjoseon/images/about-mission.jpg",
+    "bytes": 12286,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/4ca9da5421c7a0527fe1939d0bb1c156.png?width=2000",
+    "file": "public/sites/beautyofjoseon/images/about-full.png",
+    "bytes": 702713,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/head-banner_d299a21f-0e11-499b-bc7a-5783f4102713.png?width=2400",
+    "file": "public/sites/beautyofjoseon/images/about-hero.png",
+    "bytes": 1335220,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/6_bb281d61-9703-4d8f-a371-cb995fc671ea.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/about-ingredient-2.png",
+    "bytes": 453166,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/3_27d52df9-bfc7-4d17-819f-f2cfc703fb6a.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/about-ingredient-1.png",
+    "bytes": 416793,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/7_9451909f-2719-4e92-ba80-5bfa6c8e95be.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/about-ingredient-3.png",
+    "bytes": 400493,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/10_3ac3be24-f2fb-450e-9bcf-03d5c11e99bb.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/about-ingredient-4.png",
+    "bytes": 448199,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/9_fd0c8d2b-bdc1-4260-8d5e-2640ace97160.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/about-ingredient-5.png",
+    "bytes": 498990,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/8_d1379f20-c6dc-4587-b751-d15e12123712.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/about-ingredient-6.png",
+    "bytes": 456419,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/4_bba982ac-4608-43d9-b175-242456c58749.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/about-ingredient-7.png",
+    "bytes": 461572,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/1_1f637371-c358-4857-895b-4a2edf2a2817.png?width=600",
+    "file": "public/sites/beautyofjoseon/images/about-press-1.png",
+    "bytes": 231163,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/5_d2f1f89e-137d-447c-8802-aaa7b26cc414.png?width=900",
+    "file": "public/sites/beautyofjoseon/images/about-ingredient-8.png",
+    "bytes": 484666,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-about-press-allure.webp?width=600",
+    "file": "public/sites/beautyofjoseon/images/about-press-2.png",
+    "bytes": 213298,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-about-press-byrdie.webp?width=600",
+    "file": "public/sites/beautyofjoseon/images/about-press-4.png",
+    "bytes": 193603,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-about-press-vogue.webp?width=600",
+    "file": "public/sites/beautyofjoseon/images/about-press-3.png",
+    "bytes": 370575,
+    "type": "image/png"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/boj-about-press-glamour.webp?width=600",
+    "file": "public/sites/beautyofjoseon/images/about-press-5.png",
+    "bytes": 242317,
+    "type": "image/png"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/04_0626_TintedMineralDayscreen-Global__23N.jpg?v=1782748754?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-1.jpg",
+    "bytes": 73961,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1785135112374_288d01de-fae2-4e1e-92b6-cf5ecb0b96db.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-1.webp",
+    "bytes": 64264,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/04_0626_TintedMineralDayscreen-Global__23N.jpg?v=1782748754?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-2.jpg",
+    "bytes": 73961,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1747066896665_1e205645-2f5f-49f4-9b8e-b5a5d017cb5c.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-3.webp",
+    "bytes": 22044,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1785135116326_963551e0-24e6-4fd2-b515-c152bb9d978b.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-2.webp",
+    "bytes": 57906,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn2.videowise.com/custom-videos/videos/1747066892926_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZWE4.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-3.mp4",
+    "bytes": 1855453,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1785135097364_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjg2_h264c.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-1.mp4",
+    "bytes": 5918010,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://cdn2.videowise.com/custom-videos/videos/1747067655414_wid_NjgyMjIzMDczZjJiOTAwMDU4OGQ5ODRk.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-4.mp4",
+    "bytes": 8697922,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/glow-replenshing-rice-milk-1-front.webp?v=1769660112?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-3.jpg",
+    "bytes": 119685,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1747067661615_607afe86-94cd-453b-977e-f232434be8ba.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-4.webp",
+    "bytes": 55548,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1785135097374_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjkw_h264c.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-2.mp4",
+    "bytes": 4891967,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://cdn2.videowise.com/custom-videos/videos/1747066894346_wid_NjgyMjIwMGUzZjJiOTAwMDU4OGMxZjEx.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-5.mp4",
+    "bytes": 16922530,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/ginseng-essence-water-1-front.webp?v=1770618733?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-4.jpg",
+    "bytes": 170248,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1747066901432_46544afd-025c-447a-b16c-76a677ef5ed8.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-5.webp",
+    "bytes": 50266,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/revive-eye-serum-ginseng-retinal-1-front.webp?v=1770287139?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-5.jpg",
+    "bytes": 126053,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1747066897088_4762de1e-f992-4e38-83ea-b7d6ff9611f7.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-6.webp",
+    "bytes": 16228,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn2.videowise.com/custom-videos/videos/1747066891144_wid_NjgyMjIwMGIzZjJiOTAwMDU4OGMxZGQ2.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-7.mp4",
+    "bytes": 4604631,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/red-bean-refreshing-pore-mask-1-front.webp?v=1770286693?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-6.jpg",
+    "bytes": 159710,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1747066896295_2f8bfad4-4c03-4297-a7e3-7981d84c2dc9.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-7.webp",
+    "bytes": 53908,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn2.videowise.com/custom-videos/videos/1747066889667_wid_NjgyMjIwMDkzZjJiOTAwMDU4OGMxYzJi.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-8.mp4",
+    "bytes": 4182256,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/glow-serum-propolis-niacinamide-1-front.webp?v=1770278801?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-7.jpg",
+    "bytes": 152784,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/custom-videos/videos/1747066892278_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZTNm.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-6.mp4",
+    "bytes": 4018914,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1747066894549_39c0c873-d032-4b17-ba08-ea67aebff7be.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-8.webp",
+    "bytes": 24086,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/04_0626_TintedMineralDayscreen-Global__23N.jpg?v=1782748754?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-9.jpg",
+    "bytes": 73961,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/ground-rice-honey-glow-mask-1-front.webp?v=1770286001?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-8.jpg",
+    "bytes": 164468,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1785135113409_d22eb01c-7086-46c2-96ad-4ac5cc3b77d3.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-9.webp",
+    "bytes": 77664,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/04_0626_TintedMineralDayscreen-Global__23N.jpg?v=1782748754?width=200",
+    "file": "public/sites/beautyofjoseon/ugc/product-10.jpg",
+    "bytes": 73961,
+    "type": "image/jpeg"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1785135133883_d0c83d8f-cd78-478c-9aa2-d2a4f6426672.webp",
+    "file": "public/sites/beautyofjoseon/ugc/poster-10.webp",
+    "bytes": 56030,
+    "type": "image/webp"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/inter-400.woff2",
+    "bytes": 38848,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/fonts/inter/inter_n5.d7101d5e168594dd06f56f290dd759fba5431d97.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/inter-500.woff2",
+    "bytes": 39512,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/fonts/amiri/amiri_n4.fee8c3379b68ea3b9c7241a63b8a252071faad52.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/amiri-400.woff2",
+    "bytes": 24040,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/figtree-400.woff2",
+    "bytes": 12020,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/fonts/amiri/amiri_n7.18bdf9995a65958ebe1ecc6a8e58369f2e5fde36.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/amiri-700.woff2",
+    "bytes": 22856,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/proximasera-regular.woff2?v=1752115109",
+    "file": "public/sites/beautyofjoseon/fonts/proxima-sera-regular.woff2",
+    "bytes": 7256,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/proximasera-medium.woff2?v=1752115109",
+    "file": "public/sites/beautyofjoseon/fonts/proxima-sera-medium.woff2",
+    "bytes": 7200,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://beautyofjoseon.com/cdn/shop/files/proximasera-semibold.woff2?v=1752115109",
+    "file": "public/sites/beautyofjoseon/fonts/proxima-sera-semibold.woff2",
+    "bytes": 6716,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://assets.instant.so/sites/7f5G0FzudEYbOVGF/assets/oFrIfabrOhqvoPfZ/fontspring-demo-proximasera-medium.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/proxima-sera-demo-medium.woff2",
+    "bytes": 7200,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1785135097387_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjk1_h264c.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-9.mp4",
+    "bytes": 3565825,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://assets.instant.so/sites/7f5G0FzudEYbOVGF/assets/Hc39CAEYyal5Pcs9/fontspring-demo-proximanova-medium.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/proxima-nova-medium.woff2",
+    "bytes": 6604,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://cdn2.videowise.com/converted/videos/1785135097369_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjhi_h264c.mp4",
+    "file": "public/sites/beautyofjoseon/ugc/video-10.mp4",
+    "bytes": 5293826,
+    "type": "video/mp4"
+  },
+  {
+    "src": "https://assets.instant.so/sites/7f5G0FzudEYbOVGF/assets/JPkIwHQBOl9jyZjO/fontspring-demo-proximanova-semibold.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/proxima-nova-semibold.woff2",
+    "bytes": 6424,
+    "type": "font/woff2"
+  },
+  {
+    "src": "https://assets.instant.so/sites/7f5G0FzudEYbOVGF/assets/yQCjPadYPVOjNaNU/fontspring-demo-proximanova-light.woff2",
+    "file": "public/sites/beautyofjoseon/fonts/proxima-nova-light.woff2",
+    "bytes": 6656,
+    "type": "font/woff2"
+  }
+]

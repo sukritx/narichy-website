@@ -1,0 +1,15 @@
+﻿import { launch, connect, evaluate, close } from "./cdp.mjs";
+import { writeFileSync } from "node:fs";
+const proc = await launch();
+const { send } = await connect();
+await send("Page.enable"); await send("Runtime.enable");
+await send("Emulation.setDeviceMetricsOverride", { width: 1440, height: 1000, deviceScaleFactor: 1, mobile: false });
+await send("Page.navigate", { url: "https://beautyofjoseon.com/" });
+await new Promise(r => setTimeout(r, 6000));
+await evaluate(send, `(() => { const kids = [...document.body.children].filter(el => el.innerText && el.innerText.includes('Treat yourself')); kids.forEach(el => el.remove()); document.body.classList.remove('klaviyo-prevent-body-scrolling'); return true; })()`);
+const about = await evaluate(send, `(() => { const a=[...document.querySelectorAll('.navlink--toplevel')].find(e=>e.innerText.trim()==='ABOUT'); const r=a.getBoundingClientRect(); return {x:r.x+10,y:r.y+r.height/2}; })()`);
+await send("Input.dispatchMouseEvent",{type:"mouseMoved",x:about.x,y:about.y});
+await new Promise(r=>setTimeout(r,900));
+const r=await send("Page.captureScreenshot",{format:"png"}); writeFileSync("docs/design-references/src-about-dropdown.png", Buffer.from(r.data,"base64"));
+console.log(await evaluate(send, `(() => { const dd=[...document.querySelectorAll('.header__dropdown')].find(e=>e.getBoundingClientRect().height>50); return dd ? {rect:dd.getBoundingClientRect().toJSON(), text:dd.innerText.replace(/\\s+/g,' ').trim(), links:[...dd.querySelectorAll('a')].map(a=>a.innerText.trim())} : null; })()`));
+close(proc);

@@ -1,0 +1,14 @@
+﻿import { launch, connect, evaluate, close } from "./cdp.mjs";
+import { writeFileSync } from "node:fs";
+const proc = await launch();
+const { send } = await connect();
+await send("Page.enable"); await send("Runtime.enable");
+await send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
+await send("Page.navigate", { url: "http://localhost:3000/" });
+await new Promise(r => setTimeout(r, 3000));
+await evaluate(send, `document.querySelector('[aria-label="Open menu"]').click()`);
+await new Promise(r => setTimeout(r, 500));
+const r = await send("Page.captureScreenshot", { format: "png" });
+writeFileSync("docs/design-references/check-mobile-menu2.png", Buffer.from(r.data, "base64"));
+console.log(await evaluate(send, `({menu:!!document.querySelector('.boj-mobile-menu'), img:!!document.querySelector('.boj-mobile-menu-image img'), width:getComputedStyle(document.querySelector('.boj-mobile-menu')).width})`));
+close(proc);

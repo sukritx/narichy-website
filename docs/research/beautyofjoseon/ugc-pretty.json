@@ -1,0 +1,1473 @@
+{
+  "isCached": false,
+  "showBadge": false,
+  "productWidget": {
+    "galleryContainer": null,
+    "thumbnailContainer": null,
+    "zoomContainer": null
+  },
+  "siteId": "68221c873f2b9000588b5c6b",
+  "organisationId": "682211933f2b90005889a572",
+  "useShadowDom": true,
+  "inventorySetting": "USE_INVENTORY",
+  "translation": {
+    "inStock": "In stock",
+    "outOfStock": "Out of stock",
+    "notAvailable": "Not available",
+    "details": "Details",
+    "recommendedProducts": "Recommended products",
+    "sale": "Sale",
+    "defaultOption": "Default option",
+    "color": "Color",
+    "size": "Size",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "shopItems": "Shop items",
+    "soldOut": "Sold out",
+    "viewProduct": "View product",
+    "shareVideo": "Share video",
+    "copyLink": "Copy link",
+    "copiedLink": "Copied link",
+    "shopNow": "Shop now",
+    "productsInVideo": "Products in video",
+    "swipeUpForNextVideo": "Swipe up for next video",
+    "tapToUnmute": "Tap to unmute",
+    "seeMore": "See more",
+    "seeLess": "See less",
+    "allProducts": "All products",
+    "fullName": "Full name",
+    "emailAddress": "Email address",
+    "videoFormatRequirements": "Video format requirements",
+    "inThisPhoto": "In this photo"
+  },
+  "widgets": [
+    {
+      "createdAt": "2026-07-27T06:57:29.133Z",
+      "theme": "CarouselShoppable",
+      "playlistType": "Global",
+      "useCase": "shoppable",
+      "status": "APPROVED",
+      "scope": "Website",
+      "globalStyle": false,
+      "id": "6a670159c659aff334f96f41",
+      "displayType": "Inline",
+      "playlistOptimization": {
+        "status": "disabled"
+      },
+      "name": "ROW",
+      "folderId": null,
+      "interactionStyle": {
+        "mobile": null,
+        "desktop": null
+      },
+      "liveStreamId": null,
+      "siteId": "68221c873f2b9000588b5c6b",
+      "rules": {
+        "url": [
+          {
+            "allPages": true
+          }
+        ],
+        "triggers": {},
+        "restrictions": {},
+        "devices": {
+          "desktop": true,
+          "mobile": true
+        },
+        "audience": [],
+        "logicalOperator": "OR",
+        "locked": false
+      },
+      "updatedAt": "2026-07-28T03:40:25.244Z",
+      "skins": [
+        {
+          "createdAt": "2026-07-28T03:40:25.344Z",
+          "skinType": "DESKTOP",
+          "fadeOut": null,
+          "id": "6a670159c659aff334f96f4a",
+          "skinDisplayType": "Inline",
+          "pictureInPicture": false,
+          "playerType": "FULL_VIDEO",
+          "playerController": "SHOW_DEFAULT",
+          "productPosition": "UNDER_THUMBNAIL",
+          "layout": {
+            "type": "PORTRAIT",
+            "rows": 1,
+            "columns": 5,
+            "background": ""
+          },
+          "thumbnail": {
+            "showBorder": false,
+            "borderColor": "#000000",
+            "autoplay": true,
+            "thumbnailSource": "POSTER",
+            "format": "PORTRAIT",
+            "width": 1080,
+            "height": 1920,
+            "ratio": 0.56,
+            "radius": 0,
+            "borderWidth": 1
+          },
+          "spacing": {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "paddingBetween": 16,
+            "verticalPadding": 0
+          },
+          "heading": {
+            "alignment": "CENTER",
+            "bottomPadding": 16,
+            "paddingBetween": 12,
+            "mainHeading": {
+              "show": false,
+              "tag": "DIV",
+              "text": "",
+              "style": "SIMPLE",
+              "cssClass": "",
+              "textSize": 32,
+              "textWeight": "BOLD",
+              "textColor": "#000000"
+            },
+            "subHeading": {
+              "show": false,
+              "tag": "DIV",
+              "text": "",
+              "style": "SIMPLE",
+              "cssClass": "",
+              "textSize": 20,
+              "textWeight": "REGULAR",
+              "textColor": "#000000"
+            },
+            "instagramButton": null
+          },
+          "videoMetaData": {
+            "showMetaData": true,
+            "showDuration": false,
+            "showTitle": false,
+            "placement": "OVER_THUMBNAIL",
+            "titleTextWeight": "BOLD",
+            "titleTextSize": 20,
+            "titleTextColor": "#FFFFFF",
+            "titleAlignment": "CENTER",
+            "titleStyle": "SIMPLE",
+            "showDescription": false,
+            "descriptionPlacement": "OVER_THUMBNAIL",
+            "descriptionStyle": "SIMPLE",
+            "descriptionTextSize": 12,
+            "descriptionTextColor": "#FFFFFF",
+            "descriptionTextWeight": "REGULAR"
+          },
+          "playButton": null,
+          "buyButton": {
+            "showButton": true,
+            "type": "TEXT_BUTTON",
+            "behaviour": "PRODUCT_DETAILS",
+            "iconButton": {
+              "style": "STANDARD",
+              "size": "SMALL",
+              "position": "CENTER",
+              "animation": "SHINE",
+              "color": "#FFFFFF",
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 80,
+              "showBorder": false,
+              "borderColor": "#000000",
+              "borderWidth": 1,
+              "radius": 10
+            },
+            "textButton": {
+              "textWeight": "BOLD",
+              "color": "#FFFFFF",
+              "size": "SMALL",
+              "fontSize": 14,
+              "radius": 50,
+              "position": "CENTER",
+              "animation": "SHINE",
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 80,
+              "showBorder": true,
+              "borderColor": "#000000",
+              "borderWidth": 1,
+              "text": "Add to cart"
+            }
+          },
+          "navigationArrows": {
+            "position": "CENTER_BOTTOM_THE_SLIDER",
+            "iconType": "CIRCLE_ARROW",
+            "arrowColor": "#000000",
+            "backgroundColor": "#FFFFFF",
+            "backgroundOpacity": 0,
+            "showNavigationDots": false,
+            "showNavigationArrows": false,
+            "size": "MEDIUM"
+          },
+          "carouselAutoplay": {
+            "autoplay": false,
+            "secondsTillFlip": 8
+          },
+          "style": {
+            "carouselType": "FIXED_THUMBNAILS"
+          },
+          "appearance": null,
+          "siteId": "68221c873f2b9000588b5c6b",
+          "widgetId": "6a670159c659aff334f96f41",
+          "updatedAt": "2026-07-28T03:40:25.345Z",
+          "displayType": "Inline",
+          "theme": "CarouselShoppable"
+        },
+        {
+          "createdAt": "2026-07-28T03:40:25.344Z",
+          "skinType": "MOBILE",
+          "fadeOut": null,
+          "id": "6a670159c659aff334f96f4b",
+          "skinDisplayType": "Inline",
+          "pictureInPicture": false,
+          "playerType": "FULL_VIDEO",
+          "playerController": "SHOW_DEFAULT",
+          "productPosition": "UNDER_THUMBNAIL",
+          "layout": {
+            "type": "PORTRAIT",
+            "rows": 1,
+            "columns": 3,
+            "background": ""
+          },
+          "thumbnail": {
+            "showBorder": false,
+            "borderColor": "#000000",
+            "autoplay": true,
+            "thumbnailSource": "POSTER",
+            "format": "PORTRAIT",
+            "width": 1080,
+            "height": 1920,
+            "ratio": 0.56,
+            "radius": 0,
+            "borderWidth": 1
+          },
+          "spacing": {
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "paddingBetween": 4,
+            "verticalPadding": 0
+          },
+          "heading": {
+            "alignment": "CENTER",
+            "bottomPadding": 16,
+            "paddingBetween": 12,
+            "mainHeading": {
+              "show": false,
+              "tag": "DIV",
+              "text": "",
+              "style": "SIMPLE",
+              "cssClass": "",
+              "textSize": 24,
+              "textWeight": "BOLD",
+              "textColor": "#000000"
+            },
+            "subHeading": {
+              "show": false,
+              "tag": "DIV",
+              "text": "",
+              "style": "SIMPLE",
+              "cssClass": "",
+              "textSize": 16,
+              "textWeight": "REGULAR",
+              "textColor": "#000000"
+            },
+            "instagramButton": null
+          },
+          "videoMetaData": {
+            "showMetaData": true,
+            "showDuration": false,
+            "showTitle": false,
+            "placement": "OVER_THUMBNAIL",
+            "titleTextWeight": "BOLD",
+            "titleTextSize": 16,
+            "titleTextColor": "#FFFFFF",
+            "titleAlignment": "CENTER",
+            "titleStyle": "SIMPLE",
+            "showDescription": false,
+            "descriptionPlacement": "OVER_THUMBNAIL",
+            "descriptionStyle": "SIMPLE",
+            "descriptionTextSize": 12,
+            "descriptionTextColor": "#FFFFFF",
+            "descriptionTextWeight": "REGULAR"
+          },
+          "playButton": null,
+          "buyButton": {
+            "showButton": true,
+            "type": "TEXT_BUTTON",
+            "behaviour": "PRODUCT_DETAILS",
+            "iconButton": {
+              "style": "STANDARD",
+              "size": "SMALL",
+              "position": "CENTER",
+              "animation": "SHINE",
+              "color": "#FFFFFF",
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 80,
+              "showBorder": false,
+              "borderColor": "#000000",
+              "borderWidth": 1,
+              "radius": 10
+            },
+            "textButton": {
+              "textWeight": "BOLD",
+              "color": "#FFFFFF",
+              "size": "SMALL",
+              "fontSize": 14,
+              "radius": 50,
+              "position": "CENTER",
+              "animation": "SHINE",
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 80,
+              "showBorder": true,
+              "borderColor": "#000000",
+              "borderWidth": 1,
+              "text": "Add to cart"
+            }
+          },
+          "navigationArrows": {
+            "position": "CENTER_BOTTOM_THE_SLIDER",
+            "iconType": "CIRCLE_ARROW",
+            "arrowColor": "#000000",
+            "backgroundColor": "#FFFFFF",
+            "backgroundOpacity": 0,
+            "showNavigationDots": false,
+            "showNavigationArrows": false,
+            "size": "MEDIUM"
+          },
+          "carouselAutoplay": {
+            "autoplay": false,
+            "secondsTillFlip": 8
+          },
+          "style": {
+            "carouselType": "FIXED_THUMBNAILS"
+          },
+          "appearance": null,
+          "siteId": "68221c873f2b9000588b5c6b",
+          "widgetId": "6a670159c659aff334f96f41",
+          "updatedAt": "2026-07-28T03:40:25.345Z",
+          "displayType": "Inline",
+          "theme": "CarouselShoppable"
+        }
+      ],
+      "videoPlayers": [
+        {
+          "createdAt": "2026-07-27T06:57:29.280Z",
+          "videoPlayerType": "DESKTOP",
+          "showLogo": "STORE_LOGO",
+          "allowQuantity": true,
+          "showProductDetails": true,
+          "hideVideowiseLogo": false,
+          "id": "6a670159c659aff334f96f49",
+          "buttonStyle": {
+            "show": true,
+            "textColor": "#FFFFFF",
+            "backgroundColor": "#000000",
+            "radius": 0,
+            "showBorder": false,
+            "borderColor": "#FFFFFF",
+            "borderWidth": 0
+          },
+          "buyButton": {
+            "type": "DIRECT_TO_CART",
+            "directToCart": {
+              "icon": "CART",
+              "text": "Add to cart"
+            },
+            "directToCartCustom": {
+              "icon": "CART",
+              "text": "Add to cart",
+              "js": ""
+            },
+            "directToCartRedirect": {
+              "icon": "BAG",
+              "text": "Add to cart",
+              "redirectURL": ""
+            },
+            "addToCart": {
+              "icon": "CART",
+              "text": "Add to cart"
+            },
+            "directToCheckout": {
+              "icon": "BAG",
+              "text": "Buy Now"
+            },
+            "goToProductPage": {
+              "icon": "BAG",
+              "text": "Buy Now"
+            },
+            "customUrl": {
+              "icon": "BAG",
+              "text": "Buy now",
+              "redirectURL": ""
+            },
+            "virtualCheckout": {
+              "icon": "BAG",
+              "text": "Buy Now"
+            }
+          },
+          "secondaryButton": {
+            "show": false,
+            "text": "See all details",
+            "textColor": "#5C5C5C",
+            "backgroundColor": "#FFFFFF",
+            "radius": 0,
+            "showBorder": true,
+            "borderColor": "#B8B8B8",
+            "borderWidth": 1
+          },
+          "productDetails": {
+            "nameColor": "#000000",
+            "priceColor": "#000000",
+            "hideOldPrice": false,
+            "displayReviews": false
+          },
+          "productStock": {
+            "show": true,
+            "inStockColor": "#00B84A",
+            "outStockColor": "#E51B1B"
+          },
+          "shippingInfo": {
+            "show": false,
+            "textColor": "#000000",
+            "textWeight": "REGULAR",
+            "text": "Free Shipping on all U.S. orders"
+          },
+          "recommendedProducts": {
+            "show": true,
+            "excludeProducts": []
+          },
+          "settings": {
+            "muteVideo": false,
+            "translation": {
+              "inStock": "In stock",
+              "outOfStock": "Out of stock",
+              "notAvailable": "Not available",
+              "details": "Details",
+              "recommendedProducts": "Recommended products",
+              "sale": "Sale",
+              "defaultOption": "Default option",
+              "color": "Color",
+              "size": "Size",
+              "quantity": "Quantity",
+              "subtotal": "Subtotal",
+              "checkout": "Checkout",
+              "shopItems": "Shop items",
+              "soldOut": "Sold out",
+              "viewProduct": "View product",
+              "shareVideo": "Share video",
+              "copyLink": "Copy link",
+              "copiedLink": "Copied link",
+              "shopNow": "Shop now",
+              "productsInVideo": "Products in video",
+              "swipeUpForNextVideo": "Swipe up for next video",
+              "tapToUnmute": "Tap to unmute",
+              "seeMore": "See more",
+              "seeLess": "See less",
+              "allProducts": "All products",
+              "fullName": "Full name",
+              "emailAddress": "Email address",
+              "videoFormatRequirements": "Video format requirements",
+              "inThisPhoto": "In this photo"
+            }
+          },
+          "subscriptions": {
+            "enable": false,
+            "generalSetUp": {
+              "include": true,
+              "sectionLabel": "Frequency",
+              "subscriptionTitle": "Subscribe & Save"
+            },
+            "discount": {
+              "text": "SAVE",
+              "textColor": "#FFFFFF",
+              "backgroundColor": "#000000"
+            },
+            "secondaryText": {
+              "text": "Skip, modify or cancel any time.",
+              "textColor": "#7E7E7E",
+              "textWeight": "REGULAR"
+            },
+            "style": {
+              "optionColor": "#000000"
+            }
+          },
+          "dataCollection": {
+            "formId": "",
+            "enable": false,
+            "videoId": "",
+            "behaviour": "APPEAR_AFTER",
+            "appearAfter": 0
+          },
+          "shoppableButtonSettings": {
+            "text": "View products",
+            "textColor": "#000000",
+            "backgroundColor": "#FFFFFF",
+            "borderEnabled": true,
+            "borderRadius": 8,
+            "borderThickness": 1,
+            "borderColor": "#000000"
+          },
+          "widgetId": "6a670159c659aff334f96f41",
+          "updatedAt": "2026-07-28T03:40:25.344Z",
+          "enableProgressBar": true,
+          "preSelectVariant": true
+        }
+      ],
+      "widgetExperiment": {
+        "id": null
+      },
+      "videos": [
+        {
+          "createdAt": "2026-07-27T06:51:37.216Z",
+          "title": "ROW 1.mov",
+          "description": "",
+          "duration": 14.23,
+          "startTime": 0,
+          "endTime": 14.23,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1785135097364_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjg2_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/converted/videos/1785135097364_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjg2_h264cmobile.mp4",
+              "height": 2276,
+              "width": 1280,
+              "videoUrl": "https://cdn2.videowise.com/converted/videos/1785135097364_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjg2_h264c.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/6a66fff9c659aff334f8b286/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 0,
+          "id": "6a66fff9c659aff334f8b286",
+          "hostKey": "custom-videos/videos/1785135097364_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjg2.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1785135112301_45f24708-9e18-4ac8-9d11-3a30126337a1.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1785135112301_45f24708-9e18-4ac8-9d11-3a30126337a1.webp",
+            "hostingProvider": "AMAZON",
+            "width": 574,
+            "height": 1024
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1785135097364_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjg2.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "15128039391604",
+              "customId": "54870451323252",
+              "price": "20.00",
+              "handle": "tinted-mineral-dayscreen-spf-30-global",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/04_0626_TintedMineralDayscreen-Global__23N.jpg?v=1782748754",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Tinted Mineral Dayscreen SPF 30",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/tinted-mineral-dayscreen-spf-30-global"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1785135112374_288d01de-fae2-4e1e-92b6-cf5ecb0b96db.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1785135112374_288d01de-fae2-4e1e-92b6-cf5ecb0b96db.webp"
+          }
+        },
+        {
+          "createdAt": "2026-07-27T06:51:37.220Z",
+          "title": "ROW 2.mov",
+          "description": "",
+          "duration": 11.9,
+          "startTime": 0,
+          "endTime": 11.9,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1785135097374_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjkw_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/converted/videos/1785135097374_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjkw_h264cmobile.mp4",
+              "height": 2276,
+              "width": 1280,
+              "videoUrl": "https://cdn2.videowise.com/converted/videos/1785135097374_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjkw_h264c.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/6a66fff9c659aff334f8b290/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 1,
+          "id": "6a66fff9c659aff334f8b290",
+          "hostKey": "custom-videos/videos/1785135097374_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjkw.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1785135116249_3f9bb6af-6082-4533-a56a-45848e1f2ecf.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1785135116249_3f9bb6af-6082-4533-a56a-45848e1f2ecf.webp",
+            "hostingProvider": "AMAZON",
+            "width": 574,
+            "height": 1024
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1785135097374_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjkw.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "15128039391604",
+              "customId": "54870451323252",
+              "price": "20.00",
+              "handle": "tinted-mineral-dayscreen-spf-30-global",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/04_0626_TintedMineralDayscreen-Global__23N.jpg?v=1782748754",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Tinted Mineral Dayscreen SPF 30",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/tinted-mineral-dayscreen-spf-30-global"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1785135116326_963551e0-24e6-4fd2-b515-c152bb9d978b.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1785135116326_963551e0-24e6-4fd2-b515-c152bb9d978b.webp"
+          }
+        },
+        {
+          "createdAt": "2025-05-12T16:21:32.908Z",
+          "title": "SnapInsta.to_AQPrW_NK7q6yikm5ZhvR-XrkO-dPk0TS9ON6fDKXl0xPakE9Nw3LwnvFBMe2xFgnpzIAOGg33s_uRZgtKMF6TnEMGD0RM9mORX0CeEM",
+          "description": "",
+          "duration": 33.205,
+          "startTime": 0,
+          "endTime": 33,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1747066892926_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZWE4_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066892926_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZWE4.mp4",
+              "videoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066892926_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZWE4.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/6822200c3f2b9000588c1ea8/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 2,
+          "id": "6822200c3f2b9000588c1ea8",
+          "hostKey": "custom-videos/videos/1747066892926_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZWE4.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1747066896592_e4194e51-8d09-47b0-a41d-3298b5b198b7.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066896592_e4194e51-8d09-47b0-a41d-3298b5b198b7.webp",
+            "hostingProvider": "AMAZON",
+            "width": 360,
+            "height": 640,
+            "shopifyCdnUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/videowise_asset_undefined_5d2465b2-46c0-4bb5-9fbe-d776e97ce09b.webp?v=1749283653"
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1747066892926_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZWE4.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "8637523034277",
+              "customId": "43699673530533",
+              "price": "18.00",
+              "handle": "glow-replenishing-rice-milk",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/glow-replenshing-rice-milk-1-front.webp?v=1769660112",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Glow Replenishing Rice Milk",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/glow-replenishing-rice-milk"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1747066896665_1e205645-2f5f-49f4-9b8e-b5a5d017cb5c.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066896665_1e205645-2f5f-49f4-9b8e-b5a5d017cb5c.webp"
+          }
+        },
+        {
+          "createdAt": "2025-05-12T16:34:15.396Z",
+          "title": "SnapInsta.to_AQPpcNlV1yCMpfQo-yJGDKG9xmpyi1xfKgPWvcsCVy--qHBJEDNoIbZBxyqOqfjxHiMHm5mnzpkYYBwYtxHQmv0N1vxSWiFredGvolA",
+          "description": "",
+          "duration": 82.521,
+          "startTime": 0,
+          "endTime": 82,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1747067655414_wid_NjgyMjIzMDczZjJiOTAwMDU4OGQ5ODRk_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747067655414_wid_NjgyMjIzMDczZjJiOTAwMDU4OGQ5ODRk.mp4",
+              "videoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747067655414_wid_NjgyMjIzMDczZjJiOTAwMDU4OGQ5ODRk.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/682223073f2b9000588d984d/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 3,
+          "id": "682223073f2b9000588d984d",
+          "hostKey": "custom-videos/videos/1747067655414_wid_NjgyMjIzMDczZjJiOTAwMDU4OGQ5ODRk.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1747067661534_c2f3e2a0-5bff-473c-88aa-12a246646f45.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747067661534_c2f3e2a0-5bff-473c-88aa-12a246646f45.webp",
+            "hostingProvider": "AMAZON",
+            "width": 608,
+            "height": 1080,
+            "shopifyCdnUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/videowise_asset_682223073f2b9000588d984d.webp?v=1749283652"
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1747067655414_wid_NjgyMjIzMDczZjJiOTAwMDU4OGQ5ODRk.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "6805137195173",
+              "customId": "40070063980709",
+              "price": "18.00",
+              "handle": "ginseng-essence-water",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/ginseng-essence-water-1-front.webp?v=1770618733",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Ginseng Essence Water",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/ginseng-essence-water"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1747067661615_607afe86-94cd-453b-977e-f232434be8ba.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747067661615_607afe86-94cd-453b-977e-f232434be8ba.webp"
+          }
+        },
+        {
+          "createdAt": "2025-05-12T16:21:34.317Z",
+          "title": "SnapInsta.to_AQM-YuGHFYN0YvBVcGAgLJmCSwcDU4ChOnmZM0uODiMmsjUSHvDCAhhv_2hSOvUZ5Ge3Hom8nm06HVNCiFKCaIZ-UCINeCuc7HB7zIM",
+          "description": "",
+          "duration": 78.57,
+          "startTime": 0,
+          "endTime": 78,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1747066894346_wid_NjgyMjIwMGUzZjJiOTAwMDU4OGMxZjEx_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066894346_wid_NjgyMjIwMGUzZjJiOTAwMDU4OGMxZjEx.mp4",
+              "videoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066894346_wid_NjgyMjIwMGUzZjJiOTAwMDU4OGMxZjEx.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/6822200e3f2b9000588c1f11/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 4,
+          "id": "6822200e3f2b9000588c1f11",
+          "hostKey": "custom-videos/videos/1747066894346_wid_NjgyMjIwMGUzZjJiOTAwMDU4OGMxZjEx.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1747066901342_c278a34a-a500-434e-af0b-5a890dfb7801.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066901342_c278a34a-a500-434e-af0b-5a890dfb7801.webp",
+            "hostingProvider": "AMAZON",
+            "width": 606,
+            "height": 1080,
+            "shopifyCdnUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/videowise_asset_undefined_0a38b484-2577-47a5-94fa-52969c5ac6f6.webp?v=1749283655"
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1747066894346_wid_NjgyMjIwMGUzZjJiOTAwMDU4OGMxZjEx.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "7774767906981",
+              "customId": "43264214597797",
+              "price": "17.00",
+              "handle": "revive-eye-serum-ginseng-retinal",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/revive-eye-serum-ginseng-retinal-1-front.webp?v=1770287139",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Revive Eye Serum : Ginseng + Retinal",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/revive-eye-serum-ginseng-retinal"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1747066901432_46544afd-025c-447a-b16c-76a677ef5ed8.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066901432_46544afd-025c-447a-b16c-76a677ef5ed8.webp"
+          }
+        },
+        {
+          "createdAt": "2025-05-12T16:21:32.260Z",
+          "title": "SnapInsta.to_AQNDx_Eh_v3qu-NXGDX5ARWFPXJQhXOT_Qj8-ElFLOjmZfwny7b5GRVlW22he90aYSiBtU2SlvD1WePRuEm99Qrg8H9PfOGPz2fHZVc",
+          "description": "",
+          "duration": 23.891,
+          "startTime": 0,
+          "endTime": 23,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1747066892278_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZTNm_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/converted/videos/1747066892278_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZTNm_h264cmobile.mp4",
+              "videoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066892278_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZTNm.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/6822200c3f2b9000588c1e3f/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 5,
+          "id": "6822200c3f2b9000588c1e3f",
+          "hostKey": "custom-videos/videos/1747066892278_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZTNm.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1747066897012_8f328a2c-1b00-4508-abca-500b8b45ed38.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066897012_8f328a2c-1b00-4508-abca-500b8b45ed38.webp",
+            "hostingProvider": "AMAZON",
+            "width": 606,
+            "height": 1080,
+            "shopifyCdnUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/videowise_asset_undefined_72441ce8-23c9-4a48-835f-6f676d4f9ccb.webp?v=1749283650"
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1747066892278_wid_NjgyMjIwMGMzZjJiOTAwMDU4OGMxZTNm.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "8076749308069",
+              "customId": "42026029809829",
+              "price": "20.00",
+              "handle": "red-bean-refreshing-pore-mask",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/red-bean-refreshing-pore-mask-1-front.webp?v=1770286693",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Red Bean Refreshing Pore Mask",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/red-bean-refreshing-pore-mask"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1747066897088_4762de1e-f992-4e38-83ea-b7d6ff9611f7.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066897088_4762de1e-f992-4e38-83ea-b7d6ff9611f7.webp"
+          }
+        },
+        {
+          "createdAt": "2025-05-12T16:21:31.125Z",
+          "title": "SnapInsta.to_AQM1Y8LJPNDEuD3CvVvUzQ1Ye-MqmR_0Ieha15_B1wEFYuWNfhvrPG2aO8Ep6MUQ8H6V4jw3ew9YFrKb-9IZdT-WEolvKVgvgPMXyzY",
+          "description": "",
+          "duration": 19.877,
+          "startTime": 0,
+          "endTime": 19,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1747066891144_wid_NjgyMjIwMGIzZjJiOTAwMDU4OGMxZGQ2_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066891144_wid_NjgyMjIwMGIzZjJiOTAwMDU4OGMxZGQ2.mp4",
+              "videoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066891144_wid_NjgyMjIwMGIzZjJiOTAwMDU4OGMxZGQ2.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/6822200b3f2b9000588c1dd6/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 6,
+          "id": "6822200b3f2b9000588c1dd6",
+          "hostKey": "custom-videos/videos/1747066891144_wid_NjgyMjIwMGIzZjJiOTAwMDU4OGMxZGQ2.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1747066896199_308fca9a-c28c-49d3-aadb-7909c445c731.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066896199_308fca9a-c28c-49d3-aadb-7909c445c731.webp",
+            "hostingProvider": "AMAZON",
+            "width": 606,
+            "height": 1080,
+            "shopifyCdnUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/videowise_asset_undefined_17f6d615-f15c-428d-bdab-c4f1770d9cd6.webp?v=1749283648"
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1747066891144_wid_NjgyMjIwMGIzZjJiOTAwMDU4OGMxZGQ2.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "6805117370533",
+              "customId": "51833681772916",
+              "price": "17.00",
+              "handle": "glow-serum-propolis-niacinamide",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/glow-serum-propolis-niacinamide-1-front.webp?v=1770278801",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Glow Serum : Propolis + Niacinamide",
+              "productReviews": {},
+              "variantId": "51833681772916",
+              "excludedVariants": [],
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/glow-serum-propolis-niacinamide"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1747066896295_2f8bfad4-4c03-4297-a7e3-7981d84c2dc9.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066896295_2f8bfad4-4c03-4297-a7e3-7981d84c2dc9.webp"
+          }
+        },
+        {
+          "createdAt": "2025-05-12T16:21:29.645Z",
+          "title": "SnapInsta.to_AQP2Leh3p2xO0WXD1GzWL0NqUkMfV3UpfbXdShfmou8gUnRflwksq0vaQxgK-RrzlPGl2zXxkHhG8Wu4hEUFrrkKZ1Muc0tEMyLJ-LU",
+          "description": "",
+          "duration": 26.239,
+          "startTime": 0,
+          "endTime": 26,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1747066889667_wid_NjgyMjIwMDkzZjJiOTAwMDU4OGMxYzJi_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066889667_wid_NjgyMjIwMDkzZjJiOTAwMDU4OGMxYzJi.mp4",
+              "videoUrl": "https://cdn2.videowise.com/custom-videos/videos/1747066889667_wid_NjgyMjIwMDkzZjJiOTAwMDU4OGMxYzJi.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/682220093f2b9000588c1c2b/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 7,
+          "id": "682220093f2b9000588c1c2b",
+          "hostKey": "custom-videos/videos/1747066889667_wid_NjgyMjIwMDkzZjJiOTAwMDU4OGMxYzJi.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1747066894472_3f8d6211-8365-4131-903e-a9c2c9951763.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066894472_3f8d6211-8365-4131-903e-a9c2c9951763.webp",
+            "hostingProvider": "AMAZON",
+            "width": 606,
+            "height": 1080,
+            "shopifyCdnUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/videowise_asset_682220093f2b9000588c1c2b.webp?v=1749283630"
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1747066889667_wid_NjgyMjIwMDkzZjJiOTAwMDU4OGMxYzJi.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "8637522903205",
+              "customId": "43699671204005",
+              "price": "18.00",
+              "handle": "ground-rice-and-honey-glow-mask",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/ground-rice-honey-glow-mask-1-front.webp?v=1770286001",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Ground Rice and Honey Glow Mask",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/ground-rice-and-honey-glow-mask"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1747066894549_39c0c873-d032-4b17-ba08-ea67aebff7be.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1747066894549_39c0c873-d032-4b17-ba08-ea67aebff7be.webp"
+          }
+        },
+        {
+          "createdAt": "2026-07-27T06:51:37.238Z",
+          "title": "ROW 4.mp4",
+          "description": "",
+          "duration": 8.13,
+          "startTime": 0,
+          "endTime": 8.13,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1785135097387_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjk1_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/converted/videos/1785135097387_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjk1_h264cmobile.mp4",
+              "height": 2276,
+              "width": 1280,
+              "videoUrl": "https://cdn2.videowise.com/converted/videos/1785135097387_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjk1_h264c.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/6a66fff9c659aff334f8b295/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 8,
+          "id": "6a66fff9c659aff334f8b295",
+          "hostKey": "custom-videos/videos/1785135097387_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjk1.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1785135113335_66a98e71-d236-4049-b608-c00c4efd1f7a.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1785135113335_66a98e71-d236-4049-b608-c00c4efd1f7a.webp",
+            "hostingProvider": "AMAZON",
+            "width": 574,
+            "height": 1024
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1785135097387_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjk1.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "15128039391604",
+              "customId": "54870451323252",
+              "price": "20.00",
+              "handle": "tinted-mineral-dayscreen-spf-30-global",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/04_0626_TintedMineralDayscreen-Global__23N.jpg?v=1782748754",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Tinted Mineral Dayscreen SPF 30",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/tinted-mineral-dayscreen-spf-30-global"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1785135113409_d22eb01c-7086-46c2-96ad-4ac5cc3b77d3.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1785135113409_d22eb01c-7086-46c2-96ad-4ac5cc3b77d3.webp"
+          }
+        },
+        {
+          "createdAt": "2026-07-27T06:51:37.218Z",
+          "title": "ROW 3.mov",
+          "description": "",
+          "duration": 12.77,
+          "startTime": 0,
+          "endTime": 12.77,
+          "processingState": "PROCESSED",
+          "subState": {
+            "name": "UPLOAD_START",
+            "date": 0
+          },
+          "orientation": "PORTRAIT",
+          "meta": {
+            "quality": 8,
+            "convertedH264": {
+              "clipUrl": "https://cdn2.videowise.com/converted/videos/1785135097369_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjhi_h264q6clip.mp4",
+              "mobileVideoUrl": "https://cdn2.videowise.com/converted/videos/1785135097369_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjhi_h264cmobile.mp4",
+              "height": 2276,
+              "width": 1280,
+              "videoUrl": "https://cdn2.videowise.com/converted/videos/1785135097369_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjhi_h264c.mp4"
+            },
+            "convertedHLS": {},
+            "convertedAVIF": {},
+            "convertedWEBP": {},
+            "trickPlayImgUrl": "https://cdn2.videowise.com/converted/videos/hls/6a66fff9c659aff334f8b28b/Thumbnail_000000001.jpg"
+          },
+          "aiSummarized": false,
+          "muxMp4Support": false,
+          "muxMp4Resolution": "high",
+          "format": "FIT_TO_SCREEN",
+          "formatMobile": "FULL_SCREEN",
+          "ugc": false,
+          "clickableImage": false,
+          "chapters": {
+            "enabled": false,
+            "timings": []
+          },
+          "sentToLibrary": false,
+          "usageRights": {
+            "status": "granted",
+            "expireEnabled": false,
+            "commercial": false,
+            "organic": false,
+            "internal": false,
+            "notes": "",
+            "proof": ""
+          },
+          "index": 9,
+          "id": "6a66fff9c659aff334f8b28b",
+          "hostKey": "custom-videos/videos/1785135097369_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjhi.mp4",
+          "widgetId": "6a670159c659aff334f96f41",
+          "skinType": null,
+          "muxAssetId": null,
+          "muxClipAssetId": null,
+          "muxClipPlaybackId": null,
+          "muxPlaybackId": null,
+          "organisationId": "682211933f2b90005889a572",
+          "siteId": "68221c873f2b9000588b5c6b",
+          "thumbnail": {
+            "originalThumbnail": false,
+            "fromSecond": 0,
+            "isCustomThumbnail": false,
+            "hostKey": "converted/videos/1785135133805_2647f181-2b17-4ba6-ab49-498aba867267.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1785135133805_2647f181-2b17-4ba6-ab49-498aba867267.webp",
+            "hostingProvider": "AMAZON",
+            "width": 574,
+            "height": 1024
+          },
+          "url": "https://cdn2.videowise.com/custom-videos/videos/1785135097369_wid_NmE2NmZmZjljNjU5YWZmMzM0ZjhiMjhi.mp4",
+          "videoType": "custom_video",
+          "refId": null,
+          "subtitles": null,
+          "commercials": [
+            {
+              "productRefId": "15128039391604",
+              "customId": "54870451323252",
+              "price": "20.00",
+              "handle": "tinted-mineral-dayscreen-spf-30-global",
+              "previewImageSrc": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/04_0626_TintedMineralDayscreen-Global__23N.jpg?v=1782748754",
+              "type": "PRODUCT",
+              "compareAtPrice": null,
+              "name": "Tinted Mineral Dayscreen SPF 30",
+              "productReviews": {},
+              "swatches": [],
+              "url": "http://beauty-of-joeon-official.myshopify.com/products/tinted-mineral-dayscreen-spf-30-global"
+            }
+          ],
+          "poster": {
+            "hostKey": "converted/videos/1785135133883_d0c83d8f-cd78-478c-9aa2-d2a4f6426672.webp",
+            "url": "https://cdn2.videowise.com/converted/videos/1785135133883_d0c83d8f-cd78-478c-9aa2-d2a4f6426672.webp"
+          }
+        }
+      ],
+      "products": []
+    }
+  ],
+  "watermark": false,
+  "cacheKey": "beauty-of-joeon-official.myshopify.com_en_076c9ad5ea38e6127953c077bf2b1001593a559c00b67724f8786a8d952c4ddd",
+  "cacheTags": [
+    "68221c873f2b9000588b5c6b",
+    "6a670159c659aff334f96f41",
+    "6a66fff9c659aff334f8b286",
+    "6a66fff9c659aff334f8b290",
+    "6822200c3f2b9000588c1ea8",
+    "682223073f2b9000588d984d",
+    "6822200e3f2b9000588c1f11",
+    "6822200c3f2b9000588c1e3f",
+    "6822200b3f2b9000588c1dd6",
+    "682220093f2b9000588c1c2b",
+    "6a66fff9c659aff334f8b295",
+    "6a66fff9c659aff334f8b28b"
+  ]
+}

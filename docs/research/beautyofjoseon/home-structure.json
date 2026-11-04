@@ -1,0 +1,2158 @@
+{
+  "title": "Beauty of Joseon - Shop Hanbang Korean Skincare Products",
+  "bodyFont": "Inter, sans-serif",
+  "bodyBg": "rgb(252, 251, 249)",
+  "htmlClass": "js no-touch supports-cookies",
+  "sections": [
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_eam_slideshow_D9GyhB",
+      "cls": "shopify-section section-overlay-header",
+      "text": "Pore Firming Serum Experience Red Bean PDRN™-powered pore care SHOP NOW Dayscreen Moisturizer Korean SPF Moisturizer Hyd",
+      "rect": {
+        "x": 0,
+        "y": 37,
+        "w": 1440,
+        "h": 675
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_collection_N8HAfU",
+      "cls": "shopify-section",
+      "text": "Best Sellers Rated 4.8 out of 5 stars 995 Reviews Revive Ritual Eye Duo Firming Under-Eye Ritual Save 25% Sold Out Rated",
+      "rect": {
+        "x": 0,
+        "y": 712,
+        "w": 1440,
+        "h": 578
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_double_fVUGtQ",
+      "cls": "shopify-section section-overlay-header",
+      "text": "New Experience the new standard of tinted SPF Tinted Mineral Dayscreen SHOP NOW",
+      "rect": {
+        "x": 0,
+        "y": 1290,
+        "w": 1440,
+        "h": 270
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_rich_text_wxFVNw",
+      "cls": "shopify-section",
+      "text": "Loved by the Community",
+      "rect": {
+        "x": 0,
+        "y": 1560,
+        "w": 1440,
+        "h": 143
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "section",
+      "id": "shopify-section-template--29749638332788__1752070979cca9e2d5",
+      "cls": "shopify-section",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 1704,
+        "w": 1440,
+        "h": 650
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_hero_6rQd8r",
+      "cls": "shopify-section section-overlay-header",
+      "text": "#Hero--template--29749638332788__section_hero_6rQd8r { --PT: 50px; --PB: 0px;--text: #ffffff;} @media only screen and (m",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "pos": "static",
+      "display": "none",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_rich_text_atqJDC",
+      "cls": "shopify-section",
+      "text": "#Rte--template--29749638332788__section_rich_text_atqJDC { --PT: 50px; --PB: 0px;--bg: #fff5f8;} Members Only Join the B",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "pos": "static",
+      "display": "none",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_tds_shade_carousel_VjCrcy",
+      "cls": "shopify-section",
+      "text": "Find Your Tinted Mineral Dayscreen Shade Explore the shades. Find yours. ← → 02 / 14 Tinted Mineral Dayscreen SPF 30 - S",
+      "rect": {
+        "x": 0,
+        "y": 2354,
+        "w": 1440,
+        "h": 800
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_rich_text_KhmcW8",
+      "cls": "shopify-section",
+      "text": "#Rte--template--29749638332788__section_rich_text_KhmcW8 { --PT: 10px; --PB: 50px;--bg: #fff5f8;} Learn more #shopify-se",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "pos": "static",
+      "display": "none",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "section",
+      "id": "shopify-section-template--29749638332788__instant_i2pqhj0_ux_gj5t_kem_bUbPGJ",
+      "cls": "shopify-section",
+      "text": "Members Only Join the BOJ Rewards Program Redeem gems for loyalty exclusive products, free shipping, discounts, and spec",
+      "rect": {
+        "x": 0,
+        "y": 3154,
+        "w": 1440,
+        "h": 595
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__403564e5-5813-438b-99d8-8263518c706e",
+      "cls": "shopify-section",
+      "text": "Find Your Perfect Hanbang Match",
+      "rect": {
+        "x": 0,
+        "y": 3748,
+        "w": 1440,
+        "h": 93
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "section",
+      "id": "shopify-section-template--29749638332788__instant_rrl_ms_a0o_cma3_y_vn6_igiGhi",
+      "cls": "shopify-section",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 3842,
+        "w": 1440,
+        "h": 400
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "section",
+      "id": "shopify-section-template--29749638332788__1705558444b86c56e6",
+      "cls": "shopify-section",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 4242,
+        "w": 1440,
+        "h": 0
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "section",
+      "id": "shopify-section-template--29749638332788__1709087910bfcdfa4e",
+      "cls": "shopify-section",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 4242,
+        "w": 1440,
+        "h": 0
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_rich_text_LKjCaf",
+      "cls": "shopify-section",
+      "text": "@beautyofjoseon",
+      "rect": {
+        "x": 0,
+        "y": 4242,
+        "w": 1440,
+        "h": 113
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__ss_gallery_3_fdTCtN",
+      "cls": "shopify-section",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 4355,
+        "w": 1440,
+        "h": 268
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_double_nWW9HC",
+      "cls": "shopify-section section-overlay-header",
+      "text": "Inspired By Hanbang. Connected by Community. DISCOVER OUR INGREDIENTS TAKE THE SKIN QUIZ The Right Order for Your Full R",
+      "rect": {
+        "x": 0,
+        "y": 4623,
+        "w": 1440,
+        "h": 634
+      },
+      "pos": "static",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "shopify-section-template--29749638332788__section_double_Y6mbHF",
+      "cls": "shopify-section section-overlay-header",
+      "text": "Inspired By Hanbang. Connected by Community. DISCOVER OUR INGREDIENTS Explore the benefits of our key Hanbang ingredient",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "pos": "static",
+      "display": "none",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    }
+  ],
+  "fixed": [
+    {
+      "tag": "span",
+      "id": null,
+      "cls": "underlay",
+      "text": "",
+      "rect": {
+        "x": 1302,
+        "y": 97,
+        "w": 46,
+        "h": 1000
+      },
+      "pos": "fixed",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0.4)",
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "drawer__inner",
+      "text": "",
+      "rect": {
+        "x": -380,
+        "y": 0,
+        "w": 380,
+        "h": 1000
+      },
+      "pos": "fixed",
+      "display": "flex",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgb(248, 228, 233)",
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "cls": "underlay drawer__underlay",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1000
+      },
+      "pos": "fixed",
+      "display": "block",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0.4)",
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": "corner-cowi-cart-button-launcher-wrapper",
+      "cls": "fixed  opacity-100  undefined focus:outline-none transition-all false  right-0",
+      "text": "",
+      "rect": {
+        "x": 1307,
+        "y": 887,
+        "w": 133,
+        "h": 63
+      },
+      "pos": "fixed",
+      "display": "block",
+      "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell",
+      "size": "14px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": "corner-cowi-open-wrapper",
+      "cls": "flex h-full w-full  transition-all\n        fixed flex-col-reverse top-0 pointer-events-none p-0 false items-end\n        ",
+      "text": "Cart Close Free Shipping! (Order +70 USD) No items in the cart Cart Offers",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1000
+      },
+      "pos": "fixed",
+      "display": "flex",
+      "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell",
+      "size": "14px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "button",
+      "id": "corner-cowi-outside-close-button",
+      "cls": "fixed h-full w-full flex-grow  opacity-0 pointer-events-none ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1000
+      },
+      "pos": "fixed",
+      "display": "block",
+      "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell",
+      "size": "14px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "c-app--bottomLeftAligned is-floating c-app",
+      "text": "Rewards",
+      "rect": {
+        "x": 24,
+        "y": 920,
+        "w": 56,
+        "h": 56
+      },
+      "pos": "fixed",
+      "display": "flex",
+      "font": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 33, 33)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "needsclick  kl-private-reset-css-Xuajs1",
+      "text": "Treat yourself to an extra 20% off! Enjoy bonus 20% savings on your order when you subscribe. *Valid for 14 days upon is",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1000
+      },
+      "pos": "fixed",
+      "display": "flex",
+      "font": "Inter, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "bg": "rgba(20, 20, 20, 0.6)",
+      "color": "rgb(33, 33, 33)"
+    }
+  ],
+  "navLinks": [
+    {
+      "text": "Account",
+      "href": "/account"
+    },
+    {
+      "text": "Cart 0",
+      "href": "/cart"
+    },
+    {
+      "text": "SHOP",
+      "href": "/collections/shop-all"
+    },
+    {
+      "text": "SAVE WITH SETS",
+      "href": "/collections/bundles-sets"
+    },
+    {
+      "text": "BEST SELLERS",
+      "href": "/collections/best-sellers"
+    },
+    {
+      "text": "BOJ REWARDS",
+      "href": "/pages/rewards"
+    },
+    {
+      "text": "ABOUT",
+      "href": "/pages/about-page"
+    },
+    {
+      "text": "NEED HELP?",
+      "href": "/pages/need-help-withdrawal"
+    },
+    {
+      "text": "Account",
+      "href": "/account"
+    },
+    {
+      "text": "Cart 0",
+      "href": "/cart"
+    },
+    {
+      "text": "SHOP",
+      "href": "/collections/shop-all"
+    },
+    {
+      "text": "Shop All",
+      "href": "/collections/shop-all"
+    },
+    {
+      "text": "Ingredients",
+      "href": "/pages/ingredients"
+    },
+    {
+      "text": "By Product",
+      "href": "/collections/shop-all"
+    },
+    {
+      "text": "Sunscreen",
+      "href": "/collections/sunscreens"
+    },
+    {
+      "text": "Cleanser",
+      "href": "/collections/cleanser"
+    },
+    {
+      "text": "Exfoliator",
+      "href": "/collections/exfoliator"
+    },
+    {
+      "text": "Toner & Essence",
+      "href": "/collections/toner-essence"
+    },
+    {
+      "text": "Serum",
+      "href": "/collections/serum"
+    },
+    {
+      "text": "Moisturizer",
+      "href": "/collections/moisturizer"
+    },
+    {
+      "text": "Mask",
+      "href": "/collections/mask"
+    },
+    {
+      "text": "Life Style",
+      "href": "/collections/all-goods"
+    },
+    {
+      "text": "By Skin Concern",
+      "href": "/collections/skin-concern"
+    },
+    {
+      "text": "Wrinkles",
+      "href": "/collections/wrinkles"
+    },
+    {
+      "text": "Pores & Sebum",
+      "href": "/collections/pores-sebum"
+    },
+    {
+      "text": "Dullness & Uneven tone",
+      "href": "/collections/dullness-uneven-tone"
+    },
+    {
+      "text": "Sensitivity",
+      "href": "/collections/sensitivity-blemish"
+    },
+    {
+      "text": "Dryness",
+      "href": "/collections/dryness"
+    },
+    {
+      "text": "SAVE WITH SETS",
+      "href": "/collections/bundles-sets"
+    },
+    {
+      "text": "BEST SELLERS",
+      "href": "/collections/best-sellers"
+    },
+    {
+      "text": "BOJ REWARDS",
+      "href": "/pages/rewards"
+    },
+    {
+      "text": "ABOUT",
+      "href": "/pages/about-page"
+    },
+    {
+      "text": "ABOUT US",
+      "href": "/pages/about-page"
+    },
+    {
+      "text": "BLOG",
+      "href": "/blogs/news"
+    },
+    {
+      "text": "TAKE SKIN QUIZ",
+      "href": "/pages/quiz-03-17-2025"
+    },
+    {
+      "text": "Build Your BOJ Routine",
+      "href": "/pages/quiz-03-17-2025"
+    },
+    {
+      "text": "Tinted Sunscreen Shade Finder Quiz",
+      "href": "#!"
+    },
+    {
+      "text": "NEED HELP?",
+      "href": "/pages/need-help-withdrawal"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "proxima-nova",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-nova",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "200",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "proxima-sera",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Figtree",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Proxima Sera Medium",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Proxima Sera Regular",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Proxima Sera Semi-Bold",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Proxima Nova Semi-Bold",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Proxima Nova Medium",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "oke-widget-icons",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Amiri",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Caveat",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Caveat",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Caveat",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Caveat",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "DM Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "DM Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Figtree",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Figtree",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Figtree",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Figtree",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Kanit",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Maven Pro",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Maven Pro",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Maven Pro",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "300",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Bebas-Neue-Klaviyo-Hosted",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins-Klaviyo-Hosted",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins-Klaviyo-Hosted",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins-Klaviyo-Hosted",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Poppins-Klaviyo-Hosted",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FONTSPRING DEMO - Proxima Sera Medium",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "FONTSPRING DEMO - Proxima Nova Semibold",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "FONTSPRING DEMO - Proxima Nova Light",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "FONTSPRING DEMO - Proxima Nova Medium",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Josefin Sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "stylesheets": [
+    "https://www.matchmymakeup.com/client/QmVhdXR5IG9mIEpvc2Vvbg==/v2/widget.css",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/eam-styles.css?v=87522569182208854561792657270",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/css-global.css?v=10563848689606002851792657269",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/boj-web-font.css?v=68718495564766713681792657266",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/general-template.css?v=173285723364493795471792657272",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/theme.css?v=162402129865809858351792657297",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/swatches.css?v=157844926215047500451792657296",
+    "https://beautyofjoseon.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+    "https://assets.videowise.com/style.css.gz",
+    "https://cdn-static.okendo.io/loyalty/css/okendo-loyalty.onsite-0.1.0.1842.css",
+    "https://cdn-static.okendo.io/loyalty/css/modules/okendo-loyalty-global-components.7de5ff6e.css",
+    "https://cdn-static.okendo.io/loyalty/css/modules/okendo-loyalty-floating-widget-app.862e23b3.css",
+    "https://instafeed.nfcube.com/cdn/instafeed-19.1.0.css",
+    "https://static.klaviyo.com/onsite/js/4014.ccae962fcaa72.css",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/section-eam-slideshow.css?v=174895446333751693451792657293",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/instant-i2pqhj0UXGj5tKEM.css?v=5961098417953390051792657281",
+    "https://beautyofjoseon.com/cdn/shop/t/560/assets/instant-rrlMsA0oCma3YVn6.css?v=14572630194614707751792657282",
+    "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+    "https://cdn.shopify.com/extensions/01a18235-68ef-7c40-b9d1-6338cc990e6f/cornercart-159/assets/cornerWidget.css"
+  ],
+  "bodyHeight": 5732
+}

@@ -1,0 +1,1971 @@
+<div id="shopify-section-template--29749638332788__section_collection_N8HAfU" class="shopify-section"><style data-shopify="">#Collection--template--29749638332788__section_collection_N8HAfU {
+     --PT: 50px;
+     --PB: 50px;--PT-MOBILE: max(50px, calc(var(--gutter) * 2));--COLUMNS: 4;
+     --COLUMNS-MEDIUM: 2;
+     --COLUMNS-SMALL: 2;
+     --COLUMNS-MOBILE: 2;}</style><section id="Collection--template--29749638332788__section_collection_N8HAfU" class="index-products section-padding" data-section-id="template--29749638332788__section_collection_N8HAfU" data-section-type="product-grid">
+  <div class="grid-container wrapper"><div class="grid__heading-bar">
+        <div class="grid__heading-cell"></div><h2 class="grid__heading-title aos-animate" data-aos="hero" data-aos-anchor="#Collection--template--29749638332788__section_collection_N8HAfU" data-aos-order="0">
+            Best Sellers
+          </h2></div><div class="grid__items-holder">
+      <div class="grid-outer"><div class="grid grid--mobile-vertical">
+            
+<style data-shopify="">.grid-item.product-item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .template-product .grid-item.product-item {
+        padding: 0.5rem;
+      }
+
+      .product-information {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-item__info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-item__info .product-link {
+        height: auto !important;
+      }
+
+      .product-item__price__holder {
+        margin-top: auto;
+      }
+
+      .product-item__price-wrapper {
+        margin-top: auto;
+      }
+
+      .product-item__title {
+        /* font-family: var(--FONT-STACK-HEADING); */
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 4px;
+      }
+
+      .product-item__cutline {
+        font-size: 0.85rem;
+        /* margin-bottom: 0.5rem; */
+      }
+
+      /* ========== BF Products: discount badge styles (section-level) ========== */
+      .product-item__image {
+        position: relative;
+        overflow: visible;
+      }
+
+      .okeReviews.oke-sr {
+        --oke-stars-foregroundColor: #f2b3ba;
+        font-size: 12px;
+      }
+
+      .product-item__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 1rem;
+        background: #eeedec;
+        text-align: center;
+        /* border: 1px solid #000; */
+        font-weight: 500;
+      }
+
+      .product-information {
+        margin-top: 0.5rem;
+      }
+
+      .product-item__price__text,
+      .product-information .price {
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+      }
+
+      .product-item__price__text {
+        color: #000 !important;
+        font-weight: 500;
+      }
+
+      .product-discount-badge,
+      .product-badge--new {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        left: auto;
+        /* background: #BE1E2D; */
+        /* background: #F2B3BA; */
+        background: #000;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 19px;
+        padding: 0.25rem 0.4rem;
+        /* border-radius: 999px; */
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        z-index: 7;
+        /* text-transform: uppercase; */
+        white-space: nowrap;
+        pointer-events: none;
+      }
+
+  /*
+   * US 20% Coupon Badge - PLP
+   *
+   * 상품 썸네일 우측 상단에 바로 붙여서 노출한다.
+   *
+   * product-discount-badge의 기본 top/right 8px을 override하고,
+   * 모바일 공통 badge 스타일보다 높은 specificity를 사용한다.
+   */
+  .product-discount-badge.product-us-coupon-badge {
+    top: 0;
+    right: 0;
+    left: auto;
+
+    background: #464340;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    color: #fff;
+
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+
+    padding: 5px 8px;
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* PLP US Coupon Badge - Mobile Only */
+  @media screen and (max-width: 749px) {
+    .product-item__image .product-discount-badge.product-us-coupon-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 50%;
+      box-sizing: border-box;
+
+      top: 0;
+      right: 0;
+      left: auto;
+
+      font-size: 8px;
+      font-weight: 600;
+      line-height: 1.2;
+      padding: 5px 4px;
+
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .product-us-coupon-badge[hidden] {
+    display: none !important;
+  }
+
+      .product-item__info {
+        padding: 0;
+      }
+
+      .product-item__price .price.sale .old-price {
+        font-weight: 200;
+        margin-right: 0.5rem;
+      }
+
+      /* .product-item__price .price .new-price { */
+      .product-item__price .price.sale .new-price {
+        color: #be1e2d;
+        font-weight: 500;
+      }
+
+      .product-item__image {
+        position: relative;
+      }
+
+      .product-badges {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+        z-index: 2;
+        /* max-height: 5rem; */
+      }
+
+      .product-badge-img {
+        width: auto;
+        height: 100%;
+        max-height: 4.5rem;
+      }
+
+      .product-badge {
+        padding: 4px 8px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+      }
+      .product-badge--new {
+        background: #111;
+      }
+
+      /* Optional: if .product-item__bg has overflow:hidden and trims badge, uncomment */
+      /*
+         .product-item__bg {
+          overflow: visible;
+        }
+        */
+
+      .product-variant-select__input {
+        width: 100%;
+      }
+
+      @media (max-width: 420px) {
+        .product-discount-badge,
+        .product-badge--new {
+          font-size: 0.9rem;
+          padding: 0.1rem 0.375rem;
+        }
+
+        .product-item__title {
+          font-size: 1.1rem;
+        }
+
+        .product-item__price {
+          font-size: 0.9rem;
+          /* padding: 0.7rem 0.9rem; */
+          padding: 9px 10px;
+        }
+
+        .product-item__price .price.sale .old-price {
+          margin-right: 0.1rem;
+        }
+
+        .product-variant-select__input {
+          font-size: 0.9rem;
+        }
+
+        .product-badge-img {
+          height: 3rem;
+        }
+      }</style><div class="grid-item product-item  product-item--left product-item--outer-text  " id="product-item--template--29749638332788__section_collection_N8HAfU-15114575937908" style="--swatch-size: var(--swatch-size-filters);" data-grid-item="">
+    
+<div class="product-item__image" data-product-image=""><a class="product-link" href="/products/revive-ritual-eye-duo-global" aria-label="View Revive Ritual Eye Duo - Duo product image" data-product-link="/products/revive-ritual-eye-duo-global"><div class="product-item__bg" data-product-image-default=""><figure class="image-wrapper image-wrapper--cover lazy-image lazy-image--backfill aos-animate" style="--aspect-ratio: 1;" data-aos="img-in" data-aos-delay="0" data-aos-duration="800" data-aos-anchor="#product-item--template--29749638332788__section_collection_N8HAfU-15114575937908" data-aos-easing="ease-out-quart"><img src="//beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?crop=center&amp;height=2000&amp;v=1761905357&amp;width=2000" alt="Beauty of Joseon Revive Ritual Eye Duo" width="2000" height="2000" loading="eager" srcset="//beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=136 136w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=160 160w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=180 180w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=220 220w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=254 254w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=284 284w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=292 292w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=320 320w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=480 480w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=528 528w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=640 640w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=720 720w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=960 960w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=1080 1080w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=1296 1296w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=1512 1512w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=1728 1728w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=1950 1950w, //beautyofjoseon.com/cdn/shop/files/revive-ritual-eye-duo-thumbnail-1.jpg?v=1761905357&amp;width=2000 2000w" sizes="(min-width: 1400px) calc((80vw - 64px) / 4 - 32px), (min-width: 750px) calc(100vw / 2 - 22px), (min-width: 480px) calc(100vw / 2 - 16px), calc(100vw / 1)" fetchpriority="high" class="">
+</figure>
+
+&nbsp;</div></a>
+
+      
+    </div>
+
+    <div class="product-information" data-product-information="">
+      <div class="product-item__info">
+         
+<div data-oke-star-rating="" data-oke-reviews-product-id="shopify-15114575937908"><div data-oke-reviews-version="0.107.2" data-oke-container="" class="okeReviews oke-sr oke-sr-static"><div class=""><div class="oke-sr-rating"> 4.8 </div><div class="oke-sr-stars"><div class="oke-stars"><!----><div class="oke-stars-background"><svg height="16" viewBox="0 0 84 16" aria-hidden="true" role="none"><use x="0" href="#oke-star-empty"></use><use x="17" href="#oke-star-empty"></use><use x="34" href="#oke-star-empty"></use><use x="51" href="#oke-star-empty"></use><use x="68" href="#oke-star-empty"></use></svg></div><div class="oke-stars-foreground" style="width: 96.1905%;"><svg height="16" viewBox="0 0 84 16" aria-hidden="true" role="none"><use x="0" href="#oke-star-filled"></use><use x="17" href="#oke-star-filled"></use><use x="34" href="#oke-star-filled"></use><use x="51" href="#oke-star-filled"></use><use x="68" href="#oke-star-filled"></use></svg></div><span class="oke-a11yText">Rated 4.8 out of 5 stars</span></div></div><div class="oke-sr-count oke-sr-count--brackets"><span class="oke-sr-count-number">995</span><span class="oke-sr-label-text"> Reviews</span><!----></div><!----></div><script type="application/json" data-oke-metafield-data=""> {"averageRating":"4.8","reviewCount":995} </script></div></div>
+
+        <a class="product-link" href="/products/revive-ritual-eye-duo-global" data-product-link="/products/revive-ritual-eye-duo-global" aria-label="View product details for Revive Ritual Eye Duo - Duo">
+          <p class="product-item__title">Revive Ritual Eye Duo</p>
+
+          <!-- CUTLINE --><span class="product-item__cutline" data-product-cutline="">Firming Under-Eye Ritual</span></a>
+
+        <div class="product-item__price__holder">
+
+<a class="product-link" href="/products/revive-ritual-eye-duo-global" aria-label="Shop Revive Ritual Eye Duo - Duo" data-product-link="/products/revive-ritual-eye-duo-global">
+            <div class="product-item__price" data-product-price="">
+              <p class="product-item__price__text" data-price-label="">Save 25%</p>
+
+              <span class="price sale">
+                
+                  <span class="sold-out">Sold Out</span>
+                
+              </span>
+            </div>
+          </a>
+        </div></div>
+    </div>
+  </div>
+
+<script>
+  (function () {
+    if (window.__PGI_VARIANT_JS_LOADED__) return;
+    window.__PGI_VARIANT_JS_LOADED__ = true;
+
+    function toNum(value) {
+      const num = Number(value);
+      return Number.isFinite(num) ? num : 0;
+    }
+
+    function getDiscountPercent(option) {
+      const price = toNum(option.dataset.price);
+      const compare = toNum(option.dataset.compare);
+
+      if (compare > price && compare > 0) {
+        return Math.round(((compare - price) * 100) / compare);
+      }
+
+      return 0;
+    }
+
+    function sortVariantOptions(select) {
+      if (!select || select.dataset.variantSorted === '1') return;
+
+      const options = Array.from(select.options);
+
+      options.sort((a, b) => {
+        const aDiscount = getDiscountPercent(a);
+        const bDiscount = getDiscountPercent(b);
+
+        if (aDiscount !== bDiscount) return bDiscount - aDiscount;
+
+        const aPrice = toNum(a.dataset.price);
+        const bPrice = toNum(b.dataset.price);
+
+        if (aPrice !== bPrice) return aPrice - bPrice;
+
+        return a.text.localeCompare(b.text);
+      });
+
+      select.innerHTML = '';
+      options.forEach((option) => select.appendChild(option));
+      select.dataset.variantSorted = '1';
+    }
+
+    function updatePrice(select) {
+      if (!select) return;
+
+      const option = select.selectedOptions[0];
+      if (!option) return;
+
+      const gridItem = select.closest('[data-grid-item]');
+
+      /*
+       * US 20% Coupon Badge
+       *
+       * Liquid에서 각 Variant의 metafield 값을
+       * data-us-coupon-eligible 속성으로 내려준다.
+       *
+       * 사용자가 PLP에서 용량/옵션을 변경할 때
+       * 현재 선택된 Variant가 쿠폰 대상이면 badge를 보여주고,
+       * 대상이 아니면 즉시 숨긴다.
+       *
+       * 국가 및 전체 ON/OFF 조건은 Liquid에서 이미 처리하므로
+       * badge DOM이 존재하는 경우에만 동작한다.
+       */
+      const couponBadge = gridItem?.querySelector('[data-us-coupon-badge]');
+      if (couponBadge) {
+        const isCouponEligible = option.dataset.usCouponEligible === 'true';
+        couponBadge.hidden = !isCouponEligible;
+      }
+
+      // 기존 Variant / Quick Add 처리
+      const variantInput = gridItem?.querySelector('[data-quick-add-variant-id]');
+      const quickAddButton = gridItem?.querySelector('[data-add-to-cart]');
+      const isAvailable = option.dataset.available === 'true';
+
+      if (variantInput) {
+        variantInput.value = option.value;
+      }
+
+      if (quickAddButton) {
+        quickAddButton.disabled = !isAvailable;
+        quickAddButton.classList.toggle('is-disabled', !isAvailable);
+      }
+
+      const holder = select.closest('.product-item__price__holder');
+      if (!holder) return;
+
+      const priceBox = holder.querySelector('[data-product-price]');
+      if (!priceBox) return;
+
+      const labelEl = priceBox.querySelector('[data-price-label]');
+      const compareEl = priceBox.querySelector('[data-price-compare]');
+      const valueEl = priceBox.querySelector('[data-price-value]');
+      const priceEl = priceBox.querySelector('.price');
+
+      const price = toNum(option.dataset.price);
+      const compare = toNum(option.dataset.compare);
+      const priceText = option.dataset.priceText || '';
+      const compareText = option.dataset.compareText || '';
+
+      const hasDiscount = compare > price && compare > 0;
+      const discountPercent = hasDiscount ? Math.round(((compare - price) * 100) / compare) : 0;
+
+      if (labelEl) {
+        labelEl.textContent = hasDiscount ? `Save ${discountPercent}%` : 'SHOP';
+      }
+
+      if (priceEl) {
+        priceEl.classList.toggle('sale', hasDiscount);
+      }
+
+      if (compareEl) {
+        compareEl.textContent = compareText;
+        compareEl.style.display = compareText ? '' : 'none';
+      }
+
+      if (valueEl) {
+        valueEl.textContent = priceText;
+      }
+    }
+
+    function initVariantSelect(select) {
+      if (!select) return;
+
+      sortVariantOptions(select);
+
+      if (select.options.length > 0) {
+        select.selectedIndex = 0;
+      }
+
+      updatePrice(select);
+    }
+
+    function initAllVariantSelects() {
+      document.querySelectorAll('[data-variant-select-input]').forEach(initVariantSelect);
+    }
+
+    /*
+     * PDP -> Browser Back으로 PLP에 복귀할 때
+     * BFCache에 의해 DOMContentLoaded가 다시 실행되지 않을 수 있다.
+     *
+     * Variant 정렬 및 선택값은 유지하고,
+     * 현재 선택된 Variant 기준으로 가격 / Coupon UI만 다시 동기화한다.
+     */
+    function syncAllVariantSelects() {
+      document.querySelectorAll('[data-variant-select-input]').forEach(updatePrice);
+    }
+
+    document.addEventListener('change', function (event) {
+      const select = event.target.closest('[data-variant-select-input]');
+      if (!select) return;
+
+      updatePrice(select);
+    });
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initAllVariantSelects);
+    } else {
+      initAllVariantSelects();
+    }
+
+    /*
+     * Browser Back / Forward navigation 대응.
+     *
+     * 브라우저 뒤로가기 시 BFCache 사용 여부와 관계없이
+     * 이전에 선택했던 Variant 상태가 복원될 수 있다.
+     *
+     * form/select 상태 복원이 완료된 다음
+     * 현재 선택 Variant 기준으로 가격 / Coupon Badge UI를 다시 동기화한다.
+     */
+    window.addEventListener('pageshow', function () {
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(syncAllVariantSelects);
+      });
+    });
+  })();
+</script>
+
+<style data-shopify="">.grid-item.product-item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .template-product .grid-item.product-item {
+        padding: 0.5rem;
+      }
+
+      .product-information {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-item__info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-item__info .product-link {
+        height: auto !important;
+      }
+
+      .product-item__price__holder {
+        margin-top: auto;
+      }
+
+      .product-item__price-wrapper {
+        margin-top: auto;
+      }
+
+      .product-item__title {
+        /* font-family: var(--FONT-STACK-HEADING); */
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 4px;
+      }
+
+      .product-item__cutline {
+        font-size: 0.85rem;
+        /* margin-bottom: 0.5rem; */
+      }
+
+      /* ========== BF Products: discount badge styles (section-level) ========== */
+      .product-item__image {
+        position: relative;
+        overflow: visible;
+      }
+
+      .okeReviews.oke-sr {
+        --oke-stars-foregroundColor: #f2b3ba;
+        font-size: 12px;
+      }
+
+      .product-item__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 1rem;
+        background: #eeedec;
+        text-align: center;
+        /* border: 1px solid #000; */
+        font-weight: 500;
+      }
+
+      .product-information {
+        margin-top: 0.5rem;
+      }
+
+      .product-item__price__text,
+      .product-information .price {
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+      }
+
+      .product-item__price__text {
+        color: #000 !important;
+        font-weight: 500;
+      }
+
+      .product-discount-badge,
+      .product-badge--new {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        left: auto;
+        /* background: #BE1E2D; */
+        /* background: #F2B3BA; */
+        background: #000;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 19px;
+        padding: 0.25rem 0.4rem;
+        /* border-radius: 999px; */
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        z-index: 7;
+        /* text-transform: uppercase; */
+        white-space: nowrap;
+        pointer-events: none;
+      }
+
+  /*
+   * US 20% Coupon Badge - PLP
+   *
+   * 상품 썸네일 우측 상단에 바로 붙여서 노출한다.
+   *
+   * product-discount-badge의 기본 top/right 8px을 override하고,
+   * 모바일 공통 badge 스타일보다 높은 specificity를 사용한다.
+   */
+  .product-discount-badge.product-us-coupon-badge {
+    top: 0;
+    right: 0;
+    left: auto;
+
+    background: #464340;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    color: #fff;
+
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+
+    padding: 5px 8px;
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* PLP US Coupon Badge - Mobile Only */
+  @media screen and (max-width: 749px) {
+    .product-item__image .product-discount-badge.product-us-coupon-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 50%;
+      box-sizing: border-box;
+
+      top: 0;
+      right: 0;
+      left: auto;
+
+      font-size: 8px;
+      font-weight: 600;
+      line-height: 1.2;
+      padding: 5px 4px;
+
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .product-us-coupon-badge[hidden] {
+    display: none !important;
+  }
+
+      .product-item__info {
+        padding: 0;
+      }
+
+      .product-item__price .price.sale .old-price {
+        font-weight: 200;
+        margin-right: 0.5rem;
+      }
+
+      /* .product-item__price .price .new-price { */
+      .product-item__price .price.sale .new-price {
+        color: #be1e2d;
+        font-weight: 500;
+      }
+
+      .product-item__image {
+        position: relative;
+      }
+
+      .product-badges {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+        z-index: 2;
+        /* max-height: 5rem; */
+      }
+
+      .product-badge-img {
+        width: auto;
+        height: 100%;
+        max-height: 4.5rem;
+      }
+
+      .product-badge {
+        padding: 4px 8px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+      }
+      .product-badge--new {
+        background: #111;
+      }
+
+      /* Optional: if .product-item__bg has overflow:hidden and trims badge, uncomment */
+      /*
+         .product-item__bg {
+          overflow: visible;
+        }
+        */
+
+      .product-variant-select__input {
+        width: 100%;
+      }
+
+      @media (max-width: 420px) {
+        .product-discount-badge,
+        .product-badge--new {
+          font-size: 0.9rem;
+          padding: 0.1rem 0.375rem;
+        }
+
+        .product-item__title {
+          font-size: 1.1rem;
+        }
+
+        .product-item__price {
+          font-size: 0.9rem;
+          /* padding: 0.7rem 0.9rem; */
+          padding: 9px 10px;
+        }
+
+        .product-item__price .price.sale .old-price {
+          margin-right: 0.1rem;
+        }
+
+        .product-variant-select__input {
+          font-size: 0.9rem;
+        }
+
+        .product-badge-img {
+          height: 3rem;
+        }
+      }</style><div class="grid-item product-item  product-item--left product-item--outer-text  " id="product-item--template--29749638332788__section_collection_N8HAfU-8774905299109" style="--swatch-size: var(--swatch-size-filters);" data-grid-item="">
+    
+<div class="product-item__image" data-product-image=""><a class="product-link" href="/products/deep-double-cleansing-duo" aria-label="View Deep Double Cleansing Duo - Duo product image" data-product-link="/products/deep-double-cleansing-duo"><div class="product-item__bg" data-product-image-default=""><figure class="image-wrapper image-wrapper--cover lazy-image lazy-image--backfill aos-animate" style="--aspect-ratio: 1;" data-aos="img-in" data-aos-delay="100" data-aos-duration="800" data-aos-anchor="#product-item--template--29749638332788__section_collection_N8HAfU-8774905299109" data-aos-easing="ease-out-quart"><img src="//beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?crop=center&amp;height=2000&amp;v=1762679673&amp;width=2000" alt="Beauty of Joseon Deep Double Cleansing Duo" width="2000" height="2000" loading="eager" srcset="//beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=136 136w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=160 160w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=180 180w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=220 220w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=254 254w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=284 284w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=292 292w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=320 320w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=480 480w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=528 528w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=640 640w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=720 720w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=960 960w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=1080 1080w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=1296 1296w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=1512 1512w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=1728 1728w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=1950 1950w, //beautyofjoseon.com/cdn/shop/files/Deep-Double-Cleansing-Duo_Beauty-of-Joseon_93963729-52106454434164.jpg?v=1762679673&amp;width=2000 2000w" sizes="(min-width: 1400px) calc((80vw - 64px) / 4 - 32px), (min-width: 750px) calc(100vw / 2 - 22px), (min-width: 480px) calc(100vw / 2 - 16px), calc(100vw / 1)" fetchpriority="high" class="">
+</figure>
+
+&nbsp;</div></a>
+
+      
+    </div>
+
+    <div class="product-information" data-product-information="">
+      <div class="product-item__info">
+         
+<div data-oke-star-rating="" data-oke-reviews-product-id="shopify-8774905299109"><div data-oke-reviews-version="0.107.2" data-oke-container="" class="okeReviews oke-sr oke-sr-static"><div class=""><div class="oke-sr-rating"> 4.9 </div><div class="oke-sr-stars"><div class="oke-stars"><!----><div class="oke-stars-background"><svg height="16" viewBox="0 0 84 16" aria-hidden="true" role="none"><use x="0" href="#oke-star-empty"></use><use x="17" href="#oke-star-empty"></use><use x="34" href="#oke-star-empty"></use><use x="51" href="#oke-star-empty"></use><use x="68" href="#oke-star-empty"></use></svg></div><div class="oke-stars-foreground" style="width: 98.0952%;"><svg height="16" viewBox="0 0 84 16" aria-hidden="true" role="none"><use x="0" href="#oke-star-filled"></use><use x="17" href="#oke-star-filled"></use><use x="34" href="#oke-star-filled"></use><use x="51" href="#oke-star-filled"></use><use x="68" href="#oke-star-filled"></use></svg></div><span class="oke-a11yText">Rated 4.9 out of 5 stars</span></div></div><div class="oke-sr-count oke-sr-count--brackets"><span class="oke-sr-count-number">358</span><span class="oke-sr-label-text"> Reviews</span><!----></div><!----></div><script type="application/json" data-oke-metafield-data=""> {"averageRating":"4.9","reviewCount":358} </script></div></div>
+
+        <a class="product-link" href="/products/deep-double-cleansing-duo" data-product-link="/products/deep-double-cleansing-duo" aria-label="View product details for Deep Double Cleansing Duo - Duo">
+          <p class="product-item__title">Deep Double Cleansing Duo</p>
+
+          <!-- CUTLINE --><span class="product-item__cutline" data-product-cutline="">Daily double cleansing set</span></a>
+
+        <div class="product-item__price__holder">
+
+<div class="product-variant-select" data-variant-select="">
+              <select class="product-variant-select__input" aria-label="Select variant for Deep Double Cleansing Duo" data-variant-select-input="" data-variant-sorted="1"><option value="53445561614708" data-price="118300" data-price-text="1,183.00 ฿" data-compare="157800" data-compare-text="1,578.00 ฿" data-available="false" disabled="">
+                    Large
+                  </option><option value="53445561581940" data-price="90600" data-price-text="906.00 ฿" data-compare="113200" data-compare-text="1,132.00 ฿" data-available="false" disabled="" selected="">
+                    Original
+                  </option></select>
+            </div><a class="product-link" href="/products/deep-double-cleansing-duo" aria-label="Shop Deep Double Cleansing Duo - Duo" data-product-link="/products/deep-double-cleansing-duo">
+            <div class="product-item__price" data-product-price="">
+              <p class="product-item__price__text" data-price-label="">Save 25%</p>
+
+              <span class="price sale">
+                
+                  <span class="sold-out">Sold Out</span>
+                
+              </span>
+            </div>
+          </a>
+        </div></div>
+    </div>
+  </div>
+
+<script>
+  (function () {
+    if (window.__PGI_VARIANT_JS_LOADED__) return;
+    window.__PGI_VARIANT_JS_LOADED__ = true;
+
+    function toNum(value) {
+      const num = Number(value);
+      return Number.isFinite(num) ? num : 0;
+    }
+
+    function getDiscountPercent(option) {
+      const price = toNum(option.dataset.price);
+      const compare = toNum(option.dataset.compare);
+
+      if (compare > price && compare > 0) {
+        return Math.round(((compare - price) * 100) / compare);
+      }
+
+      return 0;
+    }
+
+    function sortVariantOptions(select) {
+      if (!select || select.dataset.variantSorted === '1') return;
+
+      const options = Array.from(select.options);
+
+      options.sort((a, b) => {
+        const aDiscount = getDiscountPercent(a);
+        const bDiscount = getDiscountPercent(b);
+
+        if (aDiscount !== bDiscount) return bDiscount - aDiscount;
+
+        const aPrice = toNum(a.dataset.price);
+        const bPrice = toNum(b.dataset.price);
+
+        if (aPrice !== bPrice) return aPrice - bPrice;
+
+        return a.text.localeCompare(b.text);
+      });
+
+      select.innerHTML = '';
+      options.forEach((option) => select.appendChild(option));
+      select.dataset.variantSorted = '1';
+    }
+
+    function updatePrice(select) {
+      if (!select) return;
+
+      const option = select.selectedOptions[0];
+      if (!option) return;
+
+      const gridItem = select.closest('[data-grid-item]');
+
+      /*
+       * US 20% Coupon Badge
+       *
+       * Liquid에서 각 Variant의 metafield 값을
+       * data-us-coupon-eligible 속성으로 내려준다.
+       *
+       * 사용자가 PLP에서 용량/옵션을 변경할 때
+       * 현재 선택된 Variant가 쿠폰 대상이면 badge를 보여주고,
+       * 대상이 아니면 즉시 숨긴다.
+       *
+       * 국가 및 전체 ON/OFF 조건은 Liquid에서 이미 처리하므로
+       * badge DOM이 존재하는 경우에만 동작한다.
+       */
+      const couponBadge = gridItem?.querySelector('[data-us-coupon-badge]');
+      if (couponBadge) {
+        const isCouponEligible = option.dataset.usCouponEligible === 'true';
+        couponBadge.hidden = !isCouponEligible;
+      }
+
+      // 기존 Variant / Quick Add 처리
+      const variantInput = gridItem?.querySelector('[data-quick-add-variant-id]');
+      const quickAddButton = gridItem?.querySelector('[data-add-to-cart]');
+      const isAvailable = option.dataset.available === 'true';
+
+      if (variantInput) {
+        variantInput.value = option.value;
+      }
+
+      if (quickAddButton) {
+        quickAddButton.disabled = !isAvailable;
+        quickAddButton.classList.toggle('is-disabled', !isAvailable);
+      }
+
+      const holder = select.closest('.product-item__price__holder');
+      if (!holder) return;
+
+      const priceBox = holder.querySelector('[data-product-price]');
+      if (!priceBox) return;
+
+      const labelEl = priceBox.querySelector('[data-price-label]');
+      const compareEl = priceBox.querySelector('[data-price-compare]');
+      const valueEl = priceBox.querySelector('[data-price-value]');
+      const priceEl = priceBox.querySelector('.price');
+
+      const price = toNum(option.dataset.price);
+      const compare = toNum(option.dataset.compare);
+      const priceText = option.dataset.priceText || '';
+      const compareText = option.dataset.compareText || '';
+
+      const hasDiscount = compare > price && compare > 0;
+      const discountPercent = hasDiscount ? Math.round(((compare - price) * 100) / compare) : 0;
+
+      if (labelEl) {
+        labelEl.textContent = hasDiscount ? `Save ${discountPercent}%` : 'SHOP';
+      }
+
+      if (priceEl) {
+        priceEl.classList.toggle('sale', hasDiscount);
+      }
+
+      if (compareEl) {
+        compareEl.textContent = compareText;
+        compareEl.style.display = compareText ? '' : 'none';
+      }
+
+      if (valueEl) {
+        valueEl.textContent = priceText;
+      }
+    }
+
+    function initVariantSelect(select) {
+      if (!select) return;
+
+      sortVariantOptions(select);
+
+      if (select.options.length > 0) {
+        select.selectedIndex = 0;
+      }
+
+      updatePrice(select);
+    }
+
+    function initAllVariantSelects() {
+      document.querySelectorAll('[data-variant-select-input]').forEach(initVariantSelect);
+    }
+
+    /*
+     * PDP -> Browser Back으로 PLP에 복귀할 때
+     * BFCache에 의해 DOMContentLoaded가 다시 실행되지 않을 수 있다.
+     *
+     * Variant 정렬 및 선택값은 유지하고,
+     * 현재 선택된 Variant 기준으로 가격 / Coupon UI만 다시 동기화한다.
+     */
+    function syncAllVariantSelects() {
+      document.querySelectorAll('[data-variant-select-input]').forEach(updatePrice);
+    }
+
+    document.addEventListener('change', function (event) {
+      const select = event.target.closest('[data-variant-select-input]');
+      if (!select) return;
+
+      updatePrice(select);
+    });
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initAllVariantSelects);
+    } else {
+      initAllVariantSelects();
+    }
+
+    /*
+     * Browser Back / Forward navigation 대응.
+     *
+     * 브라우저 뒤로가기 시 BFCache 사용 여부와 관계없이
+     * 이전에 선택했던 Variant 상태가 복원될 수 있다.
+     *
+     * form/select 상태 복원이 완료된 다음
+     * 현재 선택 Variant 기준으로 가격 / Coupon Badge UI를 다시 동기화한다.
+     */
+    window.addEventListener('pageshow', function () {
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(syncAllVariantSelects);
+      });
+    });
+  })();
+</script>
+
+<style data-shopify="">.grid-item.product-item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .template-product .grid-item.product-item {
+        padding: 0.5rem;
+      }
+
+      .product-information {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-item__info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-item__info .product-link {
+        height: auto !important;
+      }
+
+      .product-item__price__holder {
+        margin-top: auto;
+      }
+
+      .product-item__price-wrapper {
+        margin-top: auto;
+      }
+
+      .product-item__title {
+        /* font-family: var(--FONT-STACK-HEADING); */
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 4px;
+      }
+
+      .product-item__cutline {
+        font-size: 0.85rem;
+        /* margin-bottom: 0.5rem; */
+      }
+
+      /* ========== BF Products: discount badge styles (section-level) ========== */
+      .product-item__image {
+        position: relative;
+        overflow: visible;
+      }
+
+      .okeReviews.oke-sr {
+        --oke-stars-foregroundColor: #f2b3ba;
+        font-size: 12px;
+      }
+
+      .product-item__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 1rem;
+        background: #eeedec;
+        text-align: center;
+        /* border: 1px solid #000; */
+        font-weight: 500;
+      }
+
+      .product-information {
+        margin-top: 0.5rem;
+      }
+
+      .product-item__price__text,
+      .product-information .price {
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+      }
+
+      .product-item__price__text {
+        color: #000 !important;
+        font-weight: 500;
+      }
+
+      .product-discount-badge,
+      .product-badge--new {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        left: auto;
+        /* background: #BE1E2D; */
+        /* background: #F2B3BA; */
+        background: #000;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 19px;
+        padding: 0.25rem 0.4rem;
+        /* border-radius: 999px; */
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        z-index: 7;
+        /* text-transform: uppercase; */
+        white-space: nowrap;
+        pointer-events: none;
+      }
+
+  /*
+   * US 20% Coupon Badge - PLP
+   *
+   * 상품 썸네일 우측 상단에 바로 붙여서 노출한다.
+   *
+   * product-discount-badge의 기본 top/right 8px을 override하고,
+   * 모바일 공통 badge 스타일보다 높은 specificity를 사용한다.
+   */
+  .product-discount-badge.product-us-coupon-badge {
+    top: 0;
+    right: 0;
+    left: auto;
+
+    background: #464340;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    color: #fff;
+
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+
+    padding: 5px 8px;
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* PLP US Coupon Badge - Mobile Only */
+  @media screen and (max-width: 749px) {
+    .product-item__image .product-discount-badge.product-us-coupon-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 50%;
+      box-sizing: border-box;
+
+      top: 0;
+      right: 0;
+      left: auto;
+
+      font-size: 8px;
+      font-weight: 600;
+      line-height: 1.2;
+      padding: 5px 4px;
+
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .product-us-coupon-badge[hidden] {
+    display: none !important;
+  }
+
+      .product-item__info {
+        padding: 0;
+      }
+
+      .product-item__price .price.sale .old-price {
+        font-weight: 200;
+        margin-right: 0.5rem;
+      }
+
+      /* .product-item__price .price .new-price { */
+      .product-item__price .price.sale .new-price {
+        color: #be1e2d;
+        font-weight: 500;
+      }
+
+      .product-item__image {
+        position: relative;
+      }
+
+      .product-badges {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+        z-index: 2;
+        /* max-height: 5rem; */
+      }
+
+      .product-badge-img {
+        width: auto;
+        height: 100%;
+        max-height: 4.5rem;
+      }
+
+      .product-badge {
+        padding: 4px 8px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+      }
+      .product-badge--new {
+        background: #111;
+      }
+
+      /* Optional: if .product-item__bg has overflow:hidden and trims badge, uncomment */
+      /*
+         .product-item__bg {
+          overflow: visible;
+        }
+        */
+
+      .product-variant-select__input {
+        width: 100%;
+      }
+
+      @media (max-width: 420px) {
+        .product-discount-badge,
+        .product-badge--new {
+          font-size: 0.9rem;
+          padding: 0.1rem 0.375rem;
+        }
+
+        .product-item__title {
+          font-size: 1.1rem;
+        }
+
+        .product-item__price {
+          font-size: 0.9rem;
+          /* padding: 0.7rem 0.9rem; */
+          padding: 9px 10px;
+        }
+
+        .product-item__price .price.sale .old-price {
+          margin-right: 0.1rem;
+        }
+
+        .product-variant-select__input {
+          font-size: 0.9rem;
+        }
+
+        .product-badge-img {
+          height: 3rem;
+        }
+      }</style><div class="grid-item product-item  product-item--left product-item--outer-text  " id="product-item--template--29749638332788__section_collection_N8HAfU-8441310249125" style="--swatch-size: var(--swatch-size-filters);" data-grid-item="">
+    
+<div class="product-item__image" data-product-image=""><a class="product-link" href="/products/glass-skin-duo" aria-label="View Glass Skin Duo - Duo product image" data-product-link="/products/glass-skin-duo"><div class="product-item__bg" data-product-image-default=""><figure class="image-wrapper image-wrapper--cover lazy-image lazy-image--backfill aos-animate" style="--aspect-ratio: 1;" data-aos="img-in" data-aos-delay="200" data-aos-duration="800" data-aos-anchor="#product-item--template--29749638332788__section_collection_N8HAfU-8441310249125" data-aos-easing="ease-out-quart"><img src="//beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?crop=center&amp;height=2000&amp;v=1762679712&amp;width=2000" alt="Beauty of Joseon Glass Skin Duo" width="2000" height="2000" loading="eager" srcset="//beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=136 136w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=160 160w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=180 180w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=220 220w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=254 254w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=284 284w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=292 292w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=320 320w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=480 480w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=528 528w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=640 640w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=720 720w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=960 960w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=1080 1080w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=1296 1296w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=1512 1512w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=1728 1728w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=1950 1950w, //beautyofjoseon.com/cdn/shop/files/Glass-Skin-Duo_Beauty-of-Joseon_97213595-52105526378868.jpg?v=1762679712&amp;width=2000 2000w" sizes="(min-width: 1400px) calc((80vw - 64px) / 4 - 32px), (min-width: 750px) calc(100vw / 2 - 22px), (min-width: 480px) calc(100vw / 2 - 16px), calc(100vw / 1)" fetchpriority="high" class="">
+</figure>
+
+&nbsp;</div></a>
+
+      
+    </div>
+
+    <div class="product-information" data-product-information="">
+      <div class="product-item__info">
+         
+<div data-oke-star-rating="" data-oke-reviews-product-id="shopify-8441310249125"><div data-oke-reviews-version="0.107.0" data-oke-container="" class="okeReviews oke-sr oke-sr-static"><div class=""><div class="oke-sr-rating"> 4.9 </div><div class="oke-sr-stars"><div class="oke-stars"><!----><div class="oke-stars-background"><svg height="16" viewBox="0 0 84 16" aria-hidden="true" role="none"><use x="0" href="#oke-star-empty"></use><use x="17" href="#oke-star-empty"></use><use x="34" href="#oke-star-empty"></use><use x="51" href="#oke-star-empty"></use><use x="68" href="#oke-star-empty"></use></svg></div><div class="oke-stars-foreground" style="width: 98.0952%;"><svg height="16" viewBox="0 0 84 16" aria-hidden="true" role="none"><use x="0" href="#oke-star-filled"></use><use x="17" href="#oke-star-filled"></use><use x="34" href="#oke-star-filled"></use><use x="51" href="#oke-star-filled"></use><use x="68" href="#oke-star-filled"></use></svg></div><span class="oke-a11yText">Rated 4.9 out of 5 stars</span></div></div><div class="oke-sr-count oke-sr-count--brackets"><span class="oke-sr-count-number">489</span><span class="oke-sr-label-text"> Reviews</span><!----></div><!----></div><script type="application/json" data-oke-metafield-data=""> {"averageRating":"4.9","reviewCount":489} </script></div></div>
+
+        <a class="product-link" href="/products/glass-skin-duo" data-product-link="/products/glass-skin-duo" aria-label="View product details for Glass Skin Duo - Duo">
+          <p class="product-item__title">Glass Skin Duo</p>
+
+          <!-- CUTLINE --><span class="product-item__cutline" data-product-cutline="">Glass Skin Essentials Set</span></a>
+
+        <div class="product-item__price__holder">
+
+<div class="product-variant-select" data-variant-select="">
+              <select class="product-variant-select__input" aria-label="Select variant for Glass Skin Duo" data-variant-select-input="" data-variant-sorted="1"><option value="51833737478516" data-price="224900" data-price-text="2,249.00 ฿" data-compare="281200" data-compare-text="2,812.00 ฿" data-available="false" disabled="">
+                    Large
+                  </option><option value="51833737445748" data-price="126600" data-price-text="1,266.00 ฿" data-compare="140600" data-compare-text="1,406.00 ฿" data-available="false" disabled="" selected="">
+                    Original
+                  </option></select>
+            </div><a class="product-link" href="/products/glass-skin-duo" aria-label="Shop Glass Skin Duo - Duo" data-product-link="/products/glass-skin-duo">
+            <div class="product-item__price" data-product-price="">
+              <p class="product-item__price__text" data-price-label="">Save 20%</p>
+
+              <span class="price sale">
+                
+                  <span class="sold-out">Sold Out</span>
+                
+              </span>
+            </div>
+          </a>
+        </div></div>
+    </div>
+  </div>
+
+<script>
+  (function () {
+    if (window.__PGI_VARIANT_JS_LOADED__) return;
+    window.__PGI_VARIANT_JS_LOADED__ = true;
+
+    function toNum(value) {
+      const num = Number(value);
+      return Number.isFinite(num) ? num : 0;
+    }
+
+    function getDiscountPercent(option) {
+      const price = toNum(option.dataset.price);
+      const compare = toNum(option.dataset.compare);
+
+      if (compare > price && compare > 0) {
+        return Math.round(((compare - price) * 100) / compare);
+      }
+
+      return 0;
+    }
+
+    function sortVariantOptions(select) {
+      if (!select || select.dataset.variantSorted === '1') return;
+
+      const options = Array.from(select.options);
+
+      options.sort((a, b) => {
+        const aDiscount = getDiscountPercent(a);
+        const bDiscount = getDiscountPercent(b);
+
+        if (aDiscount !== bDiscount) return bDiscount - aDiscount;
+
+        const aPrice = toNum(a.dataset.price);
+        const bPrice = toNum(b.dataset.price);
+
+        if (aPrice !== bPrice) return aPrice - bPrice;
+
+        return a.text.localeCompare(b.text);
+      });
+
+      select.innerHTML = '';
+      options.forEach((option) => select.appendChild(option));
+      select.dataset.variantSorted = '1';
+    }
+
+    function updatePrice(select) {
+      if (!select) return;
+
+      const option = select.selectedOptions[0];
+      if (!option) return;
+
+      const gridItem = select.closest('[data-grid-item]');
+
+      /*
+       * US 20% Coupon Badge
+       *
+       * Liquid에서 각 Variant의 metafield 값을
+       * data-us-coupon-eligible 속성으로 내려준다.
+       *
+       * 사용자가 PLP에서 용량/옵션을 변경할 때
+       * 현재 선택된 Variant가 쿠폰 대상이면 badge를 보여주고,
+       * 대상이 아니면 즉시 숨긴다.
+       *
+       * 국가 및 전체 ON/OFF 조건은 Liquid에서 이미 처리하므로
+       * badge DOM이 존재하는 경우에만 동작한다.
+       */
+      const couponBadge = gridItem?.querySelector('[data-us-coupon-badge]');
+      if (couponBadge) {
+        const isCouponEligible = option.dataset.usCouponEligible === 'true';
+        couponBadge.hidden = !isCouponEligible;
+      }
+
+      // 기존 Variant / Quick Add 처리
+      const variantInput = gridItem?.querySelector('[data-quick-add-variant-id]');
+      const quickAddButton = gridItem?.querySelector('[data-add-to-cart]');
+      const isAvailable = option.dataset.available === 'true';
+
+      if (variantInput) {
+        variantInput.value = option.value;
+      }
+
+      if (quickAddButton) {
+        quickAddButton.disabled = !isAvailable;
+        quickAddButton.classList.toggle('is-disabled', !isAvailable);
+      }
+
+      const holder = select.closest('.product-item__price__holder');
+      if (!holder) return;
+
+      const priceBox = holder.querySelector('[data-product-price]');
+      if (!priceBox) return;
+
+      const labelEl = priceBox.querySelector('[data-price-label]');
+      const compareEl = priceBox.querySelector('[data-price-compare]');
+      const valueEl = priceBox.querySelector('[data-price-value]');
+      const priceEl = priceBox.querySelector('.price');
+
+      const price = toNum(option.dataset.price);
+      const compare = toNum(option.dataset.compare);
+      const priceText = option.dataset.priceText || '';
+      const compareText = option.dataset.compareText || '';
+
+      const hasDiscount = compare > price && compare > 0;
+      const discountPercent = hasDiscount ? Math.round(((compare - price) * 100) / compare) : 0;
+
+      if (labelEl) {
+        labelEl.textContent = hasDiscount ? `Save ${discountPercent}%` : 'SHOP';
+      }
+
+      if (priceEl) {
+        priceEl.classList.toggle('sale', hasDiscount);
+      }
+
+      if (compareEl) {
+        compareEl.textContent = compareText;
+        compareEl.style.display = compareText ? '' : 'none';
+      }
+
+      if (valueEl) {
+        valueEl.textContent = priceText;
+      }
+    }
+
+    function initVariantSelect(select) {
+      if (!select) return;
+
+      sortVariantOptions(select);
+
+      if (select.options.length > 0) {
+        select.selectedIndex = 0;
+      }
+
+      updatePrice(select);
+    }
+
+    function initAllVariantSelects() {
+      document.querySelectorAll('[data-variant-select-input]').forEach(initVariantSelect);
+    }
+
+    /*
+     * PDP -> Browser Back으로 PLP에 복귀할 때
+     * BFCache에 의해 DOMContentLoaded가 다시 실행되지 않을 수 있다.
+     *
+     * Variant 정렬 및 선택값은 유지하고,
+     * 현재 선택된 Variant 기준으로 가격 / Coupon UI만 다시 동기화한다.
+     */
+    function syncAllVariantSelects() {
+      document.querySelectorAll('[data-variant-select-input]').forEach(updatePrice);
+    }
+
+    document.addEventListener('change', function (event) {
+      const select = event.target.closest('[data-variant-select-input]');
+      if (!select) return;
+
+      updatePrice(select);
+    });
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initAllVariantSelects);
+    } else {
+      initAllVariantSelects();
+    }
+
+    /*
+     * Browser Back / Forward navigation 대응.
+     *
+     * 브라우저 뒤로가기 시 BFCache 사용 여부와 관계없이
+     * 이전에 선택했던 Variant 상태가 복원될 수 있다.
+     *
+     * form/select 상태 복원이 완료된 다음
+     * 현재 선택 Variant 기준으로 가격 / Coupon Badge UI를 다시 동기화한다.
+     */
+    window.addEventListener('pageshow', function () {
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(syncAllVariantSelects);
+      });
+    });
+  })();
+</script>
+
+<style data-shopify="">.grid-item.product-item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .template-product .grid-item.product-item {
+        padding: 0.5rem;
+      }
+
+      .product-information {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-item__info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-item__info .product-link {
+        height: auto !important;
+      }
+
+      .product-item__price__holder {
+        margin-top: auto;
+      }
+
+      .product-item__price-wrapper {
+        margin-top: auto;
+      }
+
+      .product-item__title {
+        /* font-family: var(--FONT-STACK-HEADING); */
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 4px;
+      }
+
+      .product-item__cutline {
+        font-size: 0.85rem;
+        /* margin-bottom: 0.5rem; */
+      }
+
+      /* ========== BF Products: discount badge styles (section-level) ========== */
+      .product-item__image {
+        position: relative;
+        overflow: visible;
+      }
+
+      .okeReviews.oke-sr {
+        --oke-stars-foregroundColor: #f2b3ba;
+        font-size: 12px;
+      }
+
+      .product-item__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 1rem;
+        background: #eeedec;
+        text-align: center;
+        /* border: 1px solid #000; */
+        font-weight: 500;
+      }
+
+      .product-information {
+        margin-top: 0.5rem;
+      }
+
+      .product-item__price__text,
+      .product-information .price {
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+      }
+
+      .product-item__price__text {
+        color: #000 !important;
+        font-weight: 500;
+      }
+
+      .product-discount-badge,
+      .product-badge--new {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        left: auto;
+        /* background: #BE1E2D; */
+        /* background: #F2B3BA; */
+        background: #000;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 19px;
+        padding: 0.25rem 0.4rem;
+        /* border-radius: 999px; */
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        z-index: 7;
+        /* text-transform: uppercase; */
+        white-space: nowrap;
+        pointer-events: none;
+      }
+
+  /*
+   * US 20% Coupon Badge - PLP
+   *
+   * 상품 썸네일 우측 상단에 바로 붙여서 노출한다.
+   *
+   * product-discount-badge의 기본 top/right 8px을 override하고,
+   * 모바일 공통 badge 스타일보다 높은 specificity를 사용한다.
+   */
+  .product-discount-badge.product-us-coupon-badge {
+    top: 0;
+    right: 0;
+    left: auto;
+
+    background: #464340;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    color: #fff;
+
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+
+    padding: 5px 8px;
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* PLP US Coupon Badge - Mobile Only */
+  @media screen and (max-width: 749px) {
+    .product-item__image .product-discount-badge.product-us-coupon-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 50%;
+      box-sizing: border-box;
+
+      top: 0;
+      right: 0;
+      left: auto;
+
+      font-size: 8px;
+      font-weight: 600;
+      line-height: 1.2;
+      padding: 5px 4px;
+
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .product-us-coupon-badge[hidden] {
+    display: none !important;
+  }
+
+      .product-item__info {
+        padding: 0;
+      }
+
+      .product-item__price .price.sale .old-price {
+        font-weight: 200;
+        margin-right: 0.5rem;
+      }
+
+      /* .product-item__price .price .new-price { */
+      .product-item__price .price.sale .new-price {
+        color: #be1e2d;
+        font-weight: 500;
+      }
+
+      .product-item__image {
+        position: relative;
+      }
+
+      .product-badges {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+        z-index: 2;
+        /* max-height: 5rem; */
+      }
+
+      .product-badge-img {
+        width: auto;
+        height: 100%;
+        max-height: 4.5rem;
+      }
+
+      .product-badge {
+        padding: 4px 8px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+      }
+      .product-badge--new {
+        background: #111;
+      }
+
+      /* Optional: if .product-item__bg has overflow:hidden and trims badge, uncomment */
+      /*
+         .product-item__bg {
+          overflow: visible;
+        }
+        */
+
+      .product-variant-select__input {
+        width: 100%;
+      }
+
+      @media (max-width: 420px) {
+        .product-discount-badge,
+        .product-badge--new {
+          font-size: 0.9rem;
+          padding: 0.1rem 0.375rem;
+        }
+
+        .product-item__title {
+          font-size: 1.1rem;
+        }
+
+        .product-item__price {
+          font-size: 0.9rem;
+          /* padding: 0.7rem 0.9rem; */
+          padding: 9px 10px;
+        }
+
+        .product-item__price .price.sale .old-price {
+          margin-right: 0.1rem;
+        }
+
+        .product-variant-select__input {
+          font-size: 0.9rem;
+        }
+
+        .product-badge-img {
+          height: 3rem;
+        }
+      }</style><div class="grid-item product-item  product-item--left product-item--outer-text  " id="product-item--template--29749638332788__section_collection_N8HAfU-15129160384884" style="--swatch-size: var(--swatch-size-filters);" data-grid-item="">
+    
+<div class="product-item__image" data-product-image=""><a class="product-link" href="/products/get-glowing-ritual-skincare-set-global" aria-label="View Get Glowing Ritual Set - 6-step korean skincare routine product image" data-product-link="/products/get-glowing-ritual-skincare-set-global"><div class="product-item__bg" data-product-image-default=""><figure class="image-wrapper image-wrapper--cover lazy-image lazy-image--backfill aos-animate" style="--aspect-ratio: 1;" data-aos="img-in" data-aos-delay="300" data-aos-duration="800" data-aos-anchor="#product-item--template--29749638332788__section_collection_N8HAfU-15129160384884" data-aos-easing="ease-out-quart"><img src="//beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?crop=center&amp;height=2000&amp;v=1787213692&amp;width=2000" alt="Beauty of Joseon Get Glowing Ritual Set" width="2000" height="2000" loading="eager" srcset="//beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=136 136w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=160 160w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=180 180w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=220 220w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=254 254w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=284 284w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=292 292w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=320 320w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=480 480w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=528 528w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=640 640w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=720 720w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=960 960w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=1080 1080w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=1296 1296w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=1512 1512w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=1728 1728w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=1950 1950w, //beautyofjoseon.com/cdn/shop/files/06_0818_GetGlowingRitualSet_ROW.jpg?v=1787213692&amp;width=2000 2000w" sizes="(min-width: 1400px) calc((80vw - 64px) / 4 - 32px), (min-width: 750px) calc(100vw / 2 - 22px), (min-width: 480px) calc(100vw / 2 - 16px), calc(100vw / 1)" fetchpriority="high" class="">
+</figure>
+
+&nbsp;</div></a>
+
+      
+    </div>
+
+    <div class="product-information" data-product-information="">
+      <div class="product-item__info">
+         
+<div data-oke-star-rating="" data-oke-reviews-product-id="shopify-15129160384884"><div data-oke-reviews-version="0.107.2" data-oke-container="" class="okeReviews oke-sr oke-sr-static"><div class=""><div class="oke-sr-rating"> 4.9 </div><div class="oke-sr-stars"><div class="oke-stars"><!----><div class="oke-stars-background"><svg height="16" viewBox="0 0 84 16" aria-hidden="true" role="none"><use x="0" href="#oke-star-empty"></use><use x="17" href="#oke-star-empty"></use><use x="34" href="#oke-star-empty"></use><use x="51" href="#oke-star-empty"></use><use x="68" href="#oke-star-empty"></use></svg></div><div class="oke-stars-foreground" style="width: 98.0952%;"><svg height="16" viewBox="0 0 84 16" aria-hidden="true" role="none"><use x="0" href="#oke-star-filled"></use><use x="17" href="#oke-star-filled"></use><use x="34" href="#oke-star-filled"></use><use x="51" href="#oke-star-filled"></use><use x="68" href="#oke-star-filled"></use></svg></div><span class="oke-a11yText">Rated 4.9 out of 5 stars</span></div></div><div class="oke-sr-count oke-sr-count--brackets"><span class="oke-sr-count-number">16,382</span><span class="oke-sr-label-text"> Reviews</span><!----></div><!----></div><script type="application/json" data-oke-metafield-data=""> {"averageRating":"4.9","reviewCount":16382} </script></div></div>
+
+        <a class="product-link" href="/products/get-glowing-ritual-skincare-set-global" data-product-link="/products/get-glowing-ritual-skincare-set-global" aria-label="View product details for Get Glowing Ritual Set - 6-step korean skincare routine">
+          <p class="product-item__title">Get Glowing Ritual Set</p>
+
+          <!-- CUTLINE --><span class="product-item__cutline" data-product-cutline="">6-step korean skincare routine</span></a>
+
+        <div class="product-item__price__holder">
+
+<a class="product-link" href="/products/get-glowing-ritual-skincare-set-global" aria-label="Shop Get Glowing Ritual Set - 6-step korean skincare routine" data-product-link="/products/get-glowing-ritual-skincare-set-global">
+            <div class="product-item__price" data-product-price="">
+              <p class="product-item__price__text" data-price-label="">SHOP</p>
+
+              <span class="price">
+                
+                  <span class="sold-out">Sold Out</span>
+                
+              </span>
+            </div>
+          </a>
+        </div></div>
+    </div>
+  </div>
+
+<script>
+  (function () {
+    if (window.__PGI_VARIANT_JS_LOADED__) return;
+    window.__PGI_VARIANT_JS_LOADED__ = true;
+
+    function toNum(value) {
+      const num = Number(value);
+      return Number.isFinite(num) ? num : 0;
+    }
+
+    function getDiscountPercent(option) {
+      const price = toNum(option.dataset.price);
+      const compare = toNum(option.dataset.compare);
+
+      if (compare > price && compare > 0) {
+        return Math.round(((compare - price) * 100) / compare);
+      }
+
+      return 0;
+    }
+
+    function sortVariantOptions(select) {
+      if (!select || select.dataset.variantSorted === '1') return;
+
+      const options = Array.from(select.options);
+
+      options.sort((a, b) => {
+        const aDiscount = getDiscountPercent(a);
+        const bDiscount = getDiscountPercent(b);
+
+        if (aDiscount !== bDiscount) return bDiscount - aDiscount;
+
+        const aPrice = toNum(a.dataset.price);
+        const bPrice = toNum(b.dataset.price);
+
+        if (aPrice !== bPrice) return aPrice - bPrice;
+
+        return a.text.localeCompare(b.text);
+      });
+
+      select.innerHTML = '';
+      options.forEach((option) => select.appendChild(option));
+      select.dataset.variantSorted = '1';
+    }
+
+    function updatePrice(select) {
+      if (!select) return;
+
+      const option = select.selectedOptions[0];
+      if (!option) return;
+
+      const gridItem = select.closest('[data-grid-item]');
+
+      /*
+       * US 20% Coupon Badge
+       *
+       * Liquid에서 각 Variant의 metafield 값을
+       * data-us-coupon-eligible 속성으로 내려준다.
+       *
+       * 사용자가 PLP에서 용량/옵션을 변경할 때
+       * 현재 선택된 Variant가 쿠폰 대상이면 badge를 보여주고,
+       * 대상이 아니면 즉시 숨긴다.
+       *
+       * 국가 및 전체 ON/OFF 조건은 Liquid에서 이미 처리하므로
+       * badge DOM이 존재하는 경우에만 동작한다.
+       */
+      const couponBadge = gridItem?.querySelector('[data-us-coupon-badge]');
+      if (couponBadge) {
+        const isCouponEligible = option.dataset.usCouponEligible === 'true';
+        couponBadge.hidden = !isCouponEligible;
+      }
+
+      // 기존 Variant / Quick Add 처리
+      const variantInput = gridItem?.querySelector('[data-quick-add-variant-id]');
+      const quickAddButton = gridItem?.querySelector('[data-add-to-cart]');
+      const isAvailable = option.dataset.available === 'true';
+
+      if (variantInput) {
+        variantInput.value = option.value;
+      }
+
+      if (quickAddButton) {
+        quickAddButton.disabled = !isAvailable;
+        quickAddButton.classList.toggle('is-disabled', !isAvailable);
+      }
+
+      const holder = select.closest('.product-item__price__holder');
+      if (!holder) return;
+
+      const priceBox = holder.querySelector('[data-product-price]');
+      if (!priceBox) return;
+
+      const labelEl = priceBox.querySelector('[data-price-label]');
+      const compareEl = priceBox.querySelector('[data-price-compare]');
+      const valueEl = priceBox.querySelector('[data-price-value]');
+      const priceEl = priceBox.querySelector('.price');
+
+      const price = toNum(option.dataset.price);
+      const compare = toNum(option.dataset.compare);
+      const priceText = option.dataset.priceText || '';
+      const compareText = option.dataset.compareText || '';
+
+      const hasDiscount = compare > price && compare > 0;
+      const discountPercent = hasDiscount ? Math.round(((compare - price) * 100) / compare) : 0;
+
+      if (labelEl) {
+        labelEl.textContent = hasDiscount ? `Save ${discountPercent}%` : 'SHOP';
+      }
+
+      if (priceEl) {
+        priceEl.classList.toggle('sale', hasDiscount);
+      }
+
+      if (compareEl) {
+        compareEl.textContent = compareText;
+        compareEl.style.display = compareText ? '' : 'none';
+      }
+
+      if (valueEl) {
+        valueEl.textContent = priceText;
+      }
+    }
+
+    function initVariantSelect(select) {
+      if (!select) return;
+
+      sortVariantOptions(select);
+
+      if (select.options.length > 0) {
+        select.selectedIndex = 0;
+      }
+
+      updatePrice(select);
+    }
+
+    function initAllVariantSelects() {
+      document.querySelectorAll('[data-variant-select-input]').forEach(initVariantSelect);
+    }
+
+    /*
+     * PDP -> Browser Back으로 PLP에 복귀할 때
+     * BFCache에 의해 DOMContentLoaded가 다시 실행되지 않을 수 있다.
+     *
+     * Variant 정렬 및 선택값은 유지하고,
+     * 현재 선택된 Variant 기준으로 가격 / Coupon UI만 다시 동기화한다.
+     */
+    function syncAllVariantSelects() {
+      document.querySelectorAll('[data-variant-select-input]').forEach(updatePrice);
+    }
+
+    document.addEventListener('change', function (event) {
+      const select = event.target.closest('[data-variant-select-input]');
+      if (!select) return;
+
+      updatePrice(select);
+    });
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initAllVariantSelects);
+    } else {
+      initAllVariantSelects();
+    }
+
+    /*
+     * Browser Back / Forward navigation 대응.
+     *
+     * 브라우저 뒤로가기 시 BFCache 사용 여부와 관계없이
+     * 이전에 선택했던 Variant 상태가 복원될 수 있다.
+     *
+     * form/select 상태 복원이 완료된 다음
+     * 현재 선택 Variant 기준으로 가격 / Coupon Badge UI를 다시 동기화한다.
+     */
+    window.addEventListener('pageshow', function () {
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(syncAllVariantSelects);
+      });
+    });
+  })();
+</script>
+
+          </div></div>
+    </div>
+  </div>
+</section>
+<style>
+     /* MOBILE: show 2.5 products with same gutter */
+  @media (max-width: 749px) {
+    /* 1) define math vars on the section root */
+    #Collection--template--29749638332788__section_collection_N8HAfU {
+      --mobile-gutter: var(--gutter, 16px);                      /* keep your theme gutter */
+      --mobile-item: calc((100% - (2 * var(--mobile-gutter))) / 2.5);
+    }
+
+    /* 2) make the mobile slider a flex row, overriding .grid {display:grid} */
+    #Collection--template--29749638332788__section_collection_N8HAfU .grid--mobile-slider {
+      display: flex !important;
+      flex-flow: row nowrap;
+      gap: 0;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    #Collection--template--29749638332788__section_collection_N8HAfU .grid--mobile-slider::-webkit-scrollbar { display:none; }
+
+    /* 3) size each card so 2 full + 1/2 peek */
+    #Collection--template--29749638332788__section_collection_N8HAfU .grid--mobile-slider > * {
+      flex: 0 0 var(--mobile-item) !important;
+      max-width: var(--mobile-item) !important;
+      scroll-snap-align: start;
+      box-sizing: border-box;
+    }
+  }
+</style>
+
+<style>
+    .grid__heading-bar {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+
+  .grid__heading-title {
+    grid-column: 2;
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  .grid__heading-cell {
+    grid-column: 1;
+  }
+
+  .grid__heading-actions {
+    grid-column: 3;
+    text-align: right;
+  }
+</style>
+<style> #shopify-section-template--29749638332788__section_collection_N8HAfU .grid__heading-title {font-weight: 500; font-family: "Proxima Sera Regular";} </style></div>

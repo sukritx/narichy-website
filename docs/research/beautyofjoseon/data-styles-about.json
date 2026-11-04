@@ -1,0 +1,712 @@
+{
+ "hero": {
+  "section": {
+   "rect": [
+    0,
+    124,
+    1440,
+    600
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "start",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "htmlClass": "shopify-section section-overlay-header"
+ },
+ "who": {
+  "section": {
+   "rect": [
+    0,
+    724,
+    1440,
+    861.3
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "start",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "img": {
+   "rect": [
+    194,
+    804,
+    526,
+    701.3
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgb(252, 251, 249)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "content": {
+   "rect": [
+    833.1,
+    921.3,
+    299.8,
+    482.6
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgb(252, 251, 249)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 0px -16px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "title": {
+   "rect": [
+    833.1,
+    921.3,
+    299.8,
+    42.3
+   ],
+   "font": "\"Proxima Sera Medium\"",
+   "size": "22.8px",
+   "weight": "400",
+   "lh": "27.36px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px 0px 15px",
+   "margin": "0px 0px 20px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "rte": {
+   "rect": [
+    833.1,
+    983.7,
+    299.8,
+    380.7
+   ],
+   "font": "Inter, sans-serif",
+   "size": "14px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 0px 20px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "sub": {
+   "rect": [
+    833.1,
+    1384.4,
+    299.8,
+    19.6
+   ],
+   "font": "\"Proxima Sera Medium\"",
+   "size": "14px",
+   "weight": "400",
+   "lh": "19.6px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "rteHtml": "\n                        <p>Beauty of Joseon started with a single question: <em>What if we took the history of Hanbang and transformed it into skincare you’d want to carry everywhere and show all your beauty-obsessed friends</em>?&nbsp;</p><p>&nbsp;</p><p>With the launch of our now-iconic <a href=\"https://beautyofjoseon.com/products/relief-sun-rice-probiotics\" target=\"_blank\">Relief Sun</a>, we changed the way you thought about sunscreen. Everything we’ve created continues this key philosophy: beauty essentials that are not only easy to use and intriguing, but also deliver the results to back up the hype.&nbsp;</p><p>&nbsp;</p><p>We’re grateful that you’ve shared our love for elegant, joyful skincare inspired by Hanbang—and we hope you’ll continue joining us on this journey, every step of the way.&nbsp;</p>\n                      "
+ },
+ "mission": {
+  "section": {
+   "rect": [
+    0,
+    1585.3,
+    1440,
+    472.6
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "start",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "content": {
+   "rect": [
+    194,
+    1685.3,
+    1052,
+    272.6
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(255, 255, 255, 0)",
+   "tt": "none",
+   "align": "center",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "title": {
+   "rect": [
+    194,
+    1685.3,
+    1052,
+    27.3
+   ],
+   "font": "\"Proxima Sera Medium\"",
+   "size": "22.8px",
+   "weight": "400",
+   "lh": "27.36px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "center",
+   "pad": "0px",
+   "margin": "0px 0px 16px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "media": {
+   "rect": [
+    614.8,
+    1728.7,
+    210.4,
+    131.5
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "center",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "rte": {
+   "rect": [
+    194,
+    1876.2,
+    1052,
+    65.8
+   ],
+   "font": "Inter, sans-serif",
+   "size": "14px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "center",
+   "pad": "0px",
+   "margin": "0px 0px 16px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "rteHtml": "\n                  <p>We create Hanbang-inspired skincare that’s unique to your routine, gentle on skin, and always effective. As a cruelty-free brand, we develop all of our products without animal testing.</p><p>We believe healthy skincare habits blended with traditional self-care rituals can enrich your daily life.</p>\n                "
+ },
+ "han": {
+  "section": {
+   "rect": [
+    0,
+    2553.8,
+    1440,
+    497.9
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "start",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "content": {
+   "rect": [
+    194,
+    2753.8,
+    1052,
+    197.9
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(255, 255, 255, 0)",
+   "tt": "none",
+   "align": "center",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "title": {
+   "rect": [
+    194,
+    2753.8,
+    1052,
+    27.3
+   ],
+   "font": "\"Proxima Sera Medium\"",
+   "size": "22.8px",
+   "weight": "400",
+   "lh": "27.36px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "center",
+   "pad": "0px",
+   "margin": "0px 0px 16px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "rte": {
+   "rect": [
+    194,
+    2797.1,
+    1052,
+    138.6
+   ],
+   "font": "Inter, sans-serif",
+   "size": "14px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "center",
+   "pad": "0px",
+   "margin": "0px 0px 16px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "rteHtml": "\n                  <p>Hanbang is traditional Korean medicine based on natural ingredients with therapeutic properties, a historical practice that remains widely known and used in Korea today.</p><p>Our Hanbang-infused skincare combines these time-honored herbs with lab-backed, clinically effective ingredients.&nbsp;</p><p>&nbsp;</p><p>Developed from the historical teachings recorded in the <em>Gyuhap Chongseo</em>, a Joseon-era encyclopedia written by female scholar Yi Bingheogak. Consciously created to care for all skin types.&nbsp;</p>\n                "
+ },
+ "ing": {
+  "section": {
+   "rect": [
+    0,
+    3051.7,
+    1440,
+    670.3
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "start",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "heading": {
+   "rect": [
+    50,
+    3446.9,
+    375.2,
+    27.3
+   ],
+   "font": "\"Proxima Sera Medium\"",
+   "size": "22.8px",
+   "weight": "400",
+   "lh": "27.36px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 0px 7px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "grid": {
+   "rect": [
+    0,
+    3051.7,
+    1440,
+    570.3
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px 50px",
+   "margin": "0px -50px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "item": {
+   "rect": [
+    50,
+    3051.7,
+    375.2,
+    528.3
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 32px 0px 0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "image": {
+   "rect": [
+    50,
+    3051.7,
+    375.2,
+    375.2
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 0px 20px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "title": {
+   "rect": [
+    50,
+    3446.9,
+    375.2,
+    27.3
+   ],
+   "font": "\"Proxima Sera Medium\"",
+   "size": "22.8px",
+   "weight": "400",
+   "lh": "27.36px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 0px 7px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "text": {
+   "rect": [
+    50,
+    3484.2,
+    375.2,
+    42
+   ],
+   "font": "Inter, sans-serif",
+   "size": "14px",
+   "weight": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "10px 0px 0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "btn": {
+   "rect": [
+    50,
+    3546.2,
+    124.8,
+    33.8
+   ],
+   "font": "Figtree, sans-serif",
+   "size": "10px",
+   "weight": "400",
+   "lh": "13.75px",
+   "ls": "1px",
+   "color": "rgb(0, 0, 0)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "uppercase",
+   "align": "center",
+   "pad": "9px 25px",
+   "margin": "0px",
+   "border": "1px solid rgb(0, 0, 0)",
+   "radius": "0px"
+  },
+  "content": {
+   "rect": [
+    50,
+    3446.9,
+    375.2,
+    133.1
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  }
+ },
+ "press": {
+  "section": {
+   "rect": [
+    0,
+    3722,
+    1440,
+    513.2
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "start",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "heading": {
+   "rect": [
+    50,
+    3772,
+    1340,
+    27.3
+   ],
+   "font": "Amiri, serif",
+   "size": "22.8px",
+   "weight": "400",
+   "lh": "27.36px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "center",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "grid": {
+   "rect": [
+    50,
+    3831.3,
+    1340,
+    353.8
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "item": {
+   "rect": [
+    50,
+    3831.3,
+    212,
+    353.8
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "image": {
+   "rect": [
+    50,
+    3831.3,
+    212,
+    212
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 0px 20px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "sub": {
+   "rect": [
+    50,
+    4063.3,
+    212,
+    14
+   ],
+   "font": "Inter, sans-serif",
+   "size": "11px",
+   "weight": "500",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "uppercase",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 0px 11px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "title": {
+   "rect": [
+    50,
+    4088.3,
+    212,
+    34.6
+   ],
+   "font": "Amiri, serif",
+   "size": "14.4px",
+   "weight": "400",
+   "lh": "17.28px",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "0px 0px 7px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "btn": {
+   "rect": [
+    50,
+    4147.1,
+    212,
+    38
+   ],
+   "font": "Inter, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(33, 33, 33)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tt": "none",
+   "align": "left",
+   "pad": "0px",
+   "margin": "17.2812px 0px 0px",
+   "border": "0px none rgb(33, 33, 33)",
+   "radius": "0px"
+  },
+  "btnHtml": "\n                          <a href=\"https://www.businessoffashion.com/articles/beauty/tiktoks-favourite-sunscreen-brand-pushes-further-into-the-us/\" class=\"btn btn--text btn--text-no-underline btn--small btn--black\" aria-label=\"Learn more\">\n                            <span>Learn more</span><svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-arrow-right\" viewBox=\"0 0 24 24\"><path d=\"M6 12h12.5m0 0-6-6m6 6-6 6\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></a>\n                        "
+ }
+}

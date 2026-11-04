@@ -1,0 +1,14 @@
+﻿import { launch, connect, evaluate, close } from "./cdp.mjs";
+import { writeFileSync } from "node:fs";
+const proc = await launch();
+const { send } = await connect();
+await send("Page.enable"); await send("Runtime.enable");
+await send("Emulation.setDeviceMetricsOverride", { width: 1440, height: 1000, deviceScaleFactor: 1, mobile: false });
+await send("Page.navigate", { url: "http://localhost:3000/" });
+await new Promise(r => setTimeout(r, 3000));
+const about = await evaluate(send, `(() => { const a=[...document.querySelectorAll('.boj-nav-link')].find(e=>e.innerText.trim()==='ABOUT'); const r=a.getBoundingClientRect(); return {x:r.x+10,y:r.y+r.height/2}; })()`);
+await send("Input.dispatchMouseEvent",{type:"mouseMoved",x:about.x,y:about.y});
+await new Promise(r=>setTimeout(r,700));
+const r=await send("Page.captureScreenshot",{format:"png"}); writeFileSync("docs/design-references/check-about-mega.png", Buffer.from(r.data,"base64"));
+console.log(await evaluate(send, `({open: !!document.querySelector('.boj-mega-about')})`));
+close(proc);

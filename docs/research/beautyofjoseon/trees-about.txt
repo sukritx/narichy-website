@@ -1,0 +1,157 @@
+
+===== 0c6d7da3 =====
+div.shopify-section.section-overlay-header [0,124 1440x600]
+  div.index-hero.wide-image.section-padding [0,124 1440x600]
+    div.hero__wrapper.frame.wrapper--full [0,124 1440x600]
+      div.hero__images.frame__item [0,124 1440x600]
+        div.hero__split-image [0,124 1440x600]
+          div.image__hero__frame.image-height.screen-height-three-quarters--mobile [0,124 1440x600]
+            div.image__hero__pane [0,124 1440x600]
+              div.image__hero__scale.image__fill.lazy-image.lazy-image--backfill [0,124 1440x600]
+
+===== section_double_TLVMpt =====
+div.shopify-section.section-overlay-header [0,724 1440x861]
+  section.index-image-text.section-padding.text-left [0,724 1440x861]
+    div.brick__section.wrapper.image-height.screen-height-one-half--mobile [144,804 1152x701]
+      div.brick__block.brick__block--images [194,804 526x701]
+        div.brick__block__image.wide-image [194,804 526x701]
+          div.image__hero__frame.image-height.screen-height-one-half--mobile [194,804 526x701]
+            div.image__hero__pane [194,804 526x701]
+              div.image__hero__scale.image__fill.lazy-image.lazy-image--backfill [194,804 526x701]
+      div.brick__block.brick__block--text [720,804 526x701]
+        div.brick__block__text [783,804 400x701]
+          div.hero__content.hero__content--compact.hero__content--no-padding [833,921 300x483]
+            h2.hero__title.heading-size-4.block-padding.aos-animate [833,921 300x42] :: Who Are We?
+            div.hero__rte.body-size-2.font-body.block-padding.aos-animate [833,984 300x381]
+              p [833,984 300x98]
+              p [833,1089 300x20]
+              p [833,1115 300x137]
+              p [833,1259 300x20]
+              p [833,1286 300x78] :: We’re grateful that you’ve shared our love for elegant, joyful skincare inspired by Hanbang—and we hope you’ll continue joining us
+            p.hero__subheading.subheading-size-2.block-padding.aos-animate [833,1384 300x20] :: The Beauty of Joseon Team
+
+===== section_rich_text_YELqmQ =====
+div.shopify-section [0,1585 1440x473]
+  section.index-rte.section-padding [0,1585 1440x473]
+    div.hero__content__wrapper.text-center.wrapper [144,1685 1152x273]
+      div.hero__content.hero__content--compact.hero__content--transparent [194,1685 1052x273]
+        h2.hero__title.heading-size-4 [194,1685 1052x27] :: Our Mission
+        div.hero__media.block-padding [615,1729 210x131]
+          figure.image-wrapper.lazy-image.lazy-image--backfill [615,1729 210x131]
+            img [615,1729 210x131] SRC=https://beautyofjoseon.com/cdn/shop/files/02_0723___logo_600x375_dea7bce7-f051-4dbf-9abf-f0e116ff329f.jpg?v=1785357674&width=360
+        div.hero__rte.body-size-2.font-body.block-padding [194,1876 1052x66]
+          p [194,1876 1052x39] :: We create Hanbang-inspired skincare that’s unique to your routine, gentle on skin, and always effective. As a cruelty-free brand, 
+          p [194,1922 1052x20] :: We believe healthy skincare habits blended with traditional self-care rituals can enrich your daily life.
+
+===== section_hero_RTgrH8 =====
+div.shopify-section.section-overlay-header [0,2058 1440x496]
+  div.index-hero.wide-image.section-padding [0,2058 1440x496]
+    div.hero__wrapper.frame.wrapper--full [0,2058 1440x496]
+      div.hero__images.frame__item [0,2058 1440x496]
+        div.hero__split-image [0,2058 1440x496]
+          div.image__hero__frame.image-height.screen-height-one-third--mobile [0,2058 1440x496]
+            div.image__hero__pane [0,2058 1440x496]
+              div.image__hero__scale.image__fill.lazy-image.lazy-image--backfill [0,2058 1440x496]
+
+===== section_rich_text_LNzyt3 =====
+div.shopify-section [0,2554 1440x498]
+  section.index-rte.section-padding [0,2554 1440x498]
+    div.hero__content__wrapper.text-center.wrapper [144,2754 1152x198]
+      div.hero__content.hero__content--compact.hero__content--transparent [194,2754 1052x198]
+        h2.hero__title.heading-size-4 [194,2754 1052x27] :: What is Hanbang?
+        div.hero__rte.body-size-2.font-body.block-padding [194,2797 1052x139]
+          p [194,2797 1052x39] :: Hanbang is traditional Korean medicine based on natural ingredients with therapeutic properties, a historical practice that remain
+          p [194,2843 1052x20] :: Our Hanbang-infused skincare combines these time-honored herbs with lab-backed, clinically effective ingredients.
+          p [194,2870 1052x20]
+          p [194,2896 1052x39]
+            em [571,2897 124x17] :: Gyuhap Chongseo
+
+===== section_columns_Tz7Xkn =====
+div.shopify-section.index-section [0,3052 1440x670]
+  div.section-columns.section-padding [0,3052 1440x670]
+    div.wrapper--full-padded [0,3052 1440x570]
+      grid-slider [50,3052 1340x570]
+        div.grid.grid--slider.grid--mobile-slider.flex-align-top.text-left [0,3052 1440x570]
+          div.grid-item.is-visible [50,3052 375x528]
+            div.column__inner [50,3052 375x528]
+              div.column__image [50,3052 375x375]
+              div.column__content [50,3447 375x133]
+          div.grid-item.is-visible [457,3052 375x549]
+            div.column__inner [457,3052 375x549]
+              div.column__image [457,3052 375x375]
+              div.column__content [457,3447 375x154]
+          div.grid-item.is-visible [864,3052 375x570]
+            div.column__inner [864,3052 375x570]
+              div.column__image [864,3052 375x375]
+              div.column__content [864,3447 375x175]
+          div.grid-item [1272,3052 375x570]
+            div.column__inner [1272,3052 375x570]
+              div.column__image [1272,3052 375x375]
+              div.column__content [1272,3447 375x175]
+          div.grid-item [1679,3052 375x570]
+            div.column__inner [1679,3052 375x570]
+              div.column__image [1679,3052 375x375]
+              div.column__content [1679,3447 375x175]
+          div.grid-item [2086,3052 375x570]
+            div.column__inner [2086,3052 375x570]
+              div.column__image [2086,3052 375x375]
+              div.column__content [2086,3447 375x175]
+          div.grid-item [2493,3052 375x570]
+            div.column__inner [2493,3052 375x570]
+              div.column__image [2493,3052 375x375]
+              div.column__content [2493,3447 375x175]
+          div.grid-item [2900,3052 375x549]
+            div.column__inner [2900,3052 375x549]
+              div.column__image [2900,3052 375x375]
+              div.column__content [2900,3447 375x154]
+        div.slider__arrows [0,3052 1440x570]
+          button.slider__button.slider__button--prev [10,3219 40x40] :: Previous
+          button.slider__button.slider__button--next [1390,3219 40x40] :: Next
+
+===== section_columns_LUUwTX =====
+div.shopify-section.index-section [0,3722 1440x513]
+  div.section-columns.section-padding [0,3722 1440x513]
+    div.wrapper--full-padded [0,3772 1440x413]
+      div.grid__heading-holder.text-center [50,3772 1340x27]
+        h2.grid__heading.heading-size-4 [50,3772 1340x27] :: Featured in the Press
+      div.grid.grid--centered-columns.grid--mobile-slider.flex-align-top.text-left [50,3831 1340x354]
+        div.grid-item [50,3831 212x354]
+          div.column__inner [50,3831 212x354]
+            div.column__image [50,3831 212x212]
+              figure.image-wrapper.lazy-image.lazy-image--backfill.is-loading [50,3831 212x212]
+            div.column__subheading [50,4063 212x14] :: BOF
+            div.column__content [50,4088 212x97]
+              h2.column__heading.heading-size-1 [50,4088 212x35] :: TikTok’s Hit Korean Sunscreen Brand Makes Big US Push​
+              div.column__btn [50,4147 212x38]
+        div.grid-item [332,3831 212x354]
+          div.column__inner [332,3831 212x354]
+            div.column__image [332,3831 212x212]
+              figure.image-wrapper.lazy-image.lazy-image--backfill.is-loading [332,3831 212x212]
+            div.column__subheading [332,4063 212x14] :: ALLURE
+            div.column__content [332,4088 212x97]
+              h2.column__heading.heading-size-1 [332,4088 212x52] :: 18 Best Korean Beauty Gifts of 2024, According to Allure's Resident Expert​
+              div.column__btn [332,4147 212x38]
+        div.grid-item [614,3831 212x354]
+          div.column__inner [614,3831 212x354]
+            div.column__image [614,3831 212x212]
+              figure.image-wrapper.lazy-image.lazy-image--backfill.is-loading [614,3831 212x212]
+            div.column__subheading [614,4063 212x14] :: VOGUE
+            div.column__content [614,4088 212x97]
+              h2.column__heading.heading-size-1 [614,4088 212x52] :: The Best Hydrating Eye Creams to Keep Fine Lines, Dark Circles, and Puffiness at Bay​
+              div.column__btn [614,4147 212x38]
+        div.grid-item [896,3831 212x354]
+          div.column__inner [896,3831 212x354]
+            div.column__image [896,3831 212x212]
+              figure.image-wrapper.lazy-image.lazy-image--backfill.is-loading [896,3831 212x212]
+            div.column__subheading [896,4063 212x14] :: BYRDIE
+            div.column__content [896,4088 212x97]
+              h2.column__heading.heading-size-1 [896,4088 212x35] :: The 15 Most Viral TikTok Beauty Products of 2024​
+              div.column__btn [896,4147 212x38]
+        div.grid-item [1178,3831 212x354]
+          div.column__inner [1178,3831 212x354]
+            div.column__image [1178,3831 212x212]
+              figure.image-wrapper.lazy-image.lazy-image--backfill.is-loading [1178,3831 212x212]
+            div.column__subheading [1178,4063 212x14] :: GLAMOUR
+            div.column__content [1178,4088 212x97]
+              h2.column__heading.heading-size-1 [1178,4088 212x52] :: 18 Best Korean Moisturizers, According to Dermatologists & Estheticians​
+              div.column__btn [1178,4147 212x38]
