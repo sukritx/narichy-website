@@ -2047,7 +2047,7 @@
   .boj-header-inner { display: none; }
   .boj-mobile-header { display: flex; }
   .boj-hero {
-    aspect-ratio: 390 / 541.6;
+    aspect-ratio: 2048 / 780;
     margin-top: -70px;
   }
   .boj-hero-slide img { object-position: center top; }
