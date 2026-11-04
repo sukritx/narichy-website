@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "@/components/sites/beautyofjoseon/boj.css";
-import { AnnouncementBar } from "@/components/sites/beautyofjoseon/AnnouncementBar";
-import { FloatingWidgets } from "@/components/sites/beautyofjoseon/FloatingWidgets";
-import { SiteFooter } from "@/components/sites/beautyofjoseon/SiteFooter";
-import { SiteHeader } from "@/components/sites/beautyofjoseon/SiteHeader";
-import { StoreProvider } from "@/components/sites/beautyofjoseon/store";
+import "@/components/sites/narichy/boj.css";
+import { AnnouncementBar } from "@/components/sites/narichy/AnnouncementBar";
+import { FloatingWidgets } from "@/components/sites/narichy/FloatingWidgets";
+import { SiteFooter } from "@/components/sites/narichy/SiteFooter";
+import { SiteHeader } from "@/components/sites/narichy/SiteHeader";
+import { StoreProvider } from "@/components/sites/narichy/store";
 
 export const metadata: Metadata = {
   title: "Beauty of Joseon | Hanbang Skincare",

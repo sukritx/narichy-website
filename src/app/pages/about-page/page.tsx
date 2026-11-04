@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 
 import type { Metadata } from "next";
-import { AboutIngredientCarousel } from "@/components/sites/beautyofjoseon/AboutIngredientCarousel";
+import { AboutIngredientCarousel } from "@/components/sites/narichy/AboutIngredientCarousel";
 import {
   asset,
   pressItems,
   srcUrl,
-} from "@/components/sites/beautyofjoseon/data";
-import { IconArrowRight } from "@/components/sites/beautyofjoseon/icons";
+} from "@/components/sites/narichy/data";
+import { IconArrowRight } from "@/components/sites/narichy/icons";
 
 export const metadata: Metadata = {
   title: "About Us | Beauty of Joseon",
