@@ -3,58 +3,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
-import {
-  asset,
-  ingredientCards,
-  leftNav,
-  products,
-  rightNav,
-  srcUrl,
-} from "./data";
-import {
-  IconCart,
-  IconChevronRight,
-  IconClose,
-  IconMenu,
-  IconPerson,
-  IconSearch,
-} from "./icons";
-import { useStore } from "./store";
-
-const searchIndex = [
-  {
-    label: "Tinted Mineral Dayscreen SPF 30",
-    type: "Product",
-    href: srcUrl("/products/tinted-mineral-dayscreen-spf-30-global"),
-  },
-  ...products.map((product) => ({
-    label: product.title,
-    type: "Product",
-    href: product.href,
-  })),
-  ...ingredientCards.map((ingredient) => ({
-    label: ingredient.name,
-    type: "Ingredient",
-    href: ingredient.href,
-  })),
-  { label: "About Us", type: "Page", href: "/pages/about-page" },
-  { label: "BOJ Rewards", type: "Page", href: srcUrl("/pages/rewards") },
-  { label: "Need Help?", type: "Page", href: srcUrl("/pages/need-help") },
-];
+import { useEffect, useRef, useState } from "react";
+import { asset, leftNav, rightNav, srcUrl } from "./data";
+import { IconChevronRight, IconClose, IconMenu } from "./icons";
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const { cartCount, setCartOpen } = useStore();
   const [scrolled, setScrolled] = useState(false);
   const [openMenu, setOpenMenu] = useState<"about" | null>(null);
-  const [searchOpen, setSearchOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [query, setQuery] = useState("");
   const closeTimer = useRef<number | null>(null);
 
   const overlay = pathname === "/";
-  const solid = !overlay || scrolled || openMenu !== null || searchOpen || mobileOpen;
+  const solid = !overlay || scrolled || openMenu !== null || mobileOpen;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -64,35 +25,21 @@ export function SiteHeader() {
   }, []);
 
   useEffect(() => {
-    const locked = searchOpen || mobileOpen;
-    document.body.style.overflow = locked ? "hidden" : "";
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
     };
-  }, [searchOpen, mobileOpen]);
+  }, [mobileOpen]);
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.key !== "Escape") return;
-      setSearchOpen(false);
       setMobileOpen(false);
       setOpenMenu(null);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, []);
-
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (!q) return searchIndex.slice(0, 6);
-    return searchIndex
-      .filter(
-        (item) =>
-          item.label.toLowerCase().includes(q) ||
-          item.type.toLowerCase().includes(q),
-      )
-      .slice(0, 10);
-  }, [query]);
 
   const openWithDelay = (menu: "about") => {
     if (closeTimer.current) window.clearTimeout(closeTimer.current);
@@ -130,12 +77,12 @@ export function SiteHeader() {
           </nav>
 
           <div className="boj-logo">
-            <Link href="/" aria-label="Beauty of Joseon home">
+            <Link href="/" aria-label="Narichy Thailand home">
               <Image
-                src={asset("images/logo.png")}
-                alt="Beauty of Joseon"
-                width={480}
-                height={46}
+                src="/images/black-logo.png"
+                alt="Narichy Thailand"
+                width={2400}
+                height={2400}
                 priority
               />
             </Link>
@@ -167,32 +114,6 @@ export function SiteHeader() {
                 )}
               </div>
             ))}
-            <div className="boj-icon-buttons">
-              <a
-                className="boj-icon-btn"
-                href={srcUrl("/account")}
-                aria-label="Account"
-              >
-                <IconPerson />
-              </a>
-              <button
-                type="button"
-                className="boj-icon-btn"
-                aria-label="Search"
-                onClick={() => setSearchOpen(true)}
-              >
-                <IconSearch />
-              </button>
-              <button
-                type="button"
-                className="boj-icon-btn"
-                aria-label={`Cart, ${cartCount} items`}
-                onClick={() => setCartOpen(true)}
-              >
-                <IconCart />
-                <span className="boj-cart-count">{cartCount}</span>
-              </button>
-            </div>
           </nav>
         </div>
 
@@ -262,38 +183,16 @@ export function SiteHeader() {
             >
               <IconMenu />
             </button>
-            <button
-              type="button"
-              className="boj-mobile-icon"
-              aria-label="Search"
-              onClick={() => setSearchOpen(true)}
-            >
-              <IconSearch />
-            </button>
           </div>
-          <Link href="/" className="boj-mobile-logo" aria-label="Beauty of Joseon home">
+          <Link href="/" className="boj-mobile-logo" aria-label="Narichy Thailand home">
             <Image
-              src={asset("images/logo.png")}
-              alt="Beauty of Joseon"
-              width={360}
-              height={34}
+              src="/images/black-logo.png"
+              alt="Narichy Thailand"
+              width={2400}
+              height={2400}
               priority
             />
           </Link>
-          <div className="boj-mobile-side">
-            <a className="boj-mobile-icon" href={srcUrl("/account")} aria-label="Account">
-              <IconPerson />
-            </a>
-            <button
-              type="button"
-              className="boj-mobile-icon"
-              aria-label={`Cart, ${cartCount} items`}
-              onClick={() => setCartOpen(true)}
-            >
-              <IconCart />
-              <span className="boj-cart-count">{cartCount}</span>
-            </button>
-          </div>
         </div>
       </header>
 
@@ -341,61 +240,6 @@ export function SiteHeader() {
               width={1200}
               height={562}
             />
-          </div>
-        </div>
-      )}
-
-      {searchOpen && (
-        <div className="boj-search" role="dialog" aria-modal="true" aria-label="Search">
-          <button
-            type="button"
-            className="boj-search-close"
-            onClick={() => setSearchOpen(false)}
-            aria-label="Close search"
-          >
-            <IconClose className="h-5 w-5" />
-          </button>
-          <div className="boj-search-inner">
-            <div className="boj-search-bar">
-              <IconSearch className="h-6 w-6 shrink-0" />
-              <input
-                autoFocus
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search products, ingredients..."
-                aria-label="Search"
-              />
-            </div>
-            <div className="boj-search-results">
-              {filtered.length === 0 ? (
-                <p className="py-6 text-sm text-[#636262]">
-                  No results for “{query}”.
-                </p>
-              ) : (
-                filtered.map((item) =>
-                  item.href.startsWith("/") ? (
-                    <Link
-                      href={item.href}
-                      className="boj-search-result"
-                      key={`${item.type}-${item.label}`}
-                      onClick={() => setSearchOpen(false)}
-                    >
-                      <span>{item.label}</span>
-                      <span className="boj-search-type">{item.type}</span>
-                    </Link>
-                  ) : (
-                    <a
-                      href={item.href}
-                      className="boj-search-result"
-                      key={`${item.type}-${item.label}`}
-                    >
-                      <span>{item.label}</span>
-                      <span className="boj-search-type">{item.type}</span>
-                    </a>
-                  ),
-                )
-              )}
-            </div>
           </div>
         </div>
       )}

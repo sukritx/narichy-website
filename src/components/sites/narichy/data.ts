@@ -14,7 +14,10 @@ export type NavItem = {
 };
 
 export const leftNav: NavItem[] = [
-  { label: "BEST SELLERS", href: srcUrl("/collections/best-sellers") },
+  {
+    label: "BEST SELLERS",
+    href: "https://shopee.co.th/narichyshop",
+  },
 ];
 
 export const rightNav: NavItem[] = [

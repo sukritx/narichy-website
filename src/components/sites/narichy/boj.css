@@ -223,8 +223,8 @@
   align-items: center;
 }
 .boj-logo img {
-  width: 240px;
-  height: auto;
+  width: auto;
+  height: 72px;
 }
 .boj-nav-item {
   position: relative;
@@ -408,8 +408,8 @@
   transform: translate(-50%, -50%);
 }
 .boj-mobile-logo img {
-  width: 180px;
-  height: auto;
+  width: auto;
+  height: 52px;
 }
 .boj-mobile-icon {
   width: 26px;
