@@ -22,45 +22,6 @@ import {
 } from "./icons";
 import { useStore } from "./store";
 
-const shopColumns = [
-  {
-    title: "Shop All",
-    href: srcUrl("/collections/shop-all"),
-    links: [{ label: "Ingredients", href: srcUrl("/pages/ingredients") }],
-  },
-  {
-    title: "By Product",
-    href: srcUrl("/collections/shop-all"),
-    links: [
-      { label: "Sunscreen", href: srcUrl("/collections/sunscreens") },
-      { label: "Cleanser", href: srcUrl("/collections/cleanser") },
-      { label: "Exfoliator", href: srcUrl("/collections/exfoliator") },
-      { label: "Toner & Essence", href: srcUrl("/collections/toner-essence") },
-      { label: "Serum", href: srcUrl("/collections/serum") },
-      { label: "Moisturizer", href: srcUrl("/collections/moisturizer") },
-      { label: "Mask", href: srcUrl("/collections/mask") },
-      { label: "Life Style", href: srcUrl("/collections/all-goods") },
-    ],
-  },
-  {
-    title: "By Skin Concern",
-    href: srcUrl("/collections/skin-concern"),
-    links: [
-      { label: "Wrinkles", href: srcUrl("/collections/wrinkles") },
-      { label: "Pores & Sebum", href: srcUrl("/collections/pores-sebum") },
-      {
-        label: "Dullness & Uneven tone",
-        href: srcUrl("/collections/dullness-uneven-tone"),
-      },
-      {
-        label: "Sensitivity",
-        href: srcUrl("/collections/sensitivity-blemish"),
-      },
-      { label: "Dryness", href: srcUrl("/collections/dryness") },
-    ],
-  },
-];
-
 const searchIndex = [
   {
     label: "Tinted Mineral Dayscreen SPF 30",
@@ -86,10 +47,9 @@ export function SiteHeader() {
   const pathname = usePathname();
   const { cartCount, setCartOpen } = useStore();
   const [scrolled, setScrolled] = useState(false);
-  const [openMenu, setOpenMenu] = useState<"shop" | "about" | null>(null);
+  const [openMenu, setOpenMenu] = useState<"about" | null>(null);
   const [searchOpen, setSearchOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [mobileShopOpen, setMobileShopOpen] = useState(false);
   const [query, setQuery] = useState("");
   const closeTimer = useRef<number | null>(null);
 
@@ -134,7 +94,7 @@ export function SiteHeader() {
       .slice(0, 10);
   }, [query]);
 
-  const openWithDelay = (menu: "shop" | "about") => {
+  const openWithDelay = (menu: "about") => {
     if (closeTimer.current) window.clearTimeout(closeTimer.current);
     setOpenMenu(menu);
   };
@@ -235,41 +195,6 @@ export function SiteHeader() {
             </div>
           </nav>
         </div>
-
-        {openMenu === "shop" && (
-          <div
-            className="boj-mega"
-            onMouseEnter={() => openWithDelay("shop")}
-            onMouseLeave={closeWithDelay}
-          >
-            <div className="boj-mega-inner">
-              <div className="boj-mega-links">
-                {shopColumns.map((column) => (
-                  <div className="boj-mega-col" key={column.title}>
-                    <a className="boj-mega-link is-parent" href={column.href}>
-                      {column.title}
-                    </a>
-                    {column.links.map((link) => (
-                      <a className="boj-mega-link" href={link.href} key={link.label}>
-                        {link.label}
-                      </a>
-                    ))}
-                  </div>
-                ))}
-              </div>
-              <div className="boj-mega-image">
-                <a href={srcUrl("/products/tinted-mineral-dayscreen-spf-30-global")}>
-                  <Image
-                    src={asset("images/menu-tinted.jpg")}
-                    alt="A row of tinted mineral dayscreen tubes"
-                    width={1200}
-                    height={562}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        )}
 
         {openMenu === "about" && (
           <div
@@ -386,30 +311,7 @@ export function SiteHeader() {
             </button>
           </div>
           <nav className="boj-mobile-menu-list" aria-label="Mobile navigation">
-            <div className="boj-mobile-menu-item">
-              <button
-                type="button"
-                aria-expanded={mobileShopOpen}
-                onClick={() => setMobileShopOpen((open) => !open)}
-              >
-                SHOP
-                <IconChevronRight
-                  className={`h-4 w-4 transition-transform${mobileShopOpen ? " rotate-90" : ""}`}
-                />
-              </button>
-              {mobileShopOpen && (
-                <div className="boj-mobile-sub">
-                  <a href={srcUrl("/collections/shop-all")}>Shop All</a>
-                  <a href={srcUrl("/pages/ingredients")}>Ingredients</a>
-                  <a href={srcUrl("/collections/sunscreens")}>Sunscreen</a>
-                  <a href={srcUrl("/collections/cleanser")}>Cleanser</a>
-                  <a href={srcUrl("/collections/serum")}>Serum</a>
-                  <a href={srcUrl("/collections/moisturizer")}>Moisturizer</a>
-                  <a href={srcUrl("/collections/mask")}>Mask</a>
-                </div>
-              )}
-            </div>
-            {leftNav.slice(1).map((item) => (
+            {leftNav.map((item) => (
               <div className="boj-mobile-menu-item" key={item.label}>
                 <a href={item.href} onClick={() => setMobileOpen(false)}>
                   {item.label}

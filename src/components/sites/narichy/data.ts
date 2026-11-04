@@ -10,19 +10,15 @@ export const announcementMessages = [
 export type NavItem = {
   label: string;
   href: string;
-  menu?: "shop" | "about";
+  menu?: "about";
 };
 
 export const leftNav: NavItem[] = [
-  { label: "SHOP", href: srcUrl("/collections/shop-all"), menu: "shop" },
-  { label: "SAVE WITH SETS", href: srcUrl("/collections/bundles-sets") },
   { label: "BEST SELLERS", href: srcUrl("/collections/best-sellers") },
 ];
 
 export const rightNav: NavItem[] = [
-  { label: "BOJ REWARDS", href: srcUrl("/pages/rewards") },
   { label: "ABOUT", href: "/pages/about-page", menu: "about" },
-  { label: "NEED HELP?", href: srcUrl("/pages/need-help") },
 ];
 
 export type Product = {
