@@ -56,7 +56,7 @@ export function SiteHeader() {
           <div className="boj-logo">
             <Link href="/" aria-label="Narichy Thailand home">
               <Image
-                src="/images/black-logo.png"
+                src="/images/logo/narichy-black-logo.png"
                 alt="Narichy Thailand"
                 width={2400}
                 height={2400}
@@ -97,7 +97,7 @@ export function SiteHeader() {
           </div>
           <Link href="/" className="boj-mobile-logo" aria-label="Narichy Thailand home">
             <Image
-              src="/images/black-logo.png"
+              src="/images/logo/narichy-black-logo.png"
               alt="Narichy Thailand"
               width={2400}
               height={2400}

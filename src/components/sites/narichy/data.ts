@@ -93,8 +93,8 @@ export type HeroSlide = {
 export const heroSlides: HeroSlide[] = [
   {
     href: "https://shopee.co.th/narichyshop",
-    desktop: "/images/hero/hero-slider-1.jpg",
-    mobile: "/images/hero/hero-slider-1.jpg",
+    desktop: "/images/hero/hero-slider-2.jpg",
+    mobile: "/images/hero/hero-slider-2.jpg",
     align: "left",
     imageAlt: "Narichy Thailand product range banner",
   },
