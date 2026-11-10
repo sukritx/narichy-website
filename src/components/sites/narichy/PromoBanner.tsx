@@ -1,17 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { asset, srcUrl } from "./data";
+import { srcUrl } from "./data";
 
 export function PromoBanner() {
   return (
     <section className="boj-promo">
       <div className="boj-promo-text">
         <div className="boj-promo-copy">
-          <p className="boj-promo-sub">New</p>
+          <p className="boj-promo-sub">Try now</p>
           <h2 className="boj-promo-title">
-            Experience the new standard of tinted SPF
+            ชุ่มชื่น ปรับสมดุลภายใน ลดกลิ่น ลดตกขาว ไร้สารตกค้าง
           </h2>
-          <p className="boj-promo-rte">Tinted Mineral Dayscreen</p>
           <a
             className="boj-promo-btn"
             href={srcUrl("/products/tinted-mineral-dayscreen-spf-30-global")}
@@ -22,7 +21,7 @@ export function PromoBanner() {
       </div>
       <div className="boj-promo-image">
         <img
-          src={asset("images/promo-tinted.webp")}
+          src="/images/promo-bannner/promo-banner-1.jpg"
           alt="Tinted Mineral Dayscreen SPF 30 wide image"
           loading="lazy"
         />

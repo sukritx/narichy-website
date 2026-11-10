@@ -28,11 +28,8 @@ export type Product = {
   cutline: string;
   rating: string;
   reviews: string;
-  priceLabel: string;
-  priceStatus: string;
   image: string;
   href: string;
-  sizes?: string[];
 };
 
 export const products: Product[] = [
@@ -41,42 +38,32 @@ export const products: Product[] = [
     cutline: "น้ำชง ลดกลิ่น ปรับสมดุลย์ภายใน",
     rating: "4.8",
     reviews: "1,148 Reviews",
-    priceLabel: "Save 25%",
-    priceStatus: "Sold Out",
     image: "/images/best-sellers/bestsellers-supplement-3.jpg",
-    href: srcUrl("/products/revive-ritual-eye-duo-global"),
+    href: "https://shopee.co.th/narichyshop/29310820621",
   },
   {
     title: "Finn Spray",
     cutline: "สเปรย์น้องสาวสูตรอ่อนโยน",
     rating: "4.9",
     reviews: "854 Reviews",
-    priceLabel: "Save 25%",
-    priceStatus: "Sold Out",
     image: "/images/best-sellers/bestsellers-finnspray.jpg",
-    href: srcUrl("/products/deep-double-cleansing-duo"),
-    sizes: ["Large", "Original"],
+    href: "https://shopee.co.th/narichyshop/18082240400",
   },
   {
     title: "Narichy Finn Serum",
     cutline: "ปรับผิวจุดซ่อนเร้นขาวกระจ่างใส",
     rating: "4.9",
     reviews: "175 Reviews",
-    priceLabel: "Save 20%",
-    priceStatus: "Sold Out",
     image: "/images/best-sellers/bestsellers-serum-1.jpg",
-    href: srcUrl("/products/glass-skin-duo"),
-    sizes: ["Large", "Original"],
+    href: "https://shopee.co.th/narichyshop/53205125514",
   },
   {
     title: "Finn Soap",
     cutline: "สบู่อนามัยสำหรับจุดซ่อนเร้น",
     rating: "4.9",
     reviews: "2,256 Reviews",
-    priceLabel: "SHOP",
-    priceStatus: "Sold Out",
-    image: "/images/best-sellers/bestsellers-finnspray.jpg",
-    href: srcUrl("/products/get-glowing-ritual-skincare-set-global"),
+    image: "/images/best-sellers/bestsellers-finnsoap-1.jpg",
+    href: "https://shopee.co.th/narichyshop/17486677158",
   },
 ];
 

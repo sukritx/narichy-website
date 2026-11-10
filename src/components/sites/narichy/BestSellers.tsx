@@ -39,23 +39,9 @@ export function BestSellers() {
                   {product.title}
                 </a>
                 <p className="boj-product-cutline">{product.cutline}</p>
-                {product.sizes && (
-                  <select
-                    className="boj-size-select"
-                    aria-label={`${product.title} size`}
-                    defaultValue={product.sizes[0]}
-                  >
-                    {product.sizes.map((size) => (
-                      <option value={size} key={size}>
-                        {size}
-                      </option>
-                    ))}
-                  </select>
-                )}
-                <div className="boj-price-bar">
-                  <span>{product.priceLabel}</span>
-                  <span>{product.priceStatus}</span>
-                </div>
+                <a className="boj-buy-button" href={product.href}>
+                  Buy now
+                </a>
               </div>
             </article>
           ))}
