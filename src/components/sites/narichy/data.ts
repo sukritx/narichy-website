@@ -10,7 +10,6 @@ export const announcementMessages = [
 export type NavItem = {
   label: string;
   href: string;
-  menu?: "about";
 };
 
 export const leftNav: NavItem[] = [
@@ -21,7 +20,7 @@ export const leftNav: NavItem[] = [
 ];
 
 export const rightNav: NavItem[] = [
-  { label: "ABOUT", href: "/pages/about-page", menu: "about" },
+  { label: "ABOUT", href: "/pages/about-page" },
 ];
 
 export type Product = {

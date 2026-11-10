@@ -240,8 +240,7 @@
   line-height: 1.05;
   white-space: nowrap;
 }
-.boj-nav-link:hover .boj-nav-underline,
-.boj-nav-item.is-open .boj-nav-underline {
+.boj-nav-link:hover .boj-nav-underline {
   transform: scaleX(1);
 }
 .boj-nav-underline {
@@ -291,96 +290,6 @@
   line-height: 14px;
   text-align: center;
   padding: 0 3px;
-}
-
-/* Mega menu */
-.boj-mega {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: var(--boj-bg);
-  color: var(--boj-ink);
-  z-index: 5;
-  animation: boj-menu-in 0.22s ease both;
-}
-@keyframes boj-menu-in {
-  from { opacity: 0; transform: translateY(-6px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.boj-mega-inner {
-  max-width: 1440px;
-  margin: 0 auto;
-  height: 364px;
-  display: flex;
-}
-.boj-mega-links {
-  width: 60%;
-  display: flex;
-  padding-left: 50px;
-}
-.boj-mega-col {
-  padding-top: 30px;
-}
-.boj-mega-col:nth-child(1) { width: 179px; }
-.boj-mega-col:nth-child(2) { width: 216px; }
-.boj-mega-col:nth-child(3) { width: 262px; }
-.boj-mega-about .boj-mega-col:nth-child(2) { width: 142px; }
-.boj-mega-about .boj-mega-col:nth-child(3) { width: 343px; }
-.boj-mega-link {
-  display: block;
-  font-size: 16px;
-  line-height: 16px;
-  padding: 9px 0;
-  white-space: nowrap;
-}
-.boj-mega-link.is-parent {
-  font-weight: 500;
-}
-.boj-mega-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.boj-mega-image {
-  flex: 1;
-  padding: 24px;
-}
-.boj-mega-image a {
-  display: block;
-  height: 247px;
-  overflow: hidden;
-}
-.boj-mega-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.boj-about-dropdown {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--boj-bg);
-  border: 1px solid #eeeae4;
-  padding: 28px 40px;
-  min-width: 250px;
-  z-index: 6;
-  animation: boj-menu-in 0.2s ease both;
-  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.05);
-}
-.boj-about-dropdown a {
-  display: block;
-  padding: 9px 0;
-  font-size: 15px;
-  white-space: nowrap;
-}
-.boj-about-dropdown a:hover {
-  text-decoration: underline;
-}
-.boj-about-sub {
-  padding-left: 14px;
-  font-size: 14px !important;
-  color: var(--boj-muted);
 }
 
 /* Mobile header */
@@ -2031,11 +1940,6 @@
   .boj-promo-copy { margin-left: 60px; }
   .boj-community-content { padding: 40px; }
   .boj-footer-inner { padding: 0 30px; }
-}
-
-@media (max-width: 1024px) {
-  .boj-mega { display: none; }
-  .boj-about-dropdown { display: none; }
 }
 
 @media (max-width: 749px) {
