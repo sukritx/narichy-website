@@ -123,18 +123,31 @@ export const ingredientCards = [
 ];
 
 export const galleryImages = [
-  "ig-1.webp", "ig-2.webp", "ig-3.webp", "ig-4.webp", "ig-5.webp", "ig-6.webp",
-].map((name, i) => ({
-  src: asset(`images/${name}`),
-  alt: [
-    "A cream smear on a white surface",
-    "A woman touching her face",
-    "A group of cream bottles",
-    "A close up of a yogurt texture",
-    "A basket of root vegetables",
-    "A woman holding a cream tube",
-  ][i],
-}));
+  {
+    src: "/images/instagram/narichy-ig-1.jpg",
+    alt: "Narichy Finn supplement held by a presenter in red",
+  },
+  {
+    src: "/images/instagram/narichy-ig-2.jpg",
+    alt: "Narichy Thailand giveaway winners in red outfits",
+  },
+  {
+    src: "/images/instagram/narichy-ig-3.jpg",
+    alt: "Narichy campaign reel with a couple laughing together",
+  },
+  {
+    src: "/images/instagram/narichy-ig-4.jpg",
+    alt: "Presenter at a Narichy Thailand event booth",
+  },
+  {
+    src: "/images/instagram/narichy-ig-5.jpg",
+    alt: "Narichy presenter holding a Finn Spray product",
+  },
+  {
+    src: "/images/instagram/narichy-ig-6.jpg",
+    alt: "Narichy presenter explaining a body detox infographic",
+  },
+];
 
 export const communityAccordions = [
   {
