@@ -2,6 +2,11 @@ export const SRC = "https://beautyofjoseon.com";
 export const asset = (path: string) => `/sites/beautyofjoseon/${path}`;
 export const srcUrl = (path: string) => `${SRC}${path}`;
 
+const SHOPEE = "https://shopee.co.th/narichyshop";
+const LINE_OA = "https://line.me/R/ti/p/@narichy";
+const FINN_SPRAY = "https://shopee.co.th/narichyshop/18082240400";
+const FINN_SERUM = "https://shopee.co.th/narichyshop/53205125514";
+
 export const announcementMessages = [
   "Free shipping on orders over $70",
   "New to BOJ? Sign up & Save 20%!",
@@ -151,31 +156,31 @@ export const galleryImages = [
 
 export const communityAccordions = [
   {
-    title: "DISCOVER OUR INGREDIENTS",
+    title: "DISCOVER OUR PRODUCTS",
     icon: "leaf" as const,
-    body: "Explore the benefits of our key Hanbang ingredients and find the best products for your skin.",
-    href: srcUrl("/pages/ingredients"),
-    linkLabel: "LEARN MORE",
+    body: "Explore gentle everyday care for your most delicate skin, from Finn Spray to our collagen drink and serum.",
+    href: SHOPEE,
+    linkLabel: "SHOP NOW",
   },
   {
-    title: "TAKE THE SKIN QUIZ",
+    title: "NEED HELP CHOOSING?",
     icon: "heart" as const,
-    body: "Find your perfect routine in under a minute. Take the skin quiz and get personalized product picks just for you.",
-    href: srcUrl("/pages/quiz-03-17-2025"),
-    linkLabel: "TAKE THE QUIZ",
+    body: "Have a question you'd rather ask in private? Chat one-on-one with our team on LINE OA for honest, discreet advice.",
+    href: LINE_OA,
+    linkLabel: "CHAT ON LINE",
   },
 ];
 
 export const communityPosts = [
   {
-    title: "The Right Order for Your Full Revive Routine",
-    image: asset("images/blog-revive.png"),
-    href: srcUrl("/blogs/news/the-right-order-for-your-full-revive-routine"),
+    title: "How to Build a Daily Feminine Care Routine",
+    image: "/images/best-sellers/bestsellers-finnspray.jpg",
+    href: FINN_SPRAY,
   },
   {
-    title: "The Simplest Guide to Double Cleansing",
-    image: asset("images/blog-cleansing.jpg"),
-    href: srcUrl("/blogs/news/the-simplest-guide-to-double-cleansing"),
+    title: "Inside-Out Care: Spray, Serum & Collagen Drink",
+    image: "/images/best-sellers/bestsellers-serum-1.jpg",
+    href: FINN_SERUM,
   },
 ];
 
@@ -267,33 +272,74 @@ export const ugcCards: UgcCard[] = [
   { video: `${COMMUNITY_VIDEOS}/muse-foam-video-1.mp4`, ...finn.soap },
 ];
 
-export const aboutIngredients = [
-  { title: "Ginseng", text: "A centuries-old herbal remedy, this beloved ingredient is rich in saponins that provide long-lasting hydration.", link: srcUrl("/collections/ginseng"), image: asset("images/about-ingredient-1.png") },
-  { title: "Rice", text: "This precious ingredient is packed with essential nutrients to nourish skin, improve texture, and boost glow.", link: srcUrl("/collections/rice-bran"), image: asset("images/about-ingredient-2.png") },
-  { title: "Green Plum", text: "Used in traditional Korean medicine, this fruit is said to detoxify, lower body temperature, and treat stomach aches. In skincare, it effectively softens and sweeps away dead skin cells.", link: srcUrl("/collections/green-plum-plum-flower"), image: asset("images/about-ingredient-3.png") },
-  { title: "Propolis", text: "Women in the Joseon Dynasty mixed honey with grain powder to care for their complexions. This ingredient and its extract (propolis) are known for their anti-inflammatory properties.", link: srcUrl("/collections/propolis"), image: asset("images/about-ingredient-4.png") },
-  { title: "Green Tea", text: "Noted in the Donguibogam, a Joseon-era medical record, green tea was said to refresh the head, eyes, and energy. Its high antioxidant content is key to protecting against environmental aggressors.", link: srcUrl("/collections/green-tea"), image: asset("images/about-ingredient-5.png") },
-  { title: "Centella Asiatica", text: "You may know this medicinal plant as “tiger grass” because wounded tigers heal their injuries by rolling in it. Applied to your complexion, it intensely soothes, calms, and improves tone.", link: srcUrl("/collections/centella-asiatica"), image: asset("images/about-ingredient-6.png") },
-  { title: "Red Bean", text: "Joseon-era women combined red bean and mung bean to cleanse their skin. Used throughout Korean history in traditional foods and medicine, it helps absorb excess sebum and boost elasticity.", link: srcUrl("/collections/red-bean"), image: asset("images/about-ingredient-7.png") },
-  { title: "Mugwort", text: "Used in traditional Korean medicine to lower body temperature, this powerful plant soothes while providing antioxidant benefits from vitamins A and C.", link: srcUrl("/collections/mugwort"), image: asset("images/about-ingredient-8.png") },
+export const aboutProducts = [
+  {
+    title: "Finn Spray",
+    text: "The hero product that started it all. A gentle intimate spray in Vanilla Caramel and Strawberry that helps eliminate odor and leaves skin feeling fresh and confident all day.",
+    price: "THB 199",
+    link: SHOPEE,
+    image: "/images/best-sellers/bestsellers-finnspray.jpg",
+  },
+  {
+    title: "Narichy Finn Serum",
+    text: "A gentle brightening serum powered by French Alpha Arbutin. It moisturizes, smooths, and helps even out the look of delicate skin — the viral เซรั่มปิ๊เรืองแสง.",
+    price: "THB 490",
+    link: SHOPEE,
+    image: "/images/best-sellers/bestsellers-serum-1.jpg",
+  },
+  {
+    title: "Narichy Drink",
+    text: "Inside-out care in a sachet. A powdered supplement with 2,000 mg of collagen that helps balance internal odor, reduce discharge, and support firmer-looking skin.",
+    price: "THB 169",
+    link: SHOPEE,
+    image: "/images/best-sellers/bestsellers-supplement-3.jpg",
+  },
+  {
+    title: "Finn Soap",
+    text: "A gentle daily intimate wash that helps maintain pH balance and keeps musty odors away, while staying kind to sensitive skin.",
+    price: "THB 69",
+    link: SHOPEE,
+    image: "/images/best-sellers/bestsellers-finnsoap-1.jpg",
+  },
 ];
 
-export const pressItems = [
-  { outlet: "BOF", title: "TikTok’s Hit Korean Sunscreen Brand Makes Big US Push​", link: "https://www.businessoffashion.com/articles/beauty/tiktoks-favourite-sunscreen-brand-pushes-further-into-the-us/", image: asset("images/about-press-1.png") },
-  { outlet: "ALLURE", title: "18 Best Korean Beauty Gifts of 2024, According to Allure's Resident Expert​", link: "https://www.allure.com/story/best-korean-beauty-gifts", image: asset("images/about-press-2.png") },
-  { outlet: "VOGUE", title: "The Best Hydrating Eye Creams to Keep Fine Lines, Dark Circles, and Puffiness at Bay​", link: "https://www.vogue.com/article/best-hydrating-eye-cream", image: asset("images/about-press-3.png") },
-  { outlet: "BYRDIE", title: "The 15 Most Viral TikTok Beauty Products of 2024​", link: "https://www.byrdie.com/most-viral-beauty-products-2024-8720533", image: asset("images/about-press-4.png") },
-  { outlet: "GLAMOUR", title: "18 Best Korean Moisturizers, According to Dermatologists & Estheticians​", link: "https://www.glamour.com/gallery/best-korean-moisturizers", image: asset("images/about-press-5.png") },
+export const promiseItems = [
+  {
+    outlet: "THBA 2023",
+    title: "Rising Star Business of Feminine Care",
+    link: SHOPEE,
+    image: "/images/best-sellers/bestsellers-finnspray.jpg",
+  },
+  {
+    outlet: "SOCIAL PROOF",
+    title: "Over 4,000,000 bottles of Finn Spray sold",
+    link: SHOPEE,
+    image: "/images/best-sellers/bestsellers-supplement-3.jpg",
+  },
+  {
+    outlet: "SAFETY",
+    title: "Thai FDA (อย.) registered formulas",
+    link: SHOPEE,
+    image: "/images/best-sellers/bestsellers-serum-1.jpg",
+  },
+  {
+    outlet: "DISCREET",
+    title: "Plain parcels with no product names on the box",
+    link: LINE_OA,
+    image: "/images/instagram/narichy-ig-2.jpg",
+  },
+  {
+    outlet: "INGREDIENTS",
+    title: "French Alpha Arbutin and imported extracts",
+    link: LINE_OA,
+    image: "/images/instagram/narichy-ig-1.jpg",
+  },
 ];
 
 export const footerMenu = [
-  { label: "Need Help?", href: srcUrl("/pages/need-help") },
-  { label: "Gift 20% Off & Get 150 Gems", href: srcUrl("/pages/rewards") },
-  { label: "BOJ Creator Club", href: srcUrl("/pages/creator-club") },
-  { label: "Retailers", href: srcUrl("/pages/retailers") },
-  { label: "Shipping", href: srcUrl("/pages/shipping") },
-  { label: "Return & Refund", href: srcUrl("/pages/return-refund") },
-  { label: "Privacy Policy", href: srcUrl("/pages/privacy-policy") },
-  { label: "Terms & Conditions", href: srcUrl("/pages/terms-conditions") },
-  { label: "Modern Slavery Act", href: srcUrl("/pages/modern-slavery-act") },
+  { label: "Best Sellers", href: SHOPEE },
+  { label: "Finn Spray", href: FINN_SPRAY },
+  { label: "Finn Serum", href: FINN_SERUM },
+  { label: "About Us", href: "/pages/about-page" },
+  { label: "LINE OA (@narichy)", href: LINE_OA },
 ];

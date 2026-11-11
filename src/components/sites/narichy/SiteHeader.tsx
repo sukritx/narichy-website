@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { asset, leftNav, rightNav } from "./data";
+import { leftNav, rightNav } from "./data";
 import { IconClose, IconMenu } from "./icons";
 
 export function SiteHeader() {
@@ -142,14 +142,6 @@ export function SiteHeader() {
               </div>
             ))}
           </nav>
-          <div className="boj-mobile-menu-image">
-            <Image
-              src={asset("images/menu-tinted.jpg")}
-              alt="Tinted Mineral Dayscreen SPF 30"
-              width={1200}
-              height={562}
-            />
-          </div>
         </div>
       )}
     </>

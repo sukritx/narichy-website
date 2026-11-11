@@ -3,7 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { useEffect, useRef, useState } from "react";
-import { aboutIngredients } from "./data";
+import { aboutProducts } from "./data";
 import { IconArrowRight, IconChevronLeft, IconChevronRight } from "./icons";
 
 export function AboutIngredientCarousel() {
@@ -37,31 +37,31 @@ export function AboutIngredientCarousel() {
   };
 
   return (
-    <section className="boj-about-ingredients" aria-label="Hanbang ingredients">
+    <section className="boj-about-ingredients" aria-label="Narichy products">
       <div className="boj-about-ingredients-stage">
         <div className="boj-about-ingredients-viewport" ref={viewportRef}>
           <div className="boj-about-ingredients-track">
-            {aboutIngredients.map((ingredient) => (
-              <article className="boj-about-ingredient" key={ingredient.title}>
+            {aboutProducts.map((product) => (
+              <article className="boj-about-ingredient" key={product.title}>
                 <a
                   className="boj-about-ingredient-image"
-                  href={ingredient.link}
-                  aria-label={ingredient.title}
+                  href={product.link}
+                  aria-label={product.title}
                 >
                   <img
-                    src={ingredient.image}
-                    alt={`${ingredient.title} image`}
+                    src={product.image}
+                    alt={`${product.title} product`}
                     width={900}
                     height={900}
                     loading="lazy"
                   />
                 </a>
                 <h3 className="boj-about-ingredient-title">
-                  <a href={ingredient.link}>{ingredient.title}</a>
+                  <a href={product.link}>{product.title}</a>
                 </h3>
-                <p className="boj-about-ingredient-text">{ingredient.text}</p>
-                <a className="boj-about-learn" href={ingredient.link}>
-                  Learn more <IconArrowRight />
+                <p className="boj-about-ingredient-text">{product.text}</p>
+                <a className="boj-about-learn" href={product.link}>
+                  Shop now <IconArrowRight />
                 </a>
               </article>
             ))}

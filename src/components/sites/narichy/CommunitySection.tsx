@@ -3,11 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { useState } from "react";
-import {
-  asset,
-  communityAccordions,
-  communityPosts,
-} from "./data";
+import { communityAccordions, communityPosts } from "./data";
 import { IconHeart, IconLeaf, IconMinus, IconPlus } from "./icons";
 
 export function CommunitySection() {
@@ -18,12 +14,12 @@ export function CommunitySection() {
       <div className="boj-community-content">
         <img
           className="boj-community-logo"
-          src={asset("images/community-logo.png")}
-          alt="Beauty of Joseon"
+          src="/images/logo/narichy-black-logo.png"
+          alt="Narichy Thailand"
           loading="lazy"
         />
         <h2 className="boj-community-title" id="boj-community-title">
-          Inspired By Hanbang. Connected by Community.
+          Feel Fresh. Feel Confident. Every Day.
         </h2>
 
         {communityAccordions.map((item, index) => {
@@ -79,8 +75,8 @@ export function CommunitySection() {
       </div>
       <div className="boj-community-image">
         <img
-          src={asset("images/community-hero.jpg")}
-          alt="Tinted Mineral Dayscreen SPF 30 page image"
+          src="/images/hero/hero-slider-2.jpg"
+          alt="Narichy Thailand feminine intimate care products"
           loading="lazy"
         />
       </div>
