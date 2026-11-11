@@ -1,4 +1,5 @@
 import { BestSellers } from "@/components/sites/narichy/BestSellers";
+import { CleanBeauty } from "@/components/sites/narichy/CleanBeauty";
 import { CommunitySection } from "@/components/sites/narichy/CommunitySection";
 import { HeroSlideshow } from "@/components/sites/narichy/HeroSlideshow";
 import { IngredientCarousel } from "@/components/sites/narichy/IngredientCarousel";
@@ -19,6 +20,7 @@ export default function Home() {
         <h2 className="boj-heading-serif">Loved by the Community</h2>
       </section>
       <UgcCarousel />
+      <CleanBeauty />
       <div className="boj-swap">
         <ShadeCarousel />
         <RewardsSection />

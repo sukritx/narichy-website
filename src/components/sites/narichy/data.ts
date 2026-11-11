@@ -166,6 +166,43 @@ export const communityPosts = [
   },
 ];
 
+export type CleanBeautySlide = {
+  title: string;
+  lines: readonly [string, string];
+  image: string;
+  alt: string;
+};
+
+export const cleanBeautySlides: CleanBeautySlide[] = [
+  {
+    title: "True Quality & True Value",
+    lines: [
+      "스킨1004는 안전하고 순한 스킨케어를 위해 유해성분을",
+      "배제하고 이로운 성분으로 제품을 생산합니다.",
+    ],
+    image: asset("images/clean-beauty-1.jpg"),
+    alt: "Clean Beauty banner showing a serene natural landscape",
+  },
+  {
+    title: "Cruelty free",
+    lines: [
+      "스킨1004는 세상의 모든 생명과 더불어 살아가기 위해,",
+      "동물성 실험을 배제하며 동물성 성분 또한 배제합니다.",
+    ],
+    image: asset("images/clean-beauty-2.jpg"),
+    alt: "Clean Beauty banner showing animals in nature",
+  },
+  {
+    title: "Sustainable",
+    lines: [
+      "스킨1004만의 센텔라는 엄선된 과정과 친환경,",
+      "공정한 방법으로 채취된 원료를 사용합니다.",
+    ],
+    image: asset("images/clean-beauty-3.jpg"),
+    alt: "Clean Beauty banner showing sustainably sourced centella",
+  },
+];
+
 export type UgcCard = {
   poster: string;
   video: string;
