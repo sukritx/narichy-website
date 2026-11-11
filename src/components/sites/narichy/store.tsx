@@ -11,7 +11,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import { SRC } from "./data";
+import { SHOPEE } from "./data";
 import { IconCart, IconClose } from "./icons";
 
 export type CartLine = {
@@ -185,7 +185,7 @@ function CartDrawer() {
             </div>
             <a
               className="boj-btn-black"
-              href={`${SRC}/cart`}
+              href={SHOPEE}
               target="_blank"
               rel="noreferrer"
             >

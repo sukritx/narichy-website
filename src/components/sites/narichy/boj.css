@@ -1,83 +1,83 @@
 @font-face {
   font-family: "Inter";
-  src: url("/sites/beautyofjoseon/fonts/inter-400.woff2") format("woff2");
+  src: url("/fonts/inter-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url("/sites/beautyofjoseon/fonts/inter-500.woff2") format("woff2");
+  src: url("/fonts/inter-500.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Figtree";
-  src: url("/sites/beautyofjoseon/fonts/figtree-400.woff2") format("woff2");
+  src: url("/fonts/figtree-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Amiri";
-  src: url("/sites/beautyofjoseon/fonts/amiri-400.woff2") format("woff2");
+  src: url("/fonts/amiri-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Amiri";
-  src: url("/sites/beautyofjoseon/fonts/amiri-700.woff2") format("woff2");
+  src: url("/fonts/amiri-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Proxima Sera Regular";
-  src: url("/sites/beautyofjoseon/fonts/proxima-sera-regular.woff2") format("woff2");
+  src: url("/fonts/proxima-sera-regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Proxima Sera Medium";
-  src: url("/sites/beautyofjoseon/fonts/proxima-sera-medium.woff2") format("woff2");
+  src: url("/fonts/proxima-sera-medium.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Proxima Sera Semibold";
-  src: url("/sites/beautyofjoseon/fonts/proxima-sera-semibold.woff2") format("woff2");
+  src: url("/fonts/proxima-sera-semibold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "proxima-sera";
-  src: url("/sites/beautyofjoseon/fonts/proxima-sera-regular.woff2") format("woff2");
+  src: url("/fonts/proxima-sera-regular.woff2") format("woff2");
   font-weight: 400 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "FONTSPRING DEMO - Proxima Nova Light";
-  src: url("/sites/beautyofjoseon/fonts/proxima-nova-light.woff2") format("woff2");
+  src: url("/fonts/proxima-nova-light.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "FONTSPRING DEMO - Proxima Nova Medium";
-  src: url("/sites/beautyofjoseon/fonts/proxima-nova-medium.woff2") format("woff2");
+  src: url("/fonts/proxima-nova-medium.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "FONTSPRING DEMO - Proxima Nova Semibold";
-  src: url("/sites/beautyofjoseon/fonts/proxima-nova-semibold.woff2") format("woff2");
+  src: url("/fonts/proxima-nova-semibold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -1757,13 +1757,13 @@
   height: 100%;
   object-fit: cover;
 }
-.boj-about-hanbang {
+.boj-about-why {
   padding: 200px 0 100px;
   text-align: center;
 }
-.boj-about-hanbang .boj-about-title { margin-bottom: 16px; padding-bottom: 0; }
-.boj-about-hanbang .boj-about-rte { line-height: 1.4; }
-.boj-about-hanbang .boj-about-rte p { margin-bottom: 20px; }
+.boj-about-why .boj-about-title { margin-bottom: 16px; padding-bottom: 0; }
+.boj-about-why .boj-about-rte { line-height: 1.4; }
+.boj-about-why .boj-about-rte p { margin-bottom: 20px; }
 .boj-about-ingredients {
   padding: 0 0 100px;
   overflow: clip;
@@ -2118,8 +2118,8 @@
   .boj-about-mission-logo { width: 125px; margin: 0 auto 16px; }
   .boj-about-mission .boj-about-rte p { margin-bottom: 0; }
   .boj-about-full { aspect-ratio: 390 / 281.3; }
-  .boj-about-hanbang { padding: 120px 16px 51px; }
-  .boj-about-hanbang .boj-about-title { margin-bottom: 9px; }
+  .boj-about-why { padding: 120px 16px 51px; }
+  .boj-about-why .boj-about-title { margin-bottom: 9px; }
   .boj-about-ingredients { padding: 0 0 44px; }
   .boj-about-ingredients-track { gap: 16px; padding-left: 16px; }
   .boj-about-ingredient { flex-basis: 324px; width: 324px; }

@@ -2,18 +2,51 @@
 
 import type { Metadata } from "next";
 import { AboutIngredientCarousel } from "@/components/sites/narichy/AboutIngredientCarousel";
+import { JsonLd } from "@/components/sites/narichy/JsonLd";
 import { promiseItems } from "@/components/sites/narichy/data";
 import { IconArrowRight } from "@/components/sites/narichy/icons";
+import { siteConfig, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Us | Narichy Thailand",
+  title: "About Us",
   description:
-    "Narichy is an award-winning feminine intimate care and beauty brand from Thailand, led by CEO Ning Thannaree Thipthanamonsiri.",
+    "Learn about Narichy Thailand — an award-winning feminine intimate care and beauty brand led by CEO Ning Thannaree Thipthanamonsiri, with THBA 2023 recognition and Thai FDA-registered products.",
+  alternates: {
+    canonical: "/pages/about-page",
+  },
+  openGraph: {
+    title: "About Narichy Thailand",
+    description:
+      "An award-winning feminine intimate care brand from Thailand. Meet the story, mission, and products behind Narichy.",
+    url: "/pages/about-page",
+    images: [
+      {
+        url: "/seo/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Narichy Thailand feminine intimate care and beauty products",
+      },
+    ],
+  },
+};
+
+const aboutPage = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": `${siteUrl}/pages/about-page#aboutpage`,
+  url: `${siteUrl}/pages/about-page`,
+  name: "About Narichy Thailand",
+  description: siteConfig.description,
+  inLanguage: "th-TH",
+  about: { "@id": `${siteUrl}/#organization` },
+  isPartOf: { "@id": `${siteUrl}/#website` },
 };
 
 export default function AboutPage() {
   return (
     <main>
+      <JsonLd data={aboutPage} />
+      <h1 className="sr-only">About Narichy Thailand</h1>
       <section className="boj-about-hero">
         <picture>
           <source media="(max-width: 749px)" srcSet="/images/hero/hero-slider-2.jpg" />
@@ -106,7 +139,7 @@ export default function AboutPage() {
         />
       </section>
 
-      <section className="boj-about-hanbang" aria-labelledby="about-promise">
+      <section className="boj-about-why" aria-labelledby="about-promise">
         <div className="boj-about-mission-inner">
           <h2 className="boj-about-title" id="about-promise">
             Why Narichy?

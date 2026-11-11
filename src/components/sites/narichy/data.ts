@@ -1,15 +1,12 @@
-export const SRC = "https://beautyofjoseon.com";
-export const asset = (path: string) => `/sites/beautyofjoseon/${path}`;
-export const srcUrl = (path: string) => `${SRC}${path}`;
-
-const SHOPEE = "https://shopee.co.th/narichyshop";
+export const SHOPEE = "https://shopee.co.th/narichyshop";
 const LINE_OA = "https://line.me/R/ti/p/@narichy";
 const FINN_SPRAY = "https://shopee.co.th/narichyshop/18082240400";
 const FINN_SERUM = "https://shopee.co.th/narichyshop/53205125514";
 
 export const announcementMessages = [
-  "Free shipping on orders over $70",
-  "New to BOJ? Sign up & Save 20%!",
+  "Free shipping on orders over ฿500",
+  "Discreet packaging — no product names on the parcel",
+  "4,000,000+ Finn Spray bottles sold",
 ];
 
 export type NavItem = {
@@ -33,6 +30,7 @@ export type Product = {
   cutline: string;
   rating: string;
   reviews: string;
+  price: string;
   image: string;
   href: string;
 };
@@ -43,6 +41,7 @@ export const products: Product[] = [
     cutline: "น้ำชง ลดกลิ่น ปรับสมดุลย์ภายใน",
     rating: "4.8",
     reviews: "1,148 Reviews",
+    price: "169.00",
     image: "/images/best-sellers/bestsellers-supplement-3.jpg",
     href: "https://shopee.co.th/narichyshop/29310820621",
   },
@@ -51,6 +50,7 @@ export const products: Product[] = [
     cutline: "สเปรย์น้องสาวสูตรอ่อนโยน",
     rating: "4.9",
     reviews: "854 Reviews",
+    price: "199.00",
     image: "/images/best-sellers/bestsellers-finnspray.jpg",
     href: "https://shopee.co.th/narichyshop/18082240400",
   },
@@ -59,6 +59,7 @@ export const products: Product[] = [
     cutline: "ปรับผิวจุดซ่อนเร้นขาวกระจ่างใส",
     rating: "4.9",
     reviews: "175 Reviews",
+    price: "490.00",
     image: "/images/best-sellers/bestsellers-serum-1.jpg",
     href: "https://shopee.co.th/narichyshop/53205125514",
   },
@@ -67,6 +68,7 @@ export const products: Product[] = [
     cutline: "สบู่อนามัยสำหรับจุดซ่อนเร้น",
     rating: "4.9",
     reviews: "2,256 Reviews",
+    price: "69.00",
     image: "/images/best-sellers/bestsellers-finnsoap-1.jpg",
     href: "https://shopee.co.th/narichyshop/17486677158",
   },
@@ -90,41 +92,6 @@ export const heroSlides: HeroSlide[] = [
     align: "left",
     imageAlt: "Narichy Thailand product range banner",
   },
-];
-
-export type Shade = {
-  code: string;
-  description: string;
-  image: string;
-  background: string;
-  textColor: string;
-};
-
-export const shades: Shade[] = [
-  { code: "15C", description: "Fair shade with cool undertones", image: asset("images/shade-15C.png"), background: "#e9cfc2", textColor: "#000000" },
-  { code: "17N", description: "Fair shade with neutral undertones", image: asset("images/shade-17N.png"), background: "#e7c8b0", textColor: "#000000" },
-  { code: "21W", description: "Light shade with warm undertones", image: asset("images/shade-21W.png"), background: "#dfb994", textColor: "#000000" },
-  { code: "23N", description: "Light shade with neutral undertones", image: asset("images/shade-23N.png"), background: "#d8ad8d", textColor: "#000000" },
-  { code: "25W", description: "Light-medium shade with warm undertones", image: asset("images/shade-25W.png"), background: "#ce9d72", textColor: "#000000" },
-  { code: "29N", description: "Light-medium shade with neutral undertones", image: asset("images/shade-29N.png"), background: "#c18e6c", textColor: "#000000" },
-  { code: "33N", description: "Medium shade with neutral undertones", image: asset("images/shade-33N.png"), background: "#b17a57", textColor: "#000000" },
-  { code: "39W", description: "Medium-tan shade with warm undertones", image: asset("images/shade-39W.png"), background: "#9a6547", textColor: "#ffffff" },
-  { code: "43W", description: "Tan shade with warm undertones", image: asset("images/shade-43W.png"), background: "#89553d", textColor: "#ffffff" },
-  { code: "45N", description: "Tan shade with neutral undertones", image: asset("images/shade-45N.png"), background: "#7c4d3d", textColor: "#ffffff" },
-  { code: "47N", description: "Tan-deep shade with neutral undertones", image: asset("images/shade-47N.png"), background: "#70473d", textColor: "#ffffff" },
-  { code: "51N", description: "Deep shade with neutral undertones", image: asset("images/shade-51N.png"), background: "#603b34", textColor: "#ffffff" },
-  { code: "54N", description: "Deep shade with neutral undertones", image: asset("images/shade-54N.png"), background: "#52332e", textColor: "#ffffff" },
-  { code: "59N", description: "Rich-deep shade with neutral undertones", image: asset("images/shade-59N.png"), background: "#422a27", textColor: "#ffffff" },
-];
-
-export const ingredientCards = [
-  { name: "Ginseng", label: "Anti-Aging Hero", image: asset("images/ing-ginseng.jpg"), hover: asset("images/ing-ginseng-hover.webp"), href: srcUrl("/collections/ginseng") },
-  { name: "Rice", label: "The Brightening Hydrator", image: asset("images/ing-rice.jpg"), hover: asset("images/ing-rice-hover.webp"), href: srcUrl("/collections/rice-bran") },
-  { name: "Green Tea", label: "The Soothing Defender", image: asset("images/ing-green-tea.jpg"), hover: asset("images/ing-green-tea-hover.webp"), href: srcUrl("/collections/green-tea") },
-  { name: "Red Bean", label: "The Gentle Refiner", image: asset("images/ing-red-bean.jpg"), hover: asset("images/ing-red-bean-hover.webp"), href: srcUrl("/collections/red-bean") },
-  { name: "Propolis", label: "The Healing Shield", image: asset("images/ing-propolis.jpg"), hover: asset("images/ing-propolis-hover.webp"), href: srcUrl("/collections/propolis") },
-  { name: "Green Plum", label: "The Radiance Refresher", image: asset("images/ing-green-plum.jpg"), hover: asset("images/ing-green-plum-hover.webp"), href: srcUrl("/collections/green-plum-plum-flower") },
-  { name: "Centella", label: "The Calming Healer", image: asset("images/ing-centella.jpg"), hover: asset("images/ing-centella-hover.webp"), href: srcUrl("/collections/centella-asiatica") },
 ];
 
 export const galleryImages = [
@@ -198,8 +165,8 @@ export const cleanBeautySlides: CleanBeautySlide[] = [
       "นาริชชี่เชื่อในพลังของธรรมชาติที่หล่อเลี้ยงและฟื้นฟู",
       "เราคัดสรรส่วนผสมอ่อนโยนจากธรรมชาติมาดูแลผู้หญิง",
     ],
-    image: asset("images/clean-beauty-1.jpg"),
-    alt: "Baobab trees standing in a golden savanna",
+    image: "/images/clean-beauty/clean-beauty-1.jpg",
+    alt: "Natural botanicals that inspire Narichy gentle feminine care",
   },
   {
     title: "Gentle by Nature",
@@ -207,8 +174,8 @@ export const cleanBeautySlides: CleanBeautySlide[] = [
       "ความอ่อนโยนคือหัวใจของการดูแลจุดซ่อนเร้น",
       "ปราศจากสารที่ระคายเคือง ให้ทุกสัมผัสสบายใจ",
     ],
-    image: asset("images/clean-beauty-2.jpg"),
-    alt: "Green meadow and forested mountain under soft clouds",
+    image: "/images/clean-beauty/clean-beauty-2.jpg",
+    alt: "Soft green landscape representing Narichy gentle formulas",
   },
   {
     title: "Pure Balance",
@@ -216,8 +183,8 @@ export const cleanBeautySlides: CleanBeautySlide[] = [
       "สมดุลที่ดีเริ่มจากความสดชื่นและเบาสบายจากภายใน",
       "เผยความมั่นใจอย่างเป็นธรรมชาติในทุกวัน",
     ],
-    image: asset("images/clean-beauty-3.jpg"),
-    alt: "Clear turquoise sea meeting a white sand beach",
+    image: "/images/clean-beauty/clean-beauty-3.jpg",
+    alt: "Clear water and calm beach representing freshness and pH balance",
   },
 ];
 

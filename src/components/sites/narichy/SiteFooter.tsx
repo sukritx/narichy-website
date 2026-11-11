@@ -30,7 +30,7 @@ export function SiteFooter() {
             </p>
             <div className="boj-socials">
               <a
-                href="https://www.instagram.com/explore/tags/narichy/"
+                href="https://www.instagram.com/narichy.thailand/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"

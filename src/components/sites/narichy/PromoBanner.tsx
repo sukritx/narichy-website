@@ -20,7 +20,7 @@ export function PromoBanner() {
       <div className="boj-promo-image">
         <img
           src="/images/promo-bannner/promo-banner-1.jpg"
-          alt="Tinted Mineral Dayscreen SPF 30 wide image"
+          alt="Narichy Thailand intimate care and dietary supplement range"
           loading="lazy"
         />
       </div>
