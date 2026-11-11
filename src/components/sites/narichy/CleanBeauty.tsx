@@ -31,12 +31,12 @@ export function CleanBeauty() {
       <div className="boj-clean-inner">
         <div className="boj-clean-heading">
           <p className="boj-clean-title" id="boj-clean-beauty-title">
-            Clean Beauty
+            Care from inside
           </p>
           <p className="boj-clean-lead">
-            너와 나, 그리고 우리가 공존할 수 있는 사회를 위해
+            ธรรมชาติคือจุดเริ่มต้นของการดูแลที่อ่อนโยน
             <br className="boj-clean-lead-br" />
-            스킨1004는 오늘도 노력합니다.
+            นาริชชี่ดึงพลังจากธรรมชาติมาเพื่อผู้หญิงทุกคน
           </p>
         </div>
 

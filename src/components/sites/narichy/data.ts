@@ -175,36 +175,36 @@ export type CleanBeautySlide = {
 
 export const cleanBeautySlides: CleanBeautySlide[] = [
   {
-    title: "True Quality & True Value",
+    title: "Nature's Roots",
     lines: [
-      "스킨1004는 안전하고 순한 스킨케어를 위해 유해성분을",
-      "배제하고 이로운 성분으로 제품을 생산합니다.",
+      "นาริชชี่เชื่อในพลังของธรรมชาติที่หล่อเลี้ยงและฟื้นฟู",
+      "เราคัดสรรส่วนผสมอ่อนโยนจากธรรมชาติมาดูแลผู้หญิง",
     ],
     image: asset("images/clean-beauty-1.jpg"),
-    alt: "Clean Beauty banner showing a serene natural landscape",
+    alt: "Baobab trees standing in a golden savanna",
   },
   {
-    title: "Cruelty free",
+    title: "Gentle by Nature",
     lines: [
-      "스킨1004는 세상의 모든 생명과 더불어 살아가기 위해,",
-      "동물성 실험을 배제하며 동물성 성분 또한 배제합니다.",
+      "ความอ่อนโยนคือหัวใจของการดูแลจุดซ่อนเร้น",
+      "ปราศจากสารที่ระคายเคือง ให้ทุกสัมผัสสบายใจ",
     ],
     image: asset("images/clean-beauty-2.jpg"),
-    alt: "Clean Beauty banner showing animals in nature",
+    alt: "Green meadow and forested mountain under soft clouds",
   },
   {
-    title: "Sustainable",
+    title: "Pure Balance",
     lines: [
-      "스킨1004만의 센텔라는 엄선된 과정과 친환경,",
-      "공정한 방법으로 채취된 원료를 사용합니다.",
+      "สมดุลที่ดีเริ่มจากความสดชื่นและเบาสบายจากภายใน",
+      "เผยความมั่นใจอย่างเป็นธรรมชาติในทุกวัน",
     ],
     image: asset("images/clean-beauty-3.jpg"),
-    alt: "Clean Beauty banner showing sustainably sourced centella",
+    alt: "Clear turquoise sea meeting a white sand beach",
   },
 ];
 
 export type UgcCard = {
-  poster: string;
+  poster?: string;
   video: string;
   productImage: string;
   productName: string;
@@ -212,17 +212,46 @@ export type UgcCard = {
   href: string;
 };
 
+const COMMUNITY_VIDEOS = "/videos/loved-by-the-community";
+
+const finn = {
+  supplement: {
+    productImage: "/images/best-sellers/bestsellers-supplement-3.jpg",
+    productName: "Narichy Finn",
+    price: "THB 169",
+    href: "https://shopee.co.th/narichyshop/29310820621",
+  },
+  spray: {
+    productImage: "/images/best-sellers/bestsellers-finnspray.jpg",
+    productName: "Finn Spray",
+    price: "THB 199",
+    href: "https://shopee.co.th/narichyshop/18082240400",
+  },
+  serum: {
+    productImage: "/images/best-sellers/bestsellers-serum-1.jpg",
+    productName: "Narichy Finn Serum",
+    price: "THB 490",
+    href: "https://shopee.co.th/narichyshop/53205125514",
+  },
+  soap: {
+    productImage: "/images/best-sellers/bestsellers-finnsoap-1.jpg",
+    productName: "Finn Soap",
+    price: "THB 69",
+    href: "https://shopee.co.th/narichyshop/17486677158",
+  },
+};
+
 export const ugcCards: UgcCard[] = [
-  { poster: asset("ugc/poster-1.webp"), video: asset("ugc/video-1.mp4"), productImage: asset("ugc/product-1.jpg"), productName: "Tinted Mineral Dayscreen SPF 30", price: "THB 686", href: srcUrl("/products/tinted-mineral-dayscreen-spf-30-global") },
-  { poster: asset("ugc/poster-2.webp"), video: asset("ugc/video-2.mp4"), productImage: asset("ugc/product-2.jpg"), productName: "Tinted Mineral Dayscreen SPF 30", price: "THB 686", href: srcUrl("/products/tinted-mineral-dayscreen-spf-30-global") },
-  { poster: asset("ugc/poster-3.webp"), video: asset("ugc/video-3.mp4"), productImage: asset("ugc/product-3.jpg"), productName: "Glow Replenishing Rice Milk", price: "THB 618", href: srcUrl("/products/glow-replenishing-rice-milk") },
-  { poster: asset("ugc/poster-4.webp"), video: asset("ugc/video-4.mp4"), productImage: asset("ugc/product-4.jpg"), productName: "Ginseng Essence Water", price: "THB 618", href: srcUrl("/products/ginseng-essence-water") },
-  { poster: asset("ugc/poster-5.webp"), video: asset("ugc/video-5.mp4"), productImage: asset("ugc/product-5.jpg"), productName: "Revive Eye Serum : Ginseng + Retinal", price: "THB 583", href: srcUrl("/products/revive-eye-serum-ginseng-retinal") },
-  { poster: asset("ugc/poster-6.webp"), video: asset("ugc/video-6.mp4"), productImage: asset("ugc/product-6.jpg"), productName: "Red Bean Refreshing Pore Mask", price: "THB 686", href: srcUrl("/products/red-bean-refreshing-pore-mask") },
-  { poster: asset("ugc/poster-7.webp"), video: asset("ugc/video-7.mp4"), productImage: asset("ugc/product-7.jpg"), productName: "Glow Serum : Propolis + Niacinamide", price: "THB 583", href: srcUrl("/products/glow-serum-propolis-niacinamide") },
-  { poster: asset("ugc/poster-8.webp"), video: asset("ugc/video-8.mp4"), productImage: asset("ugc/product-8.jpg"), productName: "Ground Rice and Honey Glow Mask", price: "THB 618", href: srcUrl("/products/ground-rice-and-honey-glow-mask") },
-  { poster: asset("ugc/poster-9.webp"), video: asset("ugc/video-9.mp4"), productImage: asset("ugc/product-9.jpg"), productName: "Tinted Mineral Dayscreen SPF 30", price: "THB 686", href: srcUrl("/products/tinted-mineral-dayscreen-spf-30-global") },
-  { poster: asset("ugc/poster-10.webp"), video: asset("ugc/video-10.mp4"), productImage: asset("ugc/product-10.jpg"), productName: "Tinted Mineral Dayscreen SPF 30", price: "THB 686", href: srcUrl("/products/tinted-mineral-dayscreen-spf-30-global") },
+  { video: `${COMMUNITY_VIDEOS}/narichy-supplement-video-1.mp4`, ...finn.supplement },
+  { video: `${COMMUNITY_VIDEOS}/narichy-supplement-video-2.mp4`, ...finn.supplement },
+  { video: `${COMMUNITY_VIDEOS}/narichy-supplement-video-3.mp4`, ...finn.supplement },
+  { video: `${COMMUNITY_VIDEOS}/narichy-supplement-video-4.mp4`, ...finn.supplement },
+  { video: `${COMMUNITY_VIDEOS}/narichy-finn-spray-video-1.mp4`, ...finn.spray },
+  { video: `${COMMUNITY_VIDEOS}/narichy-finn-spray-video-2.mp4`, ...finn.spray },
+  { video: `${COMMUNITY_VIDEOS}/narichy-finn-serum-video-1.mp4`, ...finn.serum },
+  { video: `${COMMUNITY_VIDEOS}/narichy-finn-serum-video-2.mp4`, ...finn.serum },
+  { video: `${COMMUNITY_VIDEOS}/narichy-finn-serum-video-3.mp4`, ...finn.serum },
+  { video: `${COMMUNITY_VIDEOS}/muse-foam-video-1.mp4`, ...finn.soap },
 ];
 
 export const aboutIngredients = [

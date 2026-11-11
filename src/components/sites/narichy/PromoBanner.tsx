@@ -1,19 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { srcUrl } from "./data";
-
 export function PromoBanner() {
   return (
     <section className="boj-promo">
       <div className="boj-promo-text">
         <div className="boj-promo-copy">
-          <p className="boj-promo-sub">Try now</p>
+          <p className="boj-promo-sub">Our Specialty</p>
           <h2 className="boj-promo-title">
-            ชุ่มชื่น ปรับสมดุลภายใน ลดกลิ่น ลดตกขาว ไร้สารตกค้าง
+            Intimate care products and dietary supplements for women.
           </h2>
           <a
             className="boj-promo-btn"
-            href={srcUrl("/products/tinted-mineral-dayscreen-spf-30-global")}
+            href="https://shopee.co.th/narichyshop"
           >
             Shop Now
           </a>

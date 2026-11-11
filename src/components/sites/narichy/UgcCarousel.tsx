@@ -12,7 +12,6 @@ import {
   IconVolumeOff,
   IconVolumeOn,
 } from "./icons";
-import { useStore } from "./store";
 
 const DESKTOP_BREAKPOINT = 750;
 const CARD_WIDTH = 268;
@@ -38,7 +37,6 @@ export function UgcCarousel() {
   const [muted, setMuted] = useState<Record<number, boolean>>({});
   const [active, setActive] = useState(2);
   const [viewportWidth, setViewportWidth] = useState(0);
-  const { addToCart } = useStore();
 
   useEffect(() => {
     const update = () => {
@@ -133,13 +131,13 @@ export function UgcCarousel() {
                 ref={(node) => {
                   videoRefs.current[index] = node;
                 }}
-                src={card.video}
+                src={`${card.video}#t=0.1`}
                 poster={card.poster}
                 muted
                 loop
                 playsInline
-                preload="none"
-                aria-label="Community video"
+                preload="metadata"
+                aria-label={`${card.productName} community video`}
                 onClick={(event) => {
                   const video = event.currentTarget;
                   setActive(index);
@@ -195,20 +193,9 @@ export function UgcCarousel() {
                   <p className="boj-ugc-price">{card.price}</p>
                 </div>
               </div>
-              <button
-                type="button"
-                className="boj-ugc-add"
-                onClick={() =>
-                  addToCart({
-                    title: card.productName,
-                    price: Number.parseFloat(card.price.replace(/[^\d.]/g, "")),
-                    image: card.productImage,
-                    href: card.href,
-                  })
-                }
-              >
-                Add to cart
-              </button>
+              <a className="boj-ugc-add" href={card.href}>
+                Buy now
+              </a>
             </div>
           </article>
         ))}
