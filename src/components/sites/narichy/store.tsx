@@ -27,7 +27,7 @@ type StoreValue = {
   cartCount: number;
   cartOpen: boolean;
   setCartOpen: (open: boolean) => void;
-  addToCart: (item: Omit<CartLine, "quantity">) => void;
+  addToCart: (item: Omit<CartLine, "quantity">, quantity?: number) => void;
   removeFromCart: (title: string) => void;
   subtotal: number;
 };
@@ -38,20 +38,24 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [cart, setCart] = useState<CartLine[]>([]);
   const [cartOpen, setCartOpen] = useState(false);
 
-  const addToCart = useCallback((item: Omit<CartLine, "quantity">) => {
-    setCart((current) => {
-      const existing = current.find((line) => line.title === item.title);
-      if (existing) {
-        return current.map((line) =>
-          line.title === item.title
-            ? { ...line, quantity: line.quantity + 1 }
-            : line,
-        );
-      }
-      return [...current, { ...item, quantity: 1 }];
-    });
-    setCartOpen(true);
-  }, []);
+  const addToCart = useCallback(
+    (item: Omit<CartLine, "quantity">, quantity = 1) => {
+      const amount = Math.max(1, Math.round(quantity));
+      setCart((current) => {
+        const existing = current.find((line) => line.title === item.title);
+        if (existing) {
+          return current.map((line) =>
+            line.title === item.title
+              ? { ...line, quantity: line.quantity + amount }
+              : line,
+          );
+        }
+        return [...current, { ...item, quantity: amount }];
+      });
+      setCartOpen(true);
+    },
+    [],
+  );
 
   const removeFromCart = useCallback((title: string) => {
     setCart((current) => current.filter((line) => line.title !== title));
@@ -163,7 +167,7 @@ function CartDrawer() {
                     {line.quantity > 1 ? ` × ${line.quantity}` : ""}
                   </p>
                   <p className="boj-cart-item-price">
-                    {(line.price * line.quantity).toFixed(2)} ฿
+                    ฿{(line.price * line.quantity).toFixed(2)}
                   </p>
                   <button
                     type="button"
@@ -181,7 +185,7 @@ function CartDrawer() {
           <div className="boj-drawer-foot">
             <div className="boj-subtotal">
               <span>Subtotal</span>
-              <span>{subtotal.toFixed(2)} ฿</span>
+              <span>฿{subtotal.toFixed(2)}</span>
             </div>
             <a
               className="boj-btn-black"
@@ -189,7 +193,7 @@ function CartDrawer() {
               target="_blank"
               rel="noreferrer"
             >
-              Checkout
+              Checkout on Shopee
             </a>
           </div>
         )}

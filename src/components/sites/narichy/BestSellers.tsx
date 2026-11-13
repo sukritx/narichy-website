@@ -1,19 +1,25 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
 import { products } from "./data";
-import { IconStar } from "./icons";
+import { IconArrowRight, IconStar } from "./icons";
 
 export function BestSellers() {
   return (
     <section className="boj-best" aria-labelledby="boj-best-title">
       <div className="boj-best-inner">
-        <h2 className="boj-best-heading" id="boj-best-title">
-          Best Sellers
-        </h2>
+        <div className="boj-best-head-row">
+          <h2 className="boj-best-heading" id="boj-best-title">
+            Best Sellers
+          </h2>
+          <Link className="boj-best-view-all" href="/collections/best-sellers">
+            View all <IconArrowRight />
+          </Link>
+        </div>
         <div className="boj-best-grid">
           {products.map((product) => (
             <article className="boj-product" key={product.title}>
-              <a
+              <Link
                 className="boj-product-image"
                 href={product.href}
                 aria-label={product.title}
@@ -25,7 +31,7 @@ export function BestSellers() {
                   width={800}
                   height={800}
                 />
-              </a>
+              </Link>
               <div className="boj-product-info">
                 <div className="boj-rating">
                   <span className="boj-stars" aria-hidden="true">
@@ -35,13 +41,14 @@ export function BestSellers() {
                   </span>
                   <span>{product.reviews}</span>
                 </div>
-                <a className="boj-product-title" href={product.href}>
+                <Link className="boj-product-title" href={product.href}>
                   {product.title}
-                </a>
+                </Link>
                 <p className="boj-product-cutline">{product.cutline}</p>
-                <a className="boj-buy-button" href={product.href}>
-                  Buy now
-                </a>
+                <p className="boj-product-price">฿{product.price.replace(".00", "")}</p>
+                <Link className="boj-buy-button" href={product.href}>
+                  View product
+                </Link>
               </div>
             </article>
           ))}

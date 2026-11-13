@@ -1,7 +1,8 @@
-"use client";
+﻿"use client";
 
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { ugcCards } from "./data";
 import {
@@ -187,15 +188,15 @@ export function UgcCarousel() {
               <div className="boj-ugc-product">
                 <img className="boj-ugc-thumb" src={card.productImage} alt="" />
                 <div>
-                  <a className="boj-ugc-name" href={card.href}>
+                  <Link className="boj-ugc-name" href={card.href}>
                     {card.productName}
-                  </a>
+                  </Link>
                   <p className="boj-ugc-price">{card.price}</p>
                 </div>
               </div>
-              <a className="boj-ugc-add" href={card.href}>
+              <Link className="boj-ugc-add" href={card.href}>
                 Buy now
-              </a>
+              </Link>
             </div>
           </article>
         ))}
@@ -219,3 +220,4 @@ export function UgcCarousel() {
     </section>
   );
 }
+

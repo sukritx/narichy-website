@@ -2,6 +2,7 @@
 
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { aboutProducts } from "./data";
 import { IconArrowRight, IconChevronLeft, IconChevronRight } from "./icons";
@@ -43,7 +44,7 @@ export function AboutIngredientCarousel() {
           <div className="boj-about-ingredients-track">
             {aboutProducts.map((product) => (
               <article className="boj-about-ingredient" key={product.title}>
-                <a
+                <Link
                   className="boj-about-ingredient-image"
                   href={product.link}
                   aria-label={product.title}
@@ -55,14 +56,14 @@ export function AboutIngredientCarousel() {
                     height={900}
                     loading="lazy"
                   />
-                </a>
+                </Link>
                 <h3 className="boj-about-ingredient-title">
-                  <a href={product.link}>{product.title}</a>
+                  <Link href={product.link}>{product.title}</Link>
                 </h3>
                 <p className="boj-about-ingredient-text">{product.text}</p>
-                <a className="boj-about-learn" href={product.link}>
+                <Link className="boj-about-learn" href={product.link}>
                   Shop now <IconArrowRight />
-                </a>
+                </Link>
               </article>
             ))}
           </div>

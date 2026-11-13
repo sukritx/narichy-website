@@ -36,7 +36,7 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/narichy.thailand/",
     tiktok: "https://www.tiktok.com/search?q=narichy",
     shopee: "https://shopee.co.th/narichyshop",
-    line: "https://line.me/R/ti/p/@narichy",
+    line: "http://line.me/ti/p/~@narichy",
   },
   founder: "Ning Thannaree Thipthanamonsiri",
   address: {

@@ -1,7 +1,13 @@
 "use client";
 
+import Link from "next/link";
 import { footerMenu } from "./data";
-import { IconInstagram, IconTikTok } from "./icons";
+import {
+  IconInstagram,
+  IconLine,
+  IconShopee,
+  IconTikTok,
+} from "./icons";
 
 export function SiteFooter() {
   return (
@@ -13,7 +19,13 @@ export function SiteFooter() {
             <ul className="boj-footer-links">
               {footerMenu.map((item) => (
                 <li key={item.label}>
-                  <a href={item.href}>{item.label}</a>
+                  {item.href.startsWith("/") ? (
+                    <Link href={item.href}>{item.label}</Link>
+                  ) : (
+                    <a href={item.href} target="_blank" rel="noreferrer">
+                      {item.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -44,6 +56,22 @@ export function SiteFooter() {
                 aria-label="TikTok"
               >
                 <IconTikTok />
+              </a>
+              <a
+                href="https://shopee.co.th/narichyshop"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Shopee"
+              >
+                <IconShopee />
+              </a>
+              <a
+                href="http://line.me/ti/p/~@narichy"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LINE"
+              >
+                <IconLine />
               </a>
             </div>
           </div>
