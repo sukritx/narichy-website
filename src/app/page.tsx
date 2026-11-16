@@ -12,7 +12,7 @@ import { siteUrl } from "@/lib/site";
 const productList = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Narichy Thailand Best Sellers",
+  name: "สินค้าขายดี Narichy Thailand",
   itemListElement: products.map((product, index) => ({
     "@type": "ListItem",
     position: index + 1,
@@ -46,13 +46,13 @@ export default function Home() {
     <main className="boj-home-main">
       <JsonLd data={productList} />
       <h1 className="sr-only">
-        Narichy Thailand feminine intimate care and beauty
+        Narichy Thailand ผลิตภัณฑ์ดูแลจุดซ่อนเร้นและความงามสำหรับผู้หญิง
       </h1>
       <HeroSlideshow />
       <BestSellers />
       <PromoBanner />
       <section className="boj-heading-section is-loved">
-        <h2 className="boj-heading-serif">Loved by the Community</h2>
+        <h2 className="boj-heading-serif">เสียงตอบรับจากคอมมูนิตี้</h2>
       </section>
       <UgcCarousel />
       <CleanBeauty />

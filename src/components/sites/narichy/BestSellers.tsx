@@ -10,10 +10,10 @@ export function BestSellers() {
       <div className="boj-best-inner">
         <div className="boj-best-head-row">
           <h2 className="boj-best-heading" id="boj-best-title">
-            Best Sellers
+            สินค้าขายดี
           </h2>
           <Link className="boj-best-view-all" href="/collections/best-sellers">
-            View all <IconArrowRight />
+            ดูทั้งหมด <IconArrowRight />
           </Link>
         </div>
         <div className="boj-best-grid">
@@ -47,7 +47,7 @@ export function BestSellers() {
                 <p className="boj-product-cutline">{product.cutline}</p>
                 <p className="boj-product-price">฿{product.price.replace(".00", "")}</p>
                 <Link className="boj-buy-button" href={product.href}>
-                  View product
+                  ดูสินค้า
                 </Link>
               </div>
             </article>

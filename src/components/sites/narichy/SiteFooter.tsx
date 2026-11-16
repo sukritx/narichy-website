@@ -15,7 +15,7 @@ export function SiteFooter() {
       <div className="boj-footer-inner">
         <div className="boj-footer-blocks">
           <div className="boj-footer-block">
-            <h3 className="boj-footer-title">Menu</h3>
+            <h3 className="boj-footer-title">เมนู</h3>
             <ul className="boj-footer-links">
               {footerMenu.map((item) => (
                 <li key={item.label}>
@@ -32,13 +32,13 @@ export function SiteFooter() {
           </div>
 
           <div className="boj-footer-block">
-            <h3 className="boj-footer-title">Contact</h3>
+            <h3 className="boj-footer-title">ติดต่อเรา</h3>
             <p className="boj-footer-contact">
               Narichy Thailand
               <br />
-              Bangkok, Thailand
+              กรุงเทพฯ ประเทศไทย
               <br />
-              Copyright © 2026. All Rights Reserved
+              ลิขสิทธิ์ © 2026 สงวนลิขสิทธิ์
             </p>
             <div className="boj-socials">
               <a

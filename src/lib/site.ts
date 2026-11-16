@@ -16,7 +16,7 @@ export const siteConfig = {
   url: siteUrl,
   locale: "th_TH",
   description:
-    "Narichy Thailand is an award-winning feminine intimate care and beauty brand. Shop Finn Spray, Finn Serum, collagen drinks, and gentle daily washes with discreet delivery and Thai FDA-registered formulas.",
+    "Narichy Thailand แบรนด์ดูแลจุดซ่อนเร้นและความงามสำหรับผู้หญิงที่ได้รับรางวัล เลือกซื้อ Finn Spray, Finn Serum, เครื่องดื่มคอลลาเจน และผลิตภัณฑ์ทำความสะอาดสูตรอ่อนโยน พร้อมจัดส่งแบบเรียบง่ายและสูตรที่ผ่านการขึ้นทะเบียนจาก อย. ไทย",
   keywords: [
     "Narichy",
     "Narichy Thailand",

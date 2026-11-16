@@ -52,7 +52,7 @@ export function SiteHeader() {
     <>
       <header className={`boj-header${solid ? " is-solid" : ""}`}>
         <div className="boj-header-inner">
-          <nav className="boj-menu-left" aria-label="Primary">
+          <nav className="boj-menu-left" aria-label="เมนูหลัก">
             {leftNav.map((item) =>
               item.children ? (
                 <div
@@ -94,7 +94,7 @@ export function SiteHeader() {
           </nav>
 
           <div className="boj-logo">
-            <Link href="/" aria-label="Narichy Thailand home">
+            <Link href="/" aria-label="หน้าแรก Narichy Thailand">
               <Image
                 src="/images/logo/narichy-red-logo.png"
                 alt="Narichy Thailand"
@@ -105,7 +105,7 @@ export function SiteHeader() {
             </Link>
           </div>
 
-          <nav className="boj-menu-right" aria-label="Secondary">
+          <nav className="boj-menu-right" aria-label="เมนูรอง">
             {rightNav.map((item) => (
               <div className="boj-nav-item" key={item.label}>
                 {item.href.startsWith("/") ? (
@@ -129,13 +129,13 @@ export function SiteHeader() {
             <button
               type="button"
               className="boj-mobile-icon"
-              aria-label="Open menu"
+              aria-label="เปิดเมนู"
               onClick={() => setMobileOpen(true)}
             >
               <IconMenu />
             </button>
           </div>
-          <Link href="/" className="boj-mobile-logo" aria-label="Narichy Thailand home">
+          <Link href="/" className="boj-mobile-logo" aria-label="หน้าแรก Narichy Thailand">
             <Image
               src="/images/logo/narichy-red-logo.png"
               alt="Narichy Thailand"
@@ -155,19 +155,19 @@ export function SiteHeader() {
         />
       )}
       {mobileOpen && (
-        <div className="boj-mobile-menu" role="dialog" aria-modal="true" aria-label="Menu">
+        <div className="boj-mobile-menu" role="dialog" aria-modal="true" aria-label="เมนู">
           <div className="boj-mobile-menu-head">
-            <p className="boj-mobile-menu-title">Menu</p>
+            <p className="boj-mobile-menu-title">เมนู</p>
             <button
               type="button"
               className="boj-drawer-close"
-              aria-label="Close menu"
+              aria-label="ปิดเมนู"
               onClick={() => setMobileOpen(false)}
             >
               <IconClose className="h-4 w-4" />
             </button>
           </div>
-          <nav className="boj-mobile-menu-list" aria-label="Mobile navigation">
+          <nav className="boj-mobile-menu-list" aria-label="เมนูมือถือ">
             {leftNav.map((item) =>
               item.children ? (
                 <div className="boj-mobile-menu-group" key={item.label}>
@@ -225,7 +225,7 @@ export function SiteHeader() {
                 rel="noreferrer"
               >
                 <IconShopee className="boj-mobile-menu-icon" />
-                SHOP ON SHOPEE
+                ช้อปบน Shopee
               </a>
             </div>
             <div className="boj-mobile-menu-item">
@@ -236,7 +236,7 @@ export function SiteHeader() {
                 rel="noreferrer"
               >
                 <IconLine className="boj-mobile-menu-icon" />
-                CHAT ON LINE
+                แชทผ่าน LINE
               </a>
             </div>
           </nav>

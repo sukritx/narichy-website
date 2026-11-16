@@ -5,7 +5,7 @@ export function AnnouncementBar() {
   const track = [...half, ...half];
 
   return (
-    <div className="boj-announcement" aria-label="Announcements">
+    <div className="boj-announcement" aria-label="ประกาศ">
       <div className="boj-announcement-track">
         {track.map((message, index) => (
           <span className="boj-announcement-item" key={`${message}-${index}`}>

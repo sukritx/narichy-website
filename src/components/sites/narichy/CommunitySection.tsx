@@ -19,7 +19,7 @@ export function CommunitySection() {
           loading="lazy"
         />
         <h2 className="boj-community-title" id="boj-community-title">
-          Feel Fresh. Feel Confident. Every Day.
+          สดชื่น มั่นใจ ในทุกวัน
         </h2>
 
         {communityAccordions.map((item, index) => {
@@ -67,7 +67,7 @@ export function CommunitySection() {
                 <a href={post.href}>{post.title}</a>
               </h3>
               <a className="boj-blog-more" href={post.href}>
-                Read more
+                อ่านต่อ
               </a>
             </article>
           ))}
@@ -76,7 +76,7 @@ export function CommunitySection() {
       <div className="boj-community-image">
         <img
           src="/images/hero/hero-slider-2.jpg"
-          alt="Narichy Thailand feminine intimate care products"
+          alt="ผลิตภัณฑ์ดูแลจุดซ่อนเร้นสำหรับผู้หญิงจาก Narichy Thailand"
           loading="lazy"
         />
       </div>

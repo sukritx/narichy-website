@@ -8,23 +8,23 @@ import { allProducts } from "@/components/sites/narichy/data";
 import { siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "All Products",
+  title: "สินค้าทั้งหมด",
   description:
-    "Shop every Narichy Thailand feminine care and inner-wellness product in one place — Finn Spray, Finn Serum, Narichy Finn drink, Cleansing Mousse Foam, Finn Soap and Finy Secret.",
+    "เลือกซื้อผลิตภัณฑ์ดูแลจุดซ่อนเร้นและสุขภาพภายในจาก Narichy Thailand ได้ครบทุกชิ้น — Finn Spray, Finn Serum, เครื่องดื่ม Narichy Finn, Cleansing Mousse Foam, Finn Soap และ Narichy Toner",
   alternates: {
     canonical: "/collections/products",
   },
   openGraph: {
-    title: "All Products | Narichy Thailand",
+    title: "สินค้าทั้งหมด | Narichy Thailand",
     description:
-      "Gentle, pH-minded intimate care and inner wellness from Narichy Thailand.",
+      "สูตรอ่อนโยนที่คำนึงถึงค่า pH สำหรับการดูแลจุดซ่อนเร้นและสุขภาพภายในจาก Narichy Thailand",
     url: "/collections/products",
     images: [
       {
         url: "/seo/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Narichy Thailand product range",
+        alt: "ผลิตภัณฑ์จาก Narichy Thailand",
       },
     ],
   },
@@ -35,9 +35,9 @@ const collectionLd = {
   "@type": "CollectionPage",
   "@id": `${siteUrl}/collections/products#collection`,
   url: `${siteUrl}/collections/products`,
-  name: "All Products",
+  name: "สินค้าทั้งหมด",
   description:
-    "The complete Narichy Thailand range of feminine intimate care and inner-wellness products.",
+    "ผลิตภัณฑ์ดูแลจุดซ่อนเร้นและสุขภาพภายในทั้งหมดจาก Narichy Thailand",
   inLanguage: "th-TH",
   isPartOf: { "@id": `${siteUrl}/#website` },
   mainEntity: {
@@ -58,8 +58,8 @@ export default function AllProductsPage() {
       <JsonLd data={collectionLd} />
       <ProductCollection
         eyebrow="Narichy Thailand"
-        title="All Products"
-        description="Gentle, effective formulas for intimate care, daily freshness and inner wellness. Explore the complete Narichy collection."
+        title="สินค้าทั้งหมด"
+        description="สูตรอ่อนโยนและมีประสิทธิภาพสำหรับการดูแลจุดซ่อนเร้น ความสดชื่นในทุกวัน และสุขภาพภายใน เลือกชมสินค้าทั้งหมดจาก Narichy"
         items={allProducts as CollectionProduct[]}
       />
     </>

@@ -544,7 +544,7 @@
 }
 .boj-product-cutline {
   font-size: 12.6px;
-  line-height: 1.13;
+  line-height: 1.5;
   color: var(--boj-muted);
   margin-bottom: 4px;
 }
@@ -583,14 +583,14 @@
 .boj-promo-sub {
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
   line-height: 1.4;
   margin-bottom: 16px;
 }
 .boj-promo-title {
   font-family: "Inter", sans-serif;
   font-size: 22.8px;
-  line-height: 1.2;
+  line-height: 1.45;
   margin-bottom: 4px;
 }
 .boj-promo-rte {
@@ -1307,7 +1307,7 @@
 .boj-blog-title {
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  line-height: 1.2;
+  line-height: 1.45;
   margin-bottom: 7px;
 }
 .boj-blog-more {
@@ -1928,7 +1928,7 @@
   .boj-product-image { aspect-ratio: 1; }
   .boj-product-info { margin-top: 7px; min-height: 0; }
   .boj-product-title { font-size: 15.4px; line-height: 1.2; }
-  .boj-product-cutline { font-size: 11.9px; line-height: 1.2; margin-bottom: 14px; }
+  .boj-product-cutline { font-size: 11.9px; line-height: 1.5; margin-bottom: 14px; }
   .boj-rating { font-size: 10.8px; height: 19px; margin-bottom: 20px; }
   .boj-buy-button { height: 36px; font-size: 12.6px; }
 
@@ -1937,7 +1937,7 @@
   .boj-promo-text { width: 100%; order: 1; display: flex; align-items: center; min-height: 244px; }
   .boj-promo-copy { width: auto; margin: 0; padding: 16px; }
   .boj-promo-sub { font-size: 14px; margin-bottom: 16px; }
-  .boj-promo-title { font-size: 19.2px; line-height: 1.2; }
+  .boj-promo-title { font-size: 19.2px; line-height: 1.45; }
   .boj-promo-rte { font-size: 23px; line-height: 1.4; margin-bottom: 10px; }
   .boj-promo-btn { margin-top: 20px; font-size: 11px; padding: 10px 30px; }
 
@@ -2027,7 +2027,7 @@
   .boj-accordion-body p { font-size: 14px; }
   .boj-blog-grid { gap: 24px; margin-top: 18px; }
   .boj-blog-card img { height: 126px; margin-bottom: 10px; }
-  .boj-blog-title { font-size: 13.5px; line-height: 16.2px; }
+  .boj-blog-title { font-size: 13.5px; line-height: 1.45; }
   .boj-blog-more { font-size: 11px; }
   .boj-community { padding-bottom: 16px; }
 
@@ -2604,6 +2604,7 @@
 .boj-shop-thai {
   margin: 4px 0 0;
   font-size: 12px;
+  line-height: 1.5;
   color: var(--boj-muted);
 }
 .boj-shop-rating {
@@ -2709,22 +2710,24 @@
   cursor: pointer;
   transition: border-color 0.2s ease;
 }
+.boj-pdp-thumb:hover {
+  border-color: #bfb8ae;
+}
+.boj-pdp-thumb:focus-visible {
+  outline: 2px solid var(--boj-red);
+  outline-offset: 2px;
+}
 .boj-pdp-thumb img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   mix-blend-mode: multiply;
 }
-.boj-pdp-thumb:hover {
-  border-color: #bfb8ae;
-}
 .boj-pdp-thumb.is-active {
   border-color: #212121;
 }
 .boj-pdp-main {
   position: relative;
-  display: grid;
-  place-items: center;
   aspect-ratio: 1;
   padding: 34px;
   overflow: hidden;
@@ -2743,8 +2746,8 @@
 }
 .boj-pdp-flag {
   position: absolute;
-  top: 18px;
-  left: 18px;
+  top: 16px;
+  right: 16px;
   z-index: 2;
   padding: 6px 10px;
   background: #212121;
@@ -2752,6 +2755,48 @@
   font-size: 9px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  pointer-events: none;
+}
+.boj-pdp-stage {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.boj-pdp-ribbon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 3;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: var(--boj-red);
+  color: var(--boj-white);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(153, 22, 29, 0.18);
+}
+.boj-pdp-new {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: #fff2f2;
+  color: var(--boj-red);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.boj-pdp-thumbs {
+  max-height: min(720px, calc(100vh - var(--boj-header-h) - 120px));
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.boj-pdp-thumbs::-webkit-scrollbar {
+  display: none;
 }
 .boj-pdp-info {
   min-width: 0;
@@ -2776,6 +2821,7 @@
 .boj-pdp-thai {
   margin: 0 0 16px;
   font-size: 14.5px;
+  line-height: 1.5;
   color: var(--boj-muted);
 }
 .boj-pdp-rating {
@@ -2822,9 +2868,9 @@
   color: #7a6b60;
 }
 .boj-pdp-desc {
-  margin: 20px 0 24px;
-  font-size: 14.5px;
-  line-height: 1.7;
+  margin: 20px 0 26px;
+  font-size: 15px;
+  line-height: 1.75;
   color: #3d3a37;
 }
 .boj-pdp-label {
@@ -2931,57 +2977,37 @@
   height: 15px;
 }
 .boj-pdp-secondary {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9px;
-}
-.boj-pdp-shopee,
-.boj-pdp-line {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  height: 48px;
-  border: 1px solid #212121;
-  font-size: 10.5px;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-.boj-pdp-shopee svg,
-.boj-pdp-line svg {
-  width: 17px;
-  height: 17px;
-}
-.boj-pdp-shopee:hover {
-  background: #212121;
-  color: #fff;
-}
-.boj-pdp-line:hover {
-  background: #f0f7e8;
-}
-.boj-pdp-perks {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px 18px;
-  margin: 24px 0 8px;
-  padding: 20px 0;
-  border-top: 1px solid var(--boj-line);
-  border-bottom: 1px solid var(--boj-line);
-  list-style: none;
-}
-.boj-pdp-perks li {
   display: flex;
   align-items: center;
-  gap: 9px;
-  font-size: 11px;
-  color: #4b4743;
+  gap: 16px;
+  margin: 6px 0 10px;
 }
-.boj-pdp-perks svg {
-  width: 18px;
-  height: 18px;
-  flex: 0 0 18px;
+.boj-pdp-market-logo {
+  display: inline-flex;
+  width: 58px;
+  height: 58px;
+  padding: 4px;
+  border-radius: 14px;
+  background: var(--boj-white);
+  box-shadow: inset 0 0 0 1px var(--boj-line);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.boj-pdp-market-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.boj-pdp-market-logo:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 0 0 1px var(--boj-line),
+    0 4px 12px rgba(0, 0, 0, 0.16);
+}
+.boj-pdp-market-logo:focus-visible {
+  outline: 2px solid var(--boj-red);
+  outline-offset: 3px;
 }
 .boj-pdp-accordions {
   border-top: 1px solid var(--boj-line);
@@ -2994,11 +3020,12 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 17px 0;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  padding: 18px 0;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  text-transform: none;
   cursor: pointer;
   list-style: none;
 }
@@ -3035,22 +3062,35 @@
 }
 .boj-pdp-list {
   margin: 0;
-  padding: 0 0 20px 18px;
-  font-size: 13px;
-  line-height: 1.8;
+  padding: 2px 0 22px 20px;
+  font-size: 14px;
+  line-height: 1.85;
   color: #3f3b37;
+}
+.boj-pdp-list li + li {
+  margin-top: 7px;
+}
+.boj-pdp-list strong {
+  font-weight: 600;
+  color: var(--boj-ink);
 }
 .boj-pdp-list.is-ordered {
   list-style: decimal;
 }
+.boj-pdp-list.is-ordered li {
+  padding-left: 4px;
+}
 .boj-pdp-rich {
-  padding-bottom: 18px;
-  font-size: 13px;
-  line-height: 1.75;
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.8;
   color: #3f3b37;
 }
 .boj-pdp-rich p {
   margin: 0 0 8px;
+}
+.boj-pdp-rich p + p {
+  margin-top: 10px;
 }
 .boj-pdp-disclaimer {
   margin: 18px 0 0;
@@ -3096,9 +3136,10 @@
   height: 12px;
 }
 .boj-pdp-story-copy > p {
-  margin: 0 0 16px;
-  font-size: 14.5px;
-  line-height: 1.75;
+  margin: 0 0 18px;
+  max-width: 64ch;
+  font-size: 15px;
+  line-height: 1.8;
   color: #3b3834;
 }
 .boj-pdp-specs {
@@ -3357,7 +3398,9 @@
   .boj-pdp-thumbs {
     order: 2;
     flex-direction: row;
+    max-height: none;
     overflow-x: auto;
+    overflow-y: visible;
     padding-bottom: 2px;
     scrollbar-width: none;
   }
@@ -3365,8 +3408,8 @@
     display: none;
   }
   .boj-pdp-thumb {
-    flex: 0 0 64px;
-    width: 64px;
+    flex: 0 0 88px;
+    width: 88px;
   }
   .boj-pdp-main {
     order: 1;
@@ -3377,13 +3420,6 @@
   }
   .boj-pdp-price {
     font-size: 23px;
-  }
-  .boj-pdp-secondary {
-    grid-template-columns: 1fr;
-  }
-  .boj-pdp-perks {
-    grid-template-columns: 1fr;
-    gap: 11px;
   }
   .boj-pdp-love {
     margin-top: 48px;
@@ -3630,9 +3666,7 @@
 .boj-ugc-add,
 .boj-about-learn,
 .boj-outline-btn,
-.boj-rewards-btn,
-.boj-pdp-shopee,
-.boj-pdp-line {
+.boj-rewards-btn {
   border-color: var(--boj-red);
   color: var(--boj-red);
 }
@@ -3642,9 +3676,7 @@
 .boj-ugc-add.is-added,
 .boj-about-learn:hover,
 .boj-outline-btn:hover,
-.boj-rewards-panel:hover .boj-rewards-btn,
-.boj-pdp-shopee:hover,
-.boj-pdp-line:hover {
+.boj-rewards-panel:hover .boj-rewards-btn {
   background: var(--boj-red);
   border-color: var(--boj-red);
   color: var(--boj-white);
@@ -3653,9 +3685,7 @@
 .boj-promo-btn:active,
 .boj-ugc-add:active,
 .boj-about-learn:active,
-.boj-outline-btn:active,
-.boj-pdp-shopee:active,
-.boj-pdp-line:active {
+.boj-outline-btn:active {
   background: var(--boj-red-pressed);
   border-color: var(--boj-red-pressed);
   color: var(--boj-white);

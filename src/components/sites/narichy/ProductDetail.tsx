@@ -2,8 +2,9 @@
 
 /* eslint-disable @next/next/no-img-element */
 
+import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useStore } from "./store";
 import type { ProductDetail as ProductDetailType } from "./data";
 import {
@@ -12,15 +13,11 @@ import {
   IconCheck,
   IconHeart,
   IconLeaf,
-  IconLine,
   IconMinus,
-  IconPackage,
   IconPlus,
   IconShield,
-  IconShopee,
   IconSparkle,
   IconStar,
-  IconTruck,
 } from "./icons";
 
 const priceFormatter = new Intl.NumberFormat("th-TH", {
@@ -40,10 +37,21 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
   const [activeImage, setActiveImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
+  const thumbsRef = useRef<HTMLDivElement>(null);
 
   const selectedVariant =
     product.variants.find((variant) => variant.id === selectedVariantId) ??
     product.variants[0];
+
+  const labels = {
+    details: product.sectionTitles?.details ?? "รายละเอียดผลิตภัณฑ์",
+    benefits: product.sectionTitles?.benefits ?? "คุณประโยชน์",
+    ingredients: product.sectionTitles?.ingredients ?? "สารสกัดสำคัญ",
+    howToUse: product.sectionTitles?.howToUse ?? "วิธีใช้",
+    shipping: product.sectionTitles?.shipping ?? "การจัดส่งและคืนสินค้า",
+  };
+
+  const selectedImage = product.images[activeImage] ?? product.images[0];
 
   const selectVariant = (variantId: string) => {
     setSelectedVariantId(variantId);
@@ -59,7 +67,13 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
     return () => window.clearTimeout(timer);
   }, [added]);
 
-  const selectedImage = product.images[activeImage] ?? product.images[0];
+  useEffect(() => {
+    const container = thumbsRef.current;
+    if (!container) return;
+    const active = container.querySelector<HTMLElement>(".boj-pdp-thumb.is-active");
+    active?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+  }, [activeImage]);
+
   const currentPrice = selectedVariant?.price ?? product.price;
   const compareAt = selectedVariant?.compareAt ?? product.compareAt;
 
@@ -82,23 +96,23 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
 
   return (
     <main className="boj-pdp">
-      <nav className="boj-pdp-breadcrumb" aria-label="Breadcrumb">
-        <Link href="/">Home</Link>
+      <nav className="boj-pdp-breadcrumb" aria-label="เส้นทางนำทาง">
+        <Link href="/">หน้าแรก</Link>
         <IconChevronRight />
-        <Link href="/collections/products">Shop</Link>
+        <Link href="/collections/products">สินค้า</Link>
         <IconChevronRight />
         <span aria-current="page">{product.title}</span>
       </nav>
 
       <div className="boj-pdp-grid">
         <div className="boj-pdp-gallery">
-          <div className="boj-pdp-thumbs" aria-label="Product images">
+          <div className="boj-pdp-thumbs" ref={thumbsRef} aria-label="รูปสินค้า">
             {product.images.map((image, index) => (
               <button
                 type="button"
                 key={`${image.src}-${index}`}
                 className={`boj-pdp-thumb${index === activeImage ? " is-active" : ""}`}
-                aria-label={`Show image ${index + 1}: ${image.alt}`}
+                aria-label={`ดูรูปที่ ${index + 1}: ${image.alt}`}
                 aria-pressed={index === activeImage}
                 onClick={() => setActiveImage(index)}
               >
@@ -107,17 +121,25 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
             ))}
           </div>
 
-          <div className="boj-pdp-main">
-            {product.bestSeller ? (
-              <span className="boj-pdp-flag">Best seller</span>
-            ) : null}
-            <img
-              key={selectedImage.src}
-              src={selectedImage.src}
-              alt={selectedImage.alt}
-              width={1100}
-              height={1100}
-            />
+          <div className="boj-pdp-stage">
+            <div className="boj-pdp-main">
+              {product.promoRibbon ? (
+                <span className="boj-pdp-ribbon">{product.promoRibbon}</span>
+              ) : null}
+              {product.bestSeller ? (
+                <span className="boj-pdp-flag">ขายดี</span>
+              ) : null}
+              {selectedImage ? (
+                <img
+                  key={selectedImage.src}
+                  src={selectedImage.src}
+                  alt={selectedImage.alt}
+                  width={1100}
+                  height={1100}
+                  loading="eager"
+                />
+              ) : null}
+            </div>
           </div>
         </div>
 
@@ -129,16 +151,22 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
           <p className="boj-pdp-thai">{product.thaiTitle}</p>
 
           <div className="boj-pdp-rating">
-            <span className="boj-pdp-stars" aria-hidden="true">
-              {Array.from({ length: 5 }, (_, index) => (
-                <IconStar key={index} />
-              ))}
-            </span>
-            <span>
-              {product.rating} · {product.reviews}
-            </span>
+            {product.reviewCount > 0 ? (
+              <>
+                <span className="boj-pdp-stars" aria-hidden="true">
+                  {Array.from({ length: 5 }, (_, index) => (
+                    <IconStar key={index} />
+                  ))}
+                </span>
+                <span>
+                  {product.rating} · {product.reviews}
+                </span>
+              </>
+            ) : (
+              <span className="boj-pdp-new">{product.reviews}</span>
+            )}
             <a href={product.shopee} target="_blank" rel="noreferrer">
-              Shopee reviews
+              รีวิวบน Shopee
             </a>
           </div>
 
@@ -151,16 +179,18 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
             ) : null}
           </p>
           <p className="boj-pdp-save">
-            {compareAt ? `Save ฿${priceFormatter.format(compareAt - currentPrice)}` : "In stock"}
+            {compareAt
+              ? `ประหยัด ฿${priceFormatter.format(compareAt - currentPrice)}`
+              : "มีสินค้าพร้อมส่ง"}
             <span aria-hidden="true"> · </span>
-            Ships within 1–2 business days
+            จัดส่งภายใน 1–2 วันทำการ
           </p>
 
           <p className="boj-pdp-desc">{product.description}</p>
 
           <div className="boj-pdp-variant-block">
             <p className="boj-pdp-label">
-              {product.variants.length > 1 ? "Choose your size" : "Size"}
+              {product.variants.length > 1 ? "เลือกขนาด" : "ขนาด"}
             </p>
             {product.variants.length > 1 ? (
               <div className="boj-pdp-variants">
@@ -190,10 +220,10 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
           </div>
 
           <div className="boj-pdp-buy-row">
-            <div className="boj-pdp-qty" aria-label="Quantity">
+            <div className="boj-pdp-qty" aria-label="จำนวน">
               <button
                 type="button"
-                aria-label="Decrease quantity"
+                aria-label="ลดจำนวน"
                 onClick={() => setQuantity((value) => Math.max(1, value - 1))}
                 disabled={quantity <= 1}
               >
@@ -202,7 +232,7 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
               <span aria-live="polite">{quantity}</span>
               <button
                 type="button"
-                aria-label="Increase quantity"
+                aria-label="เพิ่มจำนวน"
                 onClick={() => setQuantity((value) => Math.min(10, value + 1))}
                 disabled={quantity >= 10}
               >
@@ -216,56 +246,63 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
             >
               {added ? (
                 <>
-                  <IconCheck /> Added to cart
+                  <IconCheck /> เพิ่มลงตะกร้าแล้ว
                 </>
               ) : (
-                <>Add to cart — ฿{priceFormatter.format(currentPrice * quantity)}</>
+                <>เพิ่มลงตะกร้า — ฿{priceFormatter.format(currentPrice * quantity)}</>
               )}
             </button>
           </div>
 
           <div className="boj-pdp-secondary">
             <a
-              className="boj-pdp-shopee"
+              className="boj-pdp-market-logo"
               href={product.shopee}
               target="_blank"
               rel="noreferrer"
+              aria-label="ซื้อบน Shopee"
             >
-              <IconShopee /> Buy on Shopee
+              <Image
+                src="/images/logo/shopee-logo.png"
+                alt="Shopee"
+                width={50}
+                height={50}
+              />
             </a>
             <a
-              className="boj-pdp-line"
+              className="boj-pdp-market-logo"
               href={product.line}
               target="_blank"
               rel="noreferrer"
+              aria-label="แชทผ่าน LINE"
             >
-              <IconLine /> Chat on LINE
+              <Image
+                src="/images/logo/line-logo.png"
+                alt="LINE"
+                width={50}
+                height={50}
+              />
             </a>
           </div>
 
-          <ul className="boj-pdp-perks">
-            <li>
-              <IconTruck />
-              <span>Free shipping over ฿500</span>
-            </li>
-            <li>
-              <IconPackage />
-              <span>Discreet, plain packaging</span>
-            </li>
-            <li>
-              <IconShield />
-              <span>Thai FDA registered formulas</span>
-            </li>
-            <li>
-              <IconLeaf />
-              <span>Gentle, pH-balanced care</span>
-            </li>
-          </ul>
-
           <div className="boj-pdp-accordions">
-            <details open>
+            {product.details?.length ? (
+              <details>
+                <summary>
+                  <span>{labels.details}</span>
+                  <span className="boj-pdp-summary-icon" aria-hidden="true" />
+                </summary>
+                <ul className="boj-pdp-list">
+                  {product.details.map((detail) => (
+                    <li key={detail}>{detail}</li>
+                  ))}
+                </ul>
+              </details>
+            ) : null}
+
+            <details>
               <summary>
-                <span>Benefits</span>
+                <span>{labels.benefits}</span>
                 <span className="boj-pdp-summary-icon" aria-hidden="true" />
               </summary>
               <ul className="boj-pdp-list">
@@ -277,19 +314,30 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
 
             <details>
               <summary>
-                <span>Key ingredients</span>
+                <span>{labels.ingredients}</span>
                 <span className="boj-pdp-summary-icon" aria-hidden="true" />
               </summary>
               <ul className="boj-pdp-list">
-                {product.ingredients.map((ingredient) => (
-                  <li key={ingredient}>{ingredient}</li>
-                ))}
+                {product.ingredients.map((ingredient) => {
+                  const [name, ...description] = ingredient.split(" — ");
+                  return (
+                    <li key={ingredient}>
+                      {description.length ? (
+                        <>
+                          <strong>{name}</strong> — {description.join(" — ")}
+                        </>
+                      ) : (
+                        ingredient
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </details>
 
             <details>
               <summary>
-                <span>How to use</span>
+                <span>{labels.howToUse}</span>
                 <span className="boj-pdp-summary-icon" aria-hidden="true" />
               </summary>
               <ol className="boj-pdp-list is-ordered">
@@ -301,17 +349,17 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
 
             <details>
               <summary>
-                <span>Shipping &amp; returns</span>
+                <span>{labels.shipping}</span>
                 <span className="boj-pdp-summary-icon" aria-hidden="true" />
               </summary>
               <div className="boj-pdp-rich">
                 <p>
-                  Orders placed before 3 pm on business days are packed the same
-                  day. Delivery in Thailand usually takes 1–3 business days.
+                  คำสั่งซื้อที่ชำระก่อนเวลา 15.00 น. ในวันทำการจะถูกจัดส่งในวันเดียวกัน
+                  โดยทั่วไปการจัดส่งภายในประเทศไทยใช้เวลา 1–3 วันทำการ
                 </p>
                 <p>
-                  Parcels are plain and discreet, with no product names on the
-                  outside. Unopened products can be returned within 7 days.
+                  พัสดุจัดส่งแบบเรียบง่ายไม่ระบุชื่อสินค้าด้านนอก
+                  และสามารถขอคืนสินค้าที่ยังไม่เปิดใช้ได้ภายใน 7 วัน
                 </p>
               </div>
             </details>
@@ -325,7 +373,7 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
 
       <section className="boj-pdp-story" aria-labelledby="pdp-story-title">
         <div className="boj-pdp-story-head">
-          <p className="boj-shop-eyebrow">The full story</p>
+          <p className="boj-shop-eyebrow">เรื่องราวทั้งหมด</p>
           <h2 id="pdp-story-title">{product.tagline}</h2>
           <div className="boj-pdp-badges">
             {product.badges.map((badge) => (
@@ -352,32 +400,32 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
 
       <section className="boj-pdp-love" aria-labelledby="pdp-love-title">
         <div>
-          <p className="boj-shop-eyebrow">Why you&apos;ll love it</p>
-          <h2 id="pdp-love-title">Made for your everyday ritual</h2>
+          <p className="boj-shop-eyebrow">ทำไมคุณถึงจะชอบ</p>
+          <h2 id="pdp-love-title">ออกแบบมาเพื่อกิจวัตรทุกวันของคุณ</h2>
         </div>
         <div className="boj-pdp-love-grid">
           <article>
             <IconHeart />
-            <h3>Comfort first</h3>
+            <h3>ใส่ใจความสบายก่อน</h3>
             <p>
-              Gentle, pH-minded formulas designed around sensitive skin and
-              everyday confidence.
+              สูตรอ่อนโยนที่คำนึงถึงค่า pH ออกแบบสำหรับผิวแพ้ง่าย
+              และความมั่นใจในทุกวัน
             </p>
           </article>
           <article>
             <IconLeaf />
-            <h3>Thoughtful ingredients</h3>
+            <h3>ส่วนผสมที่คัดสรร</h3>
             <p>
-              Botanical extracts and skin-friendly actives, chosen for their
-              comfort and performance.
+              สารสกัดจากพฤกษชาติและส่วนผสมที่เหมาะกับผิว
+              คัดเลือกมาเพื่อความสบายและประสิทธิภาพ
             </p>
           </article>
           <article>
             <IconShield />
-            <h3>Made with care</h3>
+            <h3>ใส่ใจในทุกขั้นตอน</h3>
             <p>
-              Thai FDA registered formulas, dermatologically tested where noted,
-              and packed discreetly.
+              สูตรที่ผลิตอย่างใส่ใจ พร้อมคำแนะนำการใช้ที่ชัดเจน
+              เพื่อความสบายในทุกวัน
             </p>
           </article>
         </div>
@@ -386,11 +434,11 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
       <section className="boj-pdp-related" aria-labelledby="pdp-related-title">
         <div className="boj-pdp-related-head">
           <div>
-            <p className="boj-shop-eyebrow">Complete the ritual</p>
-            <h2 id="pdp-related-title">You may also like</h2>
+            <p className="boj-shop-eyebrow">เติมเต็มกิจวัตร</p>
+            <h2 id="pdp-related-title">สินค้าที่คุณอาจชอบ</h2>
           </div>
           <Link href="/collections/products" className="boj-pdp-related-link">
-            View all products <IconArrowRight />
+            ดูสินค้าทั้งหมด <IconArrowRight />
           </Link>
         </div>
         <div className="boj-pdp-related-grid">

@@ -25,7 +25,7 @@ export async function generateMetadata({
 
   if (!product) {
     return {
-      title: "Product not found",
+      title: "ไม่พบสินค้า",
     };
   }
 
@@ -72,11 +72,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
       name: "Narichy",
     },
     manufacturer: { "@id": `${siteUrl}/#organization` },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.rating,
-      reviewCount: product.reviewCount,
-    },
+    ...(product.reviewCount > 0
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: product.rating,
+            reviewCount: product.reviewCount,
+          },
+        }
+      : {}),
     offers: {
       "@type": "Offer",
       url: `${siteUrl}/products/${product.slug}`,
@@ -102,11 +106,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+            { "@type": "ListItem", position: 1, name: "หน้าแรก", item: siteUrl },
             {
               "@type": "ListItem",
               position: 2,
-              name: "Shop",
+              name: "สินค้า",
               item: `${siteUrl}/collections/products`,
             },
             {

@@ -31,7 +31,7 @@ export function CleanBeauty() {
       <div className="boj-clean-inner">
         <div className="boj-clean-heading">
           <p className="boj-clean-title" id="boj-clean-beauty-title">
-            Care from inside
+            ดูแลจากภายใน
           </p>
           <p className="boj-clean-lead">
             ธรรมชาติคือจุดเริ่มต้นของการดูแลที่อ่อนโยน

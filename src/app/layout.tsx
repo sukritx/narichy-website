@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+﻿import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "@/components/sites/narichy/boj.css";
 import { AnnouncementBar } from "@/components/sites/narichy/AnnouncementBar";
@@ -12,13 +12,13 @@ const ogImage = {
   url: "/seo/og-image.jpg",
   width: 1200,
   height: 630,
-  alt: "Narichy Thailand feminine intimate care and beauty products",
+  alt: "ผลิตภัณฑ์ดูแลจุดซ่อนเร้นและความงามสำหรับผู้หญิงจาก Narichy Thailand",
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Narichy Thailand | Award-Winning Feminine Intimate Care",
+    default: "Narichy Thailand | ผลิตภัณฑ์ดูแลจุดซ่อนเร้นและความงามสำหรับผู้หญิง",
     template: "%s | Narichy Thailand",
   },
   description: siteConfig.description,
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: "/",
     siteName: siteConfig.name,
-    title: "Narichy Thailand | Award-Winning Feminine Intimate Care",
+    title: "Narichy Thailand | ผลิตภัณฑ์ดูแลจุดซ่อนเร้นและความงามสำหรับผู้หญิง",
     description: siteConfig.description,
     images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Narichy Thailand | Award-Winning Feminine Intimate Care",
+    title: "Narichy Thailand | ผลิตภัณฑ์ดูแลจุดซ่อนเร้นและความงามสำหรับผู้หญิง",
     description: siteConfig.description,
     images: [ogImage.url],
   },

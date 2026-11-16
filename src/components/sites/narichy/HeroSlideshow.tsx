@@ -6,7 +6,7 @@ export function HeroSlideshow() {
   if (!slide) return null;
 
   return (
-    <section className="boj-hero" aria-label="Featured collection">
+    <section className="boj-hero" aria-label="คอลเลกชันแนะนำ">
       <div className="boj-hero-slide is-active">
         <picture>
           <source media="(max-width: 749px)" srcSet={slide.mobile} />

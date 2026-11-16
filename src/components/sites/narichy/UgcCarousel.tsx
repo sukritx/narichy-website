@@ -116,7 +116,7 @@ export function UgcCarousel() {
   };
 
   return (
-    <section className="boj-ugc" aria-label="Loved by the community videos">
+    <section className="boj-ugc" aria-label="วิดีโอจากคอมมูนิตี้">
       <div
         className={`boj-ugc-track${desktop ? " is-centered" : ""}`}
         ref={trackRef}
@@ -138,7 +138,7 @@ export function UgcCarousel() {
                 loop
                 playsInline
                 preload="metadata"
-                aria-label={`${card.productName} community video`}
+                aria-label={`วิดีโอ ${card.productName} จากคอมมูนิตี้`}
                 onClick={(event) => {
                   const video = event.currentTarget;
                   setActive(index);
@@ -154,7 +154,7 @@ export function UgcCarousel() {
               <div className="boj-ugc-controls">
                 <button
                   type="button"
-                  aria-label={(muted[index] ?? true) ? "Unmute video" : "Mute video"}
+                  aria-label={(muted[index] ?? true) ? "เปิดเสียงวิดีโอ" : "ปิดเสียงวิดีโอ"}
                   onClick={() => {
                     const video = videoRefs.current[index];
                     if (!video) return;
@@ -167,7 +167,7 @@ export function UgcCarousel() {
                 </button>
                 <button
                   type="button"
-                  aria-label={paused[index] ? "Play video" : "Pause video"}
+                  aria-label={paused[index] ? "เล่นวิดีโอ" : "หยุดวิดีโอชั่วคราว"}
                   onClick={() => {
                     const video = videoRefs.current[index];
                     if (!video) return;
@@ -195,7 +195,7 @@ export function UgcCarousel() {
                 </div>
               </div>
               <Link className="boj-ugc-add" href={card.href}>
-                Buy now
+                ซื้อเลย
               </Link>
             </div>
           </article>
@@ -204,7 +204,7 @@ export function UgcCarousel() {
       <button
         type="button"
         className="boj-ugc-arrow prev"
-        aria-label="Scroll videos left"
+        aria-label="เลื่อนวิดีโอไปทางซ้าย"
         onClick={() => step(-1)}
       >
         <IconChevronLeft />
@@ -212,7 +212,7 @@ export function UgcCarousel() {
       <button
         type="button"
         className="boj-ugc-arrow next"
-        aria-label="Scroll videos right"
+        aria-label="เลื่อนวิดีโอไปทางขวา"
         onClick={() => step(1)}
       >
         <IconChevronRight />

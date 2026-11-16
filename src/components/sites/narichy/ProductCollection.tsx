@@ -77,18 +77,18 @@ export function ProductCollection({
 
       <div className="boj-shop-toolbar">
         <p className="boj-shop-count" aria-live="polite">
-          {visibleItems.length} {visibleItems.length === 1 ? "product" : "products"}
+          {visibleItems.length} สินค้า
         </p>
         <div className="boj-shop-controls">
           {showCategoryFilter && categories.length > 1 && (
             <label className="boj-shop-select-wrap">
-              <span className="sr-only">Filter by category</span>
+              <span className="sr-only">กรองตามหมวดหมู่</span>
               <select
                 className="boj-shop-select"
                 value={category}
                 onChange={(event) => setCategory(event.target.value)}
               >
-                <option value="all">All categories</option>
+                <option value="all">ทุกหมวดหมู่</option>
                 {categories.map((item) => (
                   <option value={item} key={item}>
                     {item}
@@ -98,23 +98,23 @@ export function ProductCollection({
             </label>
           )}
           <label className="boj-shop-select-wrap">
-            <span className="sr-only">Sort products</span>
+            <span className="sr-only">เรียงลำดับสินค้า</span>
             <select
               className="boj-shop-select"
               value={sort}
               onChange={(event) => setSort(event.target.value as SortOption)}
             >
-              <option value="featured">Featured</option>
-              <option value="az">Alphabetically, A–Z</option>
-              <option value="price-asc">Price, low to high</option>
-              <option value="price-desc">Price, high to low</option>
+              <option value="featured">แนะนำ</option>
+              <option value="az">ตามตัวอักษร A–Z</option>
+              <option value="price-asc">ราคา: ต่ำไปสูง</option>
+              <option value="price-desc">ราคา: สูงไปต่ำ</option>
             </select>
           </label>
         </div>
       </div>
 
       {visibleItems.length === 0 ? (
-        <p className="boj-shop-empty">No products match this filter yet.</p>
+        <p className="boj-shop-empty">ยังไม่มีสินค้าที่ตรงกับตัวกรองนี้</p>
       ) : (
         <div className="boj-shop-grid">
           {visibleItems.map((item) => (
@@ -128,10 +128,10 @@ export function ProductCollection({
                   loading="lazy"
                 />
                 {item.bestSeller ? (
-                  <span className="boj-shop-flag">Best seller</span>
+                  <span className="boj-shop-flag">ขายดี</span>
                 ) : null}
                 <span className="boj-shop-view">
-                  View product <IconArrowRight />
+                  ดูสินค้า <IconArrowRight />
                 </span>
               </Link>
               <div className="boj-shop-info">
@@ -168,13 +168,13 @@ export function ProductCollection({
 
       <div className="boj-shop-note">
         <p>
-          Not sure where to start?{" "}
+          ไม่แน่ใจว่าจะเริ่มจากอะไร?{" "}
           <a href={LINE_OA} target="_blank" rel="noreferrer">
-            Chat with our team on LINE
+            แชทกับทีมงานของเราบน LINE
           </a>{" "}
-          for a discreet recommendation, or{" "}
+          เพื่อรับคำแนะนำอย่างเป็นส่วนตัว หรือ{" "}
           <a href={SHOPEE} target="_blank" rel="noreferrer">
-            browse our full range on Shopee
+            เลือกดูสินค้าทั้งหมดของเราบน Shopee
           </a>
           .
         </p>
