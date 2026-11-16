@@ -108,7 +108,7 @@ export default function AboutPage() {
           </h2>
           <img
             className="boj-about-mission-logo"
-            src="/images/logo/narichy-black-logo.png"
+            src="/images/logo/narichy-red-logo.png"
             alt="Narichy Thailand"
             width={600}
             height={600}

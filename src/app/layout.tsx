@@ -75,7 +75,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#fff5f8",
+  themeColor: "#e50914",
   colorScheme: "light",
 };
 
@@ -86,7 +86,7 @@ const organization = {
   name: siteConfig.name,
   alternateName: ["Narichy", "นาริชชี่"],
   url: siteUrl,
-  logo: `${siteUrl}/images/logo/narichy-black-logo.png`,
+  logo: `${siteUrl}/images/logo/narichy-red-logo.png`,
   description: siteConfig.description,
   founder: {
     "@type": "Person",

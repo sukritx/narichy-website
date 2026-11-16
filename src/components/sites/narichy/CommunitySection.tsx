@@ -14,7 +14,7 @@ export function CommunitySection() {
       <div className="boj-community-content">
         <img
           className="boj-community-logo"
-          src="/images/logo/narichy-black-logo.png"
+          src="/images/logo/narichy-red-logo.png"
           alt="Narichy Thailand"
           loading="lazy"
         />

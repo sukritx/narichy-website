@@ -25,6 +25,17 @@ The reference is a Shopify "Underground"-style theme: green announcement strip, 
 - `/products/finn-soap`
 - `/products/finy-secret`
 
+## Theme tokens
+
+The site now uses the red and white palette provided by the client:
+
+- Brand red: `#e50914`
+- Hover red: `#c11119`
+- Pressed red: `#99161d`
+- Background: `#ffffff`
+
+The values live in `src/components/sites/narichy/boj.css` as `--boj-red`, `--boj-red-hover`, `--boj-red-pressed`, and `--boj-white`; the red logo, announcement bar, buttons, stars, nav/footer accents, and mobile drawer all use that system.
+
 ## Design decisions (blend with existing Narichy site)
 
 - Reused `SiteHeader`, `SiteFooter`, announcement marquee, cart drawer, Inter/Amiri fonts, cream background, black CTA language, and Narichy red accents.
